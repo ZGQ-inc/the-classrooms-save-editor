@@ -1,0 +1,700 @@
+{
+    "Keys": [
+        {
+            "name": "Key_Van",
+            "idStr": "957c7651-7ff2-4174-aa49-13002d31960e",
+            "stackCapacity": 1,
+            "img": "SilverKey.png"
+        },
+        {
+            "name": "Key_Elevator",
+            "idStr": "b7c28dff-8dfd-4c09-a96e-17b95d06af0e",
+            "stackCapacity": 1,
+            "img": "Key_Elevator.png"
+        },
+        {
+            "name": "Key_Janitor",
+            "idStr": "acc0a7a7-d254-4a0d-b4d6-04e03aa6c94d",
+            "stackCapacity": 1,
+            "img": "Key_Janitor.png"
+        },
+        {
+            "name": "Key_Red",
+            "idStr": "96094ae5-6db4-4eb0-a6e6-1bda9ebde7b8",
+            "stackCapacity": 99,
+            "img": "Key_Red.png"
+        },
+        {
+            "name": "Key_Orange",
+            "idStr": "a3ef59bb-c9b8-4338-9bac-eea9f6f668d5",
+            "stackCapacity": 99,
+            "img": "Key_Orange.png"
+        },
+        {
+            "name": "Key_Yellow",
+            "idStr": "a40def41-65de-49dd-90d0-c2b0821f472d",
+            "stackCapacity": 99,
+            "img": "Key_Yellow.png"
+        },
+        {
+            "name": "Key_Green",
+            "idStr": "24f28667-e104-40c6-8db7-85422e643dc5",
+            "stackCapacity": 99,
+            "img": "Key_Green.png"
+        },
+        {
+            "name": "Key_Cyan",
+            "idStr": "eb560173-79f7-43aa-925c-d6f9068c5d9e",
+            "stackCapacity": 99,
+            "img": "Key_Cyan.png"
+        },
+        {
+            "name": "Key_Blue",
+            "idStr": "d67450c9-4fe8-4ae9-936f-a76dc63c7531",
+            "stackCapacity": 99,
+            "img": "Key_Blue.png"
+        },
+        {
+            "name": "Key_Indigo",
+            "idStr": "265cff48-b8bb-4868-b820-237c7673c174",
+            "stackCapacity": 99,
+            "img": "Key_Indigo.png"
+        },
+        {
+            "name": "Key_Violet",
+            "idStr": "35b1d84d-6424-4488-b605-23978f5dda68",
+            "stackCapacity": 99,
+            "img": "Key_Violet.png"
+        },
+        {
+            "name": "Key_Bronze",
+            "idStr": "4690fd2f-7a38-4804-bc07-20324691ca09",
+            "stackCapacity": 99,
+            "img": "Key_Bronze.png"
+        },
+        {
+            "name": "Key_Silver",
+            "idStr": "ffec1def-6722-4e77-b2cd-b0fd4b890e43",
+            "stackCapacity": 99,
+            "img": "Key_Silver.png"
+        },
+        {
+            "name": "Key_Gold",
+            "idStr": "0adafc9c-49ae-42d6-a140-dc9f1ce5649c",
+            "stackCapacity": 99,
+            "img": "Key_Gold.png"
+        },
+        {
+            "name": "Key_Black",
+            "idStr": "b784d820-a519-4367-b555-d7b8d9dcfdd5",
+            "stackCapacity": 99,
+            "img": "Key_Black.png"
+        },
+        {
+            "name": "Key_White",
+            "idStr": "09e871ef-2f0e-4ae3-b202-7c17eb6c2c33",
+            "stackCapacity": 99,
+            "img": "Key_White.png"
+        },
+        {
+            "name": "Key_Common",
+            "idStr": "c577127a-5990-428a-8f98-a45dbf8340c2",
+            "stackCapacity": 99,
+            "img": "Key_Black.png"
+        },
+        {
+            "name": "Key_Uncommon",
+            "idStr": "a146c923-5b0a-4edf-a4c1-342d4601e16a",
+            "stackCapacity": 99,
+            "img": "Key_Bronze.png"
+        },
+        {
+            "name": "Key_Rare",
+            "idStr": "56066236-8925-4064-b3ce-721ea670987c",
+            "stackCapacity": 99,
+            "img": "Key_Silver.png"
+        },
+        {
+            "name": "Key_Epic",
+            "idStr": "37b717ae-dc5a-4f88-8384-bff9f6ce997b",
+            "stackCapacity": 99,
+            "img": "Key_Gold.png"
+        },
+        {
+            "name": "Key_Legendary",
+            "idStr": "326a9508-828b-467f-b385-6cdf7e7528a7",
+            "stackCapacity": 99,
+            "img": "Key_Black.png"
+        }
+    ],
+    "Codex": [
+        {
+            "name": "Codex_Newspaper01",
+            "idStr": "5811b1c7-86f2-4340-9a6e-25e2b5daeb72",
+            "stackCapacity": 1,
+            "img": "newspaper.png"
+        },
+        {
+            "name": "Codex_Diary_InHell",
+            "idStr": "e58863fe-24f4-46f2-9265-0068c3c78ccd",
+            "stackCapacity": 1,
+            "img": "Diary2.png"
+        },
+        {
+            "name": "Codex_Diary_IsNotSafe",
+            "idStr": "c41c83f9-594b-4df3-a712-d031c512ff21",
+            "stackCapacity": 1,
+            "img": "Diary4.png"
+        },
+        {
+            "name": "Codex_Diary_LostTrackOfTime",
+            "idStr": "932e11dd-9791-4305-b599-d79a383e4afc",
+            "stackCapacity": 1,
+            "img": "Diary5.png"
+        },
+        {
+            "name": "Codex_Diary_Smiler",
+            "idStr": "832f4356-5b8e-4010-bcb1-b647eef621f3",
+            "stackCapacity": 1,
+            "img": "Diary6.png"
+        },
+        {
+            "name": "Codex_Diary_WillToWrite",
+            "idStr": "e720588f-02bd-4eea-8ea2-1e552ac2a987",
+            "stackCapacity": 1,
+            "img": "Diary3.png"
+        },
+        {
+            "name": "Codex_Diary_WokeUsEarly",
+            "idStr": "6e8df0f0-8bba-4a06-b4cb-a63e4ac21c69",
+            "stackCapacity": 1,
+            "img": "Diary1.png"
+        },
+        {
+            "name": "Codex_Diary7",
+            "idStr": "42f2d8c5-5715-40ec-ae7e-2d2ace6b1b4a",
+            "stackCapacity": 1,
+            "img": "Diary7.png"
+        },
+        {
+            "name": "Codex_Diary_Clown",
+            "idStr": "7bc9f83c-7cc9-4061-8bb1-36f9e6bca52b",
+            "stackCapacity": 1,
+            "img": "ClownNote.png"
+        },
+        {
+            "name": "Codex_ARC_TestLog01",
+            "idStr": "b621849e-4fdd-4aa1-a9f2-0c605aec13c5",
+            "stackCapacity": 1,
+            "img": "TestLog1.png"
+        },
+        {
+            "name": "Codex_ARC_DollDocument",
+            "idStr": "74118588-5afd-45fa-906d-42d26add744a",
+            "stackCapacity": 1,
+            "img": "DollDocument.png"
+        },
+        {
+            "name": "Codex_ARC_Fax01",
+            "idStr": "6c23c2d4-f274-4968-b069-0d7e95024d4f",
+            "stackCapacity": 1,
+            "img": "Fax1.png"
+        },
+        {
+            "name": "Codex_ARC_Fax02",
+            "idStr": "d4a78439-098e-4866-b9a8-655707af8fe5",
+            "stackCapacity": 1,
+            "img": "Fax2.png"
+        },
+        {
+            "name": "Codex_ARC_Fax03",
+            "idStr": "0bce32d5-7a69-435f-8a41-56a2ec44c91d",
+            "stackCapacity": 1,
+            "img": "Fax3.png"
+        },
+        {
+            "name": "Codex_ARC_Fax04",
+            "idStr": "f36a7375-1e0a-433e-8ba2-e9b7c970e938",
+            "stackCapacity": 1,
+            "img": "Fax4.png"
+        },
+        {
+            "name": "Codex_ArcDocument216",
+            "idStr": "4b9eaaa3-2981-43d6-a99a-bcc9c4c371c2",
+            "stackCapacity": 1,
+            "img": "Cloaksucker.png"
+        },
+        {
+            "name": "Codex_ArcDocument555",
+            "idStr": "431302dc-5036-4475-9b0e-0108e939c930",
+            "stackCapacity": 1,
+            "img": "ClownDocument555.png"
+        },
+        {
+            "name": "Codex_ArcDocument608",
+            "idStr": "2ad12f79-2c7d-4d89-8559-81d9bcf0bdf6",
+            "stackCapacity": 1,
+            "img": "SmilerDocument608.png"
+        },
+        {
+            "name": "Codex_ArcDocument1225",
+            "idStr": "791fce09-34ca-48d4-bb2b-fc950d9a6f52",
+            "stackCapacity": 1,
+            "img": "1225Santa.png"
+        },
+        {
+            "name": "Codex_ArcDocument1263_Title",
+            "idStr": "f1e92534-2370-4845-a2e6-86be8475efb3",
+            "stackCapacity": 1,
+            "img": "WhistleDocument1263.png"
+        },
+        {
+            "name": "Codex_ArcDocument1263_Title DO NOT USE",
+            "idStr": "af3f1da9-39dd-4113-b8f7-611783aa5595",
+            "stackCapacity": 1,
+            "img": "Diary_Blank.png"
+        },
+        {
+            "name": "Codex_DemonDogDocument",
+            "idStr": "5dfd386f-cb6e-4518-92c9-539aecd5e4fa",
+            "stackCapacity": 1,
+            "img": "DemonDogDocument.png"
+        },
+        {
+            "name": "Codex_Gangler",
+            "idStr": "0af66eaf-1a93-42cc-be3b-3781c04d5701",
+            "stackCapacity": 1,
+            "img": "GanglerDocument011.png"
+        },
+        {
+            "name": "Codex_Microwave",
+            "idStr": "07702087-2145-4d24-bb3c-d265321f7f31",
+            "stackCapacity": 1,
+            "img": "MicrowaveDocument.png"
+        },
+        {
+            "name": "Codex_Snake",
+            "idStr": "4a8d55f8-dc18-4c25-bf1e-15f20129722b",
+            "stackCapacity": 1,
+            "img": "SnakeDocument.png"
+        },
+        {
+            "name": "Codex_Recipe_CameraCase",
+            "idStr": "6146e015-666d-4d55-b099-903676f1329d",
+            "stackCapacity": 1,
+            "img": "Hint_GoggleRecipe.png"
+        },
+        {
+            "name": "Codex_Tenant",
+            "idStr": "d1e8c3c6-b2fe-44d1-86f6-6e721269198c",
+            "stackCapacity": 1,
+            "img": "TenantDocument470.png"
+        },
+        {
+            "name": "Codex_Necropede",
+            "idStr": "0436c9d1-81ca-47ce-981f-bcf736ff5a5f",
+            "stackCapacity": 1,
+            "img": "829Centipede.png"
+        }
+    ],
+    "Keycards": [
+        {
+            "name": "Keycard_01",
+            "idStr": "64541bd7-58b9-4bb0-a1ba-64f5d3d2e0ac",
+            "stackCapacity": 1,
+            "img": "Keycard_01.png"
+        },
+        {
+            "name": "Keycard_02",
+            "idStr": "e73144b8-a69c-4d0c-9c4b-ece0ef1bd953",
+            "stackCapacity": 1,
+            "img": "Keycard_02.png"
+        },
+        {
+            "name": "Keycard_03",
+            "idStr": "450d5eb9-5184-4fa8-b110-ea2ac6661de3",
+            "stackCapacity": 1,
+            "img": "Keycard_03.png"
+        },
+        {
+            "name": "Keycard_Depth0",
+            "idStr": "660cdc1c-ca4a-48b5-be6c-d6599d5eda2f",
+            "stackCapacity": 99,
+            "img": "Keycard_Depth0.png"
+        },
+        {
+            "name": "Keycard_Depth10",
+            "idStr": "39aa00d1-9f43-4b1a-ae02-d81adf6ca1d2",
+            "stackCapacity": 99,
+            "img": "Keycard_Depth10.png"
+        },
+        {
+            "name": "Keycard_Depth20",
+            "idStr": "dab418d2-a97d-49fe-913f-38514d8c6d57",
+            "stackCapacity": 99,
+            "img": "Keycard_Depth20.png"
+        },
+        {
+            "name": "Keycard_Depth30",
+            "idStr": "860ee924-a387-40fa-8d7c-edcb7682c2be",
+            "stackCapacity": 99,
+            "img": "Keycard_Depth30.png"
+        },
+        {
+            "name": "Keycard_Depth40",
+            "idStr": "ff501e78-827f-4121-9364-97902ca40a43",
+            "stackCapacity": 99,
+            "img": "Keycard_Depth40.png"
+        },
+        {
+            "name": "Keycard_Depth50",
+            "idStr": "2574d703-1345-4f7c-a256-dcaa16c75ead",
+            "stackCapacity": 99,
+            "img": "Keycard_Depth50.png"
+        },
+        {
+            "name": "Keycard_Depth60",
+            "idStr": "505621b7-81c9-4356-9094-b6304fefd310",
+            "stackCapacity": 99,
+            "img": "Keycard_Depth60.png"
+        },
+        {
+            "name": "Keycard_Depth70",
+            "idStr": "528a8c40-a255-4961-94d7-2a5ae5f74dc1",
+            "stackCapacity": 99,
+            "img": "Keycard_Depth70.png"
+        },
+        {
+            "name": "Keycard_Depth80",
+            "idStr": "cbd7b31e-035b-4a16-8ac1-dda7f1f96b09",
+            "stackCapacity": 99,
+            "img": "Keycard_Depth80.png"
+        },
+        {
+            "name": "Keycard_Depth90",
+            "idStr": "1dfc1cb3-6ebc-46cf-9c79-f060ae8dbcfe",
+            "stackCapacity": 99,
+            "img": "Keycard_Depth90.png"
+        },
+        {
+            "name": "Keycard_Depth100",
+            "idStr": "7f24a2d7-c83d-4ae7-b91a-78fbec6dd695",
+            "stackCapacity": 99,
+            "img": "Keycard_Depth100.png"
+        },
+        {
+            "name": "Keycard_Classrooms",
+            "idStr": "c81ac951-0e91-4ffc-a852-5780e2f87e46",
+            "stackCapacity": 99,
+            "img": "Keycard_Classrooms.png"
+        },
+        {
+            "name": "Keycard_Libraryrooms",
+            "idStr": "34cc1c25-d500-4ac6-a462-1cf9d4bcafa2",
+            "stackCapacity": 99,
+            "img": "Keycard_Libraryrooms.png"
+        },
+        {
+            "name": "Keycard_Bathrooms",
+            "idStr": "3dd9ed8c-b9d8-45a3-8df0-18c498ab19a0",
+            "stackCapacity": 99,
+            "img": "Keycard_Bathrooms.png"
+        },
+        {
+            "name": "Keycard_Churchrooms",
+            "idStr": "9c0379d4-bc5b-4f5a-b7fa-e20d56590042",
+            "stackCapacity": 99,
+            "img": "Keycard_Churchrooms.png"
+        },
+        {
+            "name": "Keycard_Poolrooms",
+            "idStr": "ba3dc0da-2230-4fae-aed0-28f0ae539d56",
+            "stackCapacity": 99,
+            "img": "Keycard_Poolrooms.png"
+        },
+        {
+            "name": "Keycard_Playrooms",
+            "idStr": "7de31fdb-cfa3-4e71-8713-b22c030584e9",
+            "stackCapacity": 99,
+            "img": "Keycard_Playrooms.png"
+        },
+        {
+            "name": "Keycard_Kidrooms",
+            "idStr": "05c119c1-1207-4f08-8f46-460c9f8ae63f",
+            "stackCapacity": 99,
+            "img": "Keycard_Kidrooms.png"
+        }
+    ],
+    "Collectables": [
+        {
+            "name": "Key_ScrewDriver",
+            "idStr": "261d819e-91c7-4e01-a0bc-debf48ccc9eb",
+            "stackCapacity": 1,
+            "img": "ScrewDriverIcon.png"
+        },
+        {
+            "name": "Glowstick",
+            "idStr": "675c2130-4992-4e6a-98a0-dcce1015dd21",
+            "stackCapacity": 99,
+            "img": "Glowstick_Icon.png"
+        },
+        {
+            "name": "Battery",
+            "idStr": "943dd738-2b2a-4016-8fed-704d93f43a64",
+            "stackCapacity": 99,
+            "img": "Battery_Icon.png"
+        },
+        {
+            "name": "EggTimer",
+            "idStr": "15326a43-aba7-4e74-b8ab-f9216a79f77a",
+            "stackCapacity": 99,
+            "img": "EggTimer.png"
+        },
+        {
+            "name": "FloppyDisk_Basic",
+            "idStr": "9df4e55e-b876-48ad-94e6-277d82095eb1",
+            "stackCapacity": 99,
+            "img": "Floppy_White.png"
+        },
+        {
+            "name": "8Ball",
+            "idStr": "259f2642-4034-4845-aa35-d16ec7bb1871",
+            "stackCapacity": 99,
+            "img": "8Ball.png"
+        },
+        {
+            "name": "Tape_ARC01",
+            "idStr": "a7c33301-b8fe-41ce-921b-98371f692af2",
+            "stackCapacity": 99,
+            "img": "Tape_ARC01.png"
+        },
+        {
+            "name": "Tape_ARC02",
+            "idStr": "bcdc4469-7756-4de0-b740-8c101d6c1bc0",
+            "stackCapacity": 99,
+            "img": "Tape_ARC01.png"
+        },
+        {
+            "name": "Tape_Chewtopia",
+            "idStr": "8cf6644c-9959-41cb-820b-65e2c511b4d3",
+            "stackCapacity": 99,
+            "img": "Tape_ARC01.png"
+        },
+        {
+            "name": "Tape_SuperstructureIntro",
+            "idStr": "048dff0c-de43-42df-8466-ded6135fa529",
+            "stackCapacity": 99,
+            "img": "Tape_ARC01.png"
+        },
+        {
+            "name": "Tape_AsbestHistory",
+            "idStr": "33ebf265-ded6-4819-ba04-23943ca660a0",
+            "stackCapacity": 99,
+            "img": "Tape_ARC01.png"
+        },
+        {
+            "name": "Tape_DescentOrientation",
+            "idStr": "548e7e62-7319-4ba7-a1f1-b3a2312ae804",
+            "stackCapacity": 99,
+            "img": "Tape_ARC01.png"
+        },
+        {
+            "name": "Book",
+            "idStr": "6319e8e3-97ad-4118-949c-575a929d66aa",
+            "stackCapacity": 99,
+            "img": "Book_Icon_05.png"
+        },
+        {
+            "name": "Book1",
+            "idStr": "59625c27-a98b-410b-a5dc-0a1f4a0b2ad6",
+            "stackCapacity": 99,
+            "img": "Book_Icon_05.png"
+        },
+        {
+            "name": "Book2",
+            "idStr": "56e64f9b-04d0-4a57-8856-43075cfd630c",
+            "stackCapacity": 99,
+            "img": "Book_Icon_02.png"
+        },
+        {
+            "name": "Book3",
+            "idStr": "adf0b69d-5916-4584-bbb8-4d4ac05975f0",
+            "stackCapacity": 99,
+            "img": "Book_Icon_03.png"
+        },
+        {
+            "name": "Book4",
+            "idStr": "5acfa4e4-3a27-4eb9-8b17-070afc54e444",
+            "stackCapacity": 99,
+            "img": "Book_Icon_04.png"
+        },
+        {
+            "name": "Book5",
+            "idStr": "9d76c8f9-a5a2-457b-bd55-bee59884fbd2",
+            "stackCapacity": 99,
+            "img": "Book_Icon_05.png"
+        },
+        {
+            "name": "Book6",
+            "idStr": "a39ddae6-eb8e-4f7f-af27-511204540b06",
+            "stackCapacity": 99,
+            "img": "Book_Icon_06.png"
+        },
+        {
+            "name": "Book7",
+            "idStr": "1950b18d-f595-4ed4-b36f-3f36e86662b7",
+            "stackCapacity": 99,
+            "img": "Book_Icon_07.png"
+        },
+        {
+            "name": "Book8",
+            "idStr": "0ea98f5b-f65d-45db-8244-e168cc91832c",
+            "stackCapacity": 99,
+            "img": "Book_Icon_08.png"
+        },
+        {
+            "name": "Book9",
+            "idStr": "803e2d14-2839-4348-bcc9-649c81136735",
+            "stackCapacity": 99,
+            "img": "Book_Icon_09.png"
+        },
+        {
+            "name": "Book10",
+            "idStr": "776de24d-5dc8-4c07-b90f-fc20c27ae051",
+            "stackCapacity": 99,
+            "img": "Book_Icon_10.png"
+        },
+        {
+            "name": "Loonie",
+            "idStr": "f69a2951-8c98-49df-ae9d-ddb6114a3d45",
+            "stackCapacity": 999,
+            "img": "Item_Loonie.png"
+        },
+        {
+            "name": "ArcadeToken",
+            "idStr": "2bd5300c-794b-42d2-8b90-1bab455ac3a3",
+            "stackCapacity": 99,
+            "img": "Item_Token.png"
+        },
+        {
+            "name": "Puzzle_Piece",
+            "idStr": "e6e8f6b8-6130-4214-b117-8ad71f4e23d2",
+            "stackCapacity": 176,
+            "img": "Item_Puzzle_Piece.png"
+        },
+        {
+            "name": "Biscuit",
+            "idStr": "927f81d4-6fa9-478f-a485-0561c52572eb",
+            "stackCapacity": 99,
+            "img": "Item_Biscuit.png"
+        },
+        {
+            "name": "Arcade_Ticket",
+            "idStr": "71f5d239-8914-4751-91e1-3ce716d4c880",
+            "stackCapacity": 9999,
+            "img": "InventoryIcon_Ticket.png"
+        },
+        {
+            "name": "Gumball_Black",
+            "idStr": "961ba9f5-27d0-4f05-9c78-1f9f47bab2e1",
+            "stackCapacity": 99,
+            "img": "Gumball_Black.png"
+        },
+        {
+            "name": "Gumball_Blue",
+            "idStr": "f2a09a71-59fd-4a3a-9ce1-0853cdc45c66",
+            "stackCapacity": 99,
+            "img": "Gumball_Blue.png"
+        },
+        {
+            "name": "Gumball_Green",
+            "idStr": "bc262eb6-d3bd-43c9-922a-ff5fd7da2625",
+            "stackCapacity": 99,
+            "img": "Gumball_Green.png"
+        },
+        {
+            "name": "Gumball_Orange",
+            "idStr": "a79d4bb9-572e-479d-876c-6c1d17f565a7",
+            "stackCapacity": 99,
+            "img": "Gumball_Orange.png"
+        },
+        {
+            "name": "Gumball_Pink",
+            "idStr": "57768297-ace4-47fb-a5c3-5ddcc6ca3ea0",
+            "stackCapacity": 99,
+            "img": "Gumball_Pink.png"
+        },
+        {
+            "name": "Gumball_Purple",
+            "idStr": "b0d0ea96-50eb-4aae-bc16-6c57fee829eb",
+            "stackCapacity": 99,
+            "img": "Gumball_Purp.png"
+        },
+        {
+            "name": "Gumball_Red",
+            "idStr": "b884cb25-7f50-49c8-a4a1-1951290c0d25",
+            "stackCapacity": 99,
+            "img": "Gumball_Red.png"
+        },
+        {
+            "name": "Gumball_White",
+            "idStr": "4b4bfd02-c425-4ba7-b887-ee65cb1b94ae",
+            "stackCapacity": 99,
+            "img": "Gumball_White.png"
+        },
+        {
+            "name": "Gumball_Yella",
+            "idStr": "da3106c6-6b40-466f-9b3f-d53e6bd64cce",
+            "stackCapacity": 99,
+            "img": "Gumball_Yellow.png"
+        },
+        {
+            "name": "Waterpoof_Camcorder_Case",
+            "idStr": "73b1cfc4-2baf-4c3f-ab23-89501ed03917",
+            "stackCapacity": 99,
+            "img": "WaterCamera.png"
+        },
+        {
+            "name": "Broken_Goggles",
+            "idStr": "5d160a7f-de24-4f4d-ba92-b5cff4ecc7bb",
+            "stackCapacity": 99,
+            "img": "Goggles.png"
+        },
+        {
+            "name": "Large_Fuse",
+            "idStr": "d2e63244-5d98-43a2-953a-4c3306defcf9",
+            "stackCapacity": 99,
+            "img": "Fuse.png"
+        },
+        {
+            "name": "StinkBomb",
+            "idStr": "4d9f064d-aec2-41e5-b4ab-c159a66d049d",
+            "stackCapacity": 99,
+            "img": "BrapSack_Icon.png"
+        },
+        {
+            "name": "Deodorant",
+            "idStr": "8ff4bb87-3207-4442-9c27-af3e5d8a1cf3",
+            "stackCapacity": 99,
+            "img": "BoldSlice_Icon.png"
+        },
+        {
+            "name": "Compass",
+            "idStr": "e185626b-e104-43e4-9b56-8c26d146f20d",
+            "stackCapacity": 99,
+            "img": "Compass.png"
+        },
+        {
+            "name": "Canine Death Whistle",
+            "idStr": "083e29cc-bbe0-42f4-a9cc-ecad2c3fb86b",
+            "stackCapacity": 99,
+            "img": "CanineUI.png"
+        },
+        {
+            "name": "Last Item",
+            "idStr": "c82e0007-4933-447b-8051-d268b4ec1d27",
+            "stackCapacity": 99,
+            "img": "blank.png"
+        }
+    ]
+}

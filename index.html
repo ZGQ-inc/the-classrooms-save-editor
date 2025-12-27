@@ -1,0 +1,2091 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>The Classrooms Save Editor</title>
+    <link rel="icon" href="img/UI/DollheadICO.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The Classrooms Save Editor">
+    <meta property="og:description" content="By ZGQ Inc.">
+    <meta property="og:url" content="http://domain.zgqinc.gq/">
+    <meta name="theme-color" content="#00e5ff">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Classrooms Save Editor">
+    <meta name="twitter:description" content="By ZGQ Inc.">
+    <style>
+        :root {
+            --bg-color: #080808;
+            --panel-bg: rgba(25, 25, 30, 0.95);
+            --header-bg: rgba(10, 10, 12, 0.98);
+            --text-main: #e0e0e0;
+            --text-dim: #888;
+            --accent: #00e5ff;
+            --accent-glow: rgba(0, 229, 255, 0.25);
+            --danger: #ff4444;
+            --success: #00ff88;
+            --border: #333;
+            --input-bg: #151515;
+
+            --font-ui: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+            --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+            outline: none;
+        }
+
+        body {
+            font-family: var(--font-ui);
+            background-color: var(--bg-color);
+            background-image: url('img/UI/Icons/screen.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #111;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #444;
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent);
+        }
+
+        .app-header {
+            background: var(--header-bg);
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--accent);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo {
+            width: 48px;
+            height: 48px;
+            filter: drop-shadow(0 0 8px var(--accent));
+        }
+
+        .header-info h1 {
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
+
+        .header-meta {
+            font-size: 16px;
+            color: var(--text-dim);
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            margin-top: 4px;
+        }
+
+        .header-meta span {
+            opacity: 0.8;
+        }
+
+        .steam-link {
+            color: var(--accent);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: 0.2s;
+        }
+
+        .steam-link:hover {
+            text-shadow: 0 0 5px var(--accent);
+            color: #fff;
+        }
+
+        .app-footer {
+            background: #050505;
+            border-top: 1px solid #222;
+            padding: 12px;
+            margin-top: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .footer-link {
+            color: #888;
+            text-decoration: none;
+            transition: 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .footer-link:hover {
+            color: var(--accent);
+        }
+
+        .cc-logo {
+            border: 1px solid #444;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 30px auto;
+            padding: 0 10px;
+            width: 100%;
+            flex: 1;
+        }
+
+        .toolbar {
+            background: var(--panel-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            margin-bottom: 10px;
+        }
+
+        .status-area {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            color: var(--text-dim);
+        }
+
+        .badge {
+            font-size: 14px;
+            padding: 3px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+            display: none;
+            text-transform: uppercase;
+        }
+
+        .badge.show {
+            display: inline-block;
+            animation: fadeIn 0.5s;
+        }
+
+        .badge-json {
+            background: #ffaa00;
+            color: #000;
+            box-shadow: 0 0 5px #ffaa00;
+        }
+
+        .badge-reg {
+            background: #0088ff;
+            color: #fff;
+            box-shadow: 0 0 5px #0088ff;
+        }
+
+        .btn {
+            background: #222;
+            border: 1px solid #444;
+            color: #eee;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: #000;
+            border-color: var(--accent);
+        }
+
+        .btn-primary:hover {
+            background: #fff;
+            color: #000;
+            box-shadow: 0 0 15px var(--accent);
+        }
+
+        .btn-danger {
+            border-color: var(--danger);
+            color: var(--danger);
+            background: transparent;
+        }
+
+        .btn-danger:hover {
+            background: var(--danger);
+            color: #fff;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .styled-select {
+            background: var(--input-bg);
+            border: 1px solid var(--border);
+            color: #fff;
+            padding: 8px 30px 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            appearance: none;
+            position: relative;
+            font-family: var(--font-ui);
+            background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%2300e5ff%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px top 50%;
+            background-size: 10px auto;
+            min-width: 100px;
+        }
+
+        .styled-select:focus {
+            border-color: var(--accent);
+        }
+
+        .styled-input {
+            background: var(--input-bg);
+            border: 1px solid var(--border);
+            color: var(--accent);
+            padding: 8px;
+            border-radius: 4px;
+            width: 140px;
+            text-align: center;
+            font-family: var(--font-mono);
+            font-weight: bold;
+        }
+
+        .styled-input:focus {
+            border-color: var(--accent);
+        }
+
+        .styled-slider {
+            appearance: none;
+            width: 100%;
+            height: 6px;
+            background: linear-gradient(90deg, #333, #444);
+            border-radius: 3px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .styled-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--accent);
+            box-shadow: 0 0 10px var(--accent);
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+
+        .styled-slider::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 44px;
+            height: 22px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #333;
+            transition: .4s;
+            border-radius: 22px;
+            border: 1px solid #555;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            left: 2px;
+            bottom: 2px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked+.slider {
+            background-color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        input:checked+.slider:before {
+            transform: translateX(22px);
+            background-color: #000;
+        }
+
+        .switch-label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 0;
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid var(--border);
+            border-bottom: none;
+            color: #888;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-weight: 600;
+            transition: 0.2s;
+            border-radius: 8px 8px 0 0;
+            text-transform: uppercase;
+        }
+
+        .tab-btn img {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+            margin-bottom: 2px;
+            filter: grayscale(1);
+            transition: 0.2s;
+        }
+
+        .tab-btn:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: #ccc;
+        }
+
+        .tab-btn.active {
+            background: var(--panel-bg);
+            color: var(--accent);
+            border-top: 3px solid var(--accent);
+        }
+
+        .tab-btn.active img {
+            filter: grayscale(0) drop-shadow(0 0 5px var(--accent));
+        }
+
+        .tab-content {
+            display: none;
+            background: var(--panel-bg);
+            padding: 15px;
+            border: 1px solid var(--border);
+            border-radius: 0 0 8px 8px;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s;
+        }
+
+        .split-view {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .split-col {
+            flex: 1;
+            min-width: 320px;
+            border: 1px solid var(--border);
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 6px;
+        }
+
+        .split-col.inactive {
+            opacity: 0.3;
+            pointer-events: none;
+            filter: grayscale(1);
+        }
+
+        .col-header {
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.03);
+            border-bottom: 1px solid var(--border);
+            font-weight: 700;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .panel-body {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 6px;
+            border: 1px solid transparent;
+            transition: 0.2s;
+        }
+
+        .form-row:hover {
+            border-color: #333;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .form-label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            flex: 1;
+        }
+
+        .form-icon {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+        }
+
+        .tapes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            gap: 10px;
+        }
+
+        .tape-card {
+            aspect-ratio: 1/2;
+            background: #000;
+            border: 2px solid #333;
+            border-radius: 4px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            opacity: 0.4;
+            transition: 0.2s;
+        }
+
+        .tape-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .tape-card.unlocked {
+            opacity: 1;
+            border-color: var(--accent);
+            box-shadow: 0 0 15px rgba(0, 229, 255, 0.15);
+        }
+
+        .tape-card.locked-mode {
+            pointer-events: none;
+        }
+
+        .tape-label {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            padding: 3px 0;
+        }
+
+        .inv-cats {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .cat-btn {
+            width: 60px;
+            height: 60px;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 0.2s;
+            position: relative;
+        }
+
+        .cat-btn:hover {
+            background: #222;
+            border-color: #555;
+        }
+
+        .cat-btn.active {
+            border-color: var(--accent);
+            background: rgba(0, 229, 255, 0.1);
+            box-shadow: 0 0 10px rgba(0, 229, 255, 0.1);
+        }
+
+        .cat-btn img {
+            width: 32px;
+            height: 32px;
+            margin-bottom: 4px;
+        }
+
+        .cat-btn span {
+            font-size: 14px;
+            color: #888;
+        }
+
+        .cat-btn.active span {
+            color: var(--accent);
+        }
+
+        .inv-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            max-width: 320px;
+            margin: 0 auto;
+        }
+
+        .inv-slot {
+            aspect-ratio: 1/1;
+            background: #151515;
+            border: 2px solid #333;
+            border-radius: 6px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .inv-slot:hover {
+            border-color: var(--accent);
+            box-shadow: inset 0 0 20px rgba(0, 229, 255, 0.1);
+        }
+
+        .inv-slot.empty {
+            border-style: dashed;
+            border-color: #444;
+            opacity: 0.5;
+        }
+
+        .inv-slot.empty:hover {
+            border-color: var(--success);
+            opacity: 1;
+        }
+
+        .inv-slot.empty::after {
+            content: '+';
+            font-size: 24px;
+            color: #666;
+        }
+
+        .inv-slot img {
+            width: 65%;
+            height: 65%;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 5px rgba(0, 0, 0, 0.8));
+            z-index: 1;
+        }
+
+        .inv-name {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: #ccc;
+            font-size: 14px;
+            text-align: center;
+            padding: 2px 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            z-index: 2;
+        }
+
+        .inv-qty {
+            position: absolute;
+            top: 3px;
+            right: 5px;
+            color: var(--accent);
+            font-weight: bold;
+            font-family: var(--font-mono);
+            font-size: 24px;
+            text-shadow: 1px 1px 0 #000;
+            z-index: 2;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            z-index: 1000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(8px);
+        }
+
+        .modal {
+            background: #1a1a1a;
+            border: 1px solid #444;
+            border-radius: 12px;
+            width: 95%;
+            max-width: 600px;
+            max-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+            animation: modalPop 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+        }
+
+        .modal-header {
+            padding: 15px 20px;
+            border-bottom: 1px solid #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .modal-header h3 {
+            margin: 0;
+            color: var(--accent);
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .modal-content {
+            padding: 10px;
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        .item-picker-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+            gap: 10px;
+        }
+
+        .picker-item {
+            background: #222;
+            border: 1px solid #333;
+            padding: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            text-align: center;
+            transition: 0.2s;
+        }
+
+        .picker-item:hover {
+            border-color: var(--accent);
+            background: #2a2a2a;
+            transform: translateY(-2px);
+        }
+
+        .picker-item img {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+        }
+
+        .picker-item span {
+            font-size: 14px;
+            color: #aaa;
+            line-height: 1.2;
+        }
+
+        .modifier-row {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 10px;
+            background: #222;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .modifier-img {
+            width: 64px;
+            height: 64px;
+            object-fit: contain;
+        }
+
+        .codex-list {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .codex-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .codex-row:hover {
+            border-color: var(--accent);
+            background: #222;
+        }
+
+        .codex-row img {
+            width: 32px;
+            height: 32px;
+            object-fit: contain;
+        }
+
+        .img-viewer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 2000;
+            display: none;
+            flex-direction: column;
+        }
+
+        .viewer-header {
+            padding: 15px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            z-index: 2001;
+        }
+
+        .viewer-body {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .viewer-body img {
+            max-width: 90%;
+            max-height: 90%;
+            transition: transform 0.1s;
+            cursor: grab;
+        }
+
+        #toast-container {
+            position: fixed;
+            top: 100px;
+            right: 20px;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .toast {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 4px;
+            border-left: 4px solid var(--accent);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            font-size: 14px;
+            animation: slideIn 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+            display: flex;
+            align-items: center;
+            min-width: 250px;
+        }
+
+        .toast.error {
+            border-left-color: var(--danger);
+        }
+
+        .toast.success {
+            border-left-color: var(--success);
+        }
+
+        @keyframes modalPop {
+            from {
+                transform: scale(0.95);
+                opacity: 0
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%)
+            }
+
+            to {
+                transform: translateX(0)
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+                transform: translateY(-10px)
+            }
+        }
+
+        @media (max-width: 768px) {
+            .app-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+
+            .split-view {
+                flex-direction: column;
+            }
+
+            .inv-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .toolbar {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .status-area {
+                margin-left: 0;
+                justify-content: space-between;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="toast-container"></div>
+
+    <div class="img-viewer" id="imgViewer">
+        <div class="viewer-header">
+            <button class="btn btn-primary" onclick="resetZoom()" data-i18n="reset">Reset</button>
+            <button class="btn btn-danger" onclick="closeImageViewer()" data-i18n="close">Close</button>
+        </div>
+        <div class="viewer-body" id="viewerContainer">
+            <img id="viewerImage" src="" draggable="false">
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="generalModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="modalTitle" data-i18n="selectTitle">Select Item</h3>
+                <button class="btn btn-danger" style="padding:4px 10px" onclick="closeGeneralModal()">×</button>
+            </div>
+            <div id="modalSearchContainer" style="padding: 15px 20px 0; display:none;">
+                <input type="text" id="modalSearch" placeholder="Search..."
+                    style="width:100%; padding:10px; background:#111; border:1px solid #444; color:white; border-radius:4px;">
+            </div>
+            <div id="modalQtyContainer" style="padding: 15px 20px 0; display:none; align-items:center; gap:10px;">
+                <label style="font-size:14px; color:#aaa;" data-i18n="quantity">Quantity:</label>
+                <input type="number" id="modalAddQty" value="1" min="1" class="styled-input">
+                <span style="font-size:12px; color:#666;" data-i18n="maxStackInfo">(Max determined by item)</span>
+            </div>
+            <div class="modal-content" id="modalBody"></div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modifyModal">
+        <div class="modal" style="max-width: 500px;">
+            <div class="modal-header">
+                <h3 data-i18n="modifyTitle">Modify Item</h3>
+                <button class="btn btn-danger" style="padding:4px 10px" onclick="closeModifyModal()">×</button>
+            </div>
+            <div class="modal-content">
+                <div class="modifier-row">
+                    <img id="modImg" src="" class="modifier-img">
+                    <div>
+                        <div id="modName"
+                            style="font-weight:bold; color:var(--accent); font-size:16px; margin-bottom:5px;">Item Name
+                        </div>
+                        <div id="modMax" style="font-size:12px; color:#888;">Max Stack: 99</div>
+                    </div>
+                </div>
+
+                <div class="form-row" style="margin-bottom:10px;">
+                    <label class="form-label" data-i18n="quantity">Quantity</label>
+                    <input type="number" id="modQty" class="styled-input" style="width:100px">
+                </div>
+
+                <div style="display:flex; flex-direction:column; gap:10px;">
+                    <button class="btn btn-primary" style="justify-content:center" onclick="saveModification()"
+                        data-i18n="saveChanges">Save
+                        Changes</button>
+                    <button class="btn" style="justify-content:center" onclick="replaceItem()"
+                        data-i18n="replaceItem">Replace Item</button>
+                    <button class="btn btn-danger" style="justify-content:center" onclick="deleteItem()"
+                        data-i18n="deleteItem">Delete
+                        Item</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="app-header">
+        <div class="header-left">
+            <img src="img/UI/ARC_Logo_JustLogo.png" alt="Logo" class="logo">
+            <div class="header-info">
+                <h1 data-i18n="headerTitle">The Classrooms Save Editor <span
+                        style="font-size:14px; color:var(--accent); vertical-align:middle; margin-left:8px; opacity:0.8; font-weight:normal;">for
+                        v0.8.1</span></h1>
+                <div class="header-meta">
+                    <span style="font-size:14px; border:1px solid #444; padding:2px 4px; border-radius:3px;"
+                        data-i18n="byAuthor">By ZGQ
+                        Inc.</span>
+                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3599701537" target="_blank"
+                        class="steam-link">
+                        <svg role="img" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>Steam</title>
+                            <path
+                                d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.004.105.004.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.173-3.331-2.727L.436 15.27C1.862 20.307 6.486 24 11.979 24c6.627 0 11.999-5.373 11.999-12S18.605 0 11.979 0zM7.54 18.21l-1.473-.61c.262.543.714.999 1.314 1.25 1.297.539 2.793-.076 3.332-1.375.263-.63.264-1.319.005-1.949s-.75-1.121-1.377-1.383c-.624-.26-1.29-.249-1.878-.03l1.523.63c.956.4 1.409 1.5 1.009 2.455-.397.957-1.497 1.41-2.454 1.012H7.54zm11.415-9.303c0-1.662-1.353-3.015-3.015-3.015-1.665 0-3.015 1.353-3.015 3.015 0 1.665 1.35 3.015 3.015 3.015 1.663 0 3.015-1.35 3.015-3.015zm-5.273-.005c0-1.252 1.013-2.266 2.265-2.266 1.249 0 2.266 1.014 2.266 2.266 0 1.251-1.017 2.265-2.266 2.265-1.253 0-2.265-1.014-2.265-2.265z" />
+                        </svg>
+                        <span data-i18n="steamGuide">
+                            Steam Guide</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <select class="styled-select" onchange="setLanguage(this.value)">
+            <option value="zh">Chinese</option>
+            <option value="en">English</option>
+        </select>
+    </header>
+
+    <div class="container">
+        <div class="toolbar">
+            <label class="btn">
+                <span data-i18n="loadFiles">🧷 Select Save File</span>
+                <input type="file" id="fileInput" multiple>
+            </label>
+            <label class="btn">
+                <span data-i18n="loadFolder">📁 Select Folder</span>
+                <input type="file" id="folderInput" webkitdirectory>
+            </label>
+            <button class="btn btn-primary" onclick="exportData()">
+                <span data-i18n="export">💾 Export</span>
+            </button>
+
+            <div class="status-area">
+                <span id="badgeJson" class="badge badge-json">JSON</span>
+                <span id="badgeReg" class="badge badge-reg">REG</span>
+                <span id="statusText"></span>
+            </div>
+        </div>
+
+        <div id="editorArea" style="display:none;">
+            <div class="tabs">
+                <div class="tab-btn active" onclick="switchTab('stats')">
+                    <img src="img/UI/Players/Portrait_Robert.png"> <span data-i18n="tabStats">Stats</span>
+                </div>
+                <div class="tab-btn" onclick="switchTab('levels')">
+                    <img src="img/UI/Icons/VHS_Tape.png"> <span data-i18n="tabTapes">Tapes</span>
+                </div>
+                <div class="tab-btn" onclick="switchTab('inventory')">
+                    <img src="img/Inventory/Tabs/Backpack.png"> <span data-i18n="tabInventory">Inventory</span>
+                </div>
+            </div>
+
+            <div id="stats" class="tab-content active">
+                <div class="split-view">
+                    <div class="split-col inactive" id="col_left_stats">
+                        <div class="col-header" data-i18n="autoSave">Story Mode</div>
+                        <div class="panel-body" id="body_left_stats"></div>
+                    </div>
+                    <div class="split-col inactive" id="col_right_stats">
+                        <div class="col-header" data-i18n="nonLinear">Endless Mode</div>
+                        <div class="panel-body" id="body_right_stats"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="levels" class="tab-content">
+                <div class="split-view">
+                    <div class="split-col inactive" id="col_left_levels">
+                        <div class="col-header" data-i18n="autoSave">Story Mode</div>
+                        <div class="panel-body" id="body_left_levels"></div>
+                    </div>
+                    <div class="split-col inactive" id="col_right_levels">
+                        <div class="col-header" data-i18n="nonLinear">Endless Mode</div>
+                        <div class="panel-body" id="body_right_levels"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="inventory" class="tab-content">
+                <div class="inv-cats">
+                    <div class="cat-btn active" onclick="setInvCategory('Collectables')">
+                        <img src="img/Inventory/Tabs/Backpack.png">
+                        <span data-i18n="catGeneral">General</span>
+                    </div>
+                    <div class="cat-btn" onclick="setInvCategory('Keys')">
+                        <img src="img/Inventory/Tabs/Keychain.png">
+                        <span data-i18n="catKeys">Keys</span>
+                    </div>
+                    <div class="cat-btn" onclick="setInvCategory('Keycards')">
+                        <img src="img/Inventory/Tabs/Keycards.png">
+                        <span data-i18n="catKeycards">Keycards</span>
+                    </div>
+                    <div class="cat-btn" onclick="setInvCategory('Codex')">
+                        <img src="img/Inventory/Tabs/Codex.png">
+                        <span data-i18n="catCodex">Codex</span>
+                    </div>
+                </div>
+
+                <div class="split-view">
+                    <div class="split-col inactive" id="col_left_inv">
+                        <div class="col-header" data-i18n="autoSave">Story Mode</div>
+                        <div class="panel-body" id="body_left_inv"></div>
+                    </div>
+                    <div class="split-col inactive" id="col_right_inv">
+                        <div class="col-header" data-i18n="nonLinear">Endless Mode</div>
+                        <div class="panel-body" id="body_right_inv"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="app-footer">
+        <div data-i18n="footerRights">&copy; 2025 ZGQ Inc.</div>
+        <div class="cc-logo" title="Creative Commons Attribution-NonCommercial-ShareAlike">🄯
+            <span data-i18n="ccPrefix">本作品采用</span>
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"
+                style="color: #666; text-decoration: underline; margin: 0 4px;">
+                <span data-i18n="ccLink">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</span>
+            </a>
+            <span data-i18n="ccSuffix">进行许可。</span>
+        </div>
+        <div class="footer-links">
+            <a href="http://domain.zgqinc.gq" target="_blank" class="footer-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="16" height="16"
+                    fill="currentColor">
+                    <path d="M160-120v-480l320-240 320 240v480H560v-280H400v280H160Z" />
+                </svg>
+                domain.zgqinc.gq
+            </a>
+
+            <a href="https://t.me/ZGQinc" target="_blank" class="footer-link">
+                <svg role="img" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title>Telegram</title>
+                    <path
+                        d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+                </svg>
+                @ZGQinc
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        const DB_FILE = "Inventory_Database.json";
+        const VERSION_FILE = "version.txt";
+        const BACKPACK_UUID = "04062d45-1861-4b19-9ff5-4e6e21ffe524";
+        const FLASHLIGHT_UUID = "943dd738-2b2a-4016-8fed-704d93f43a64";
+        const ENTITY_LIST = [
+            "Arachnophone.png", "Clown.png", "Dolphin_Icon.png", "Gangler.png",
+            "Icon_Alpha_Wyrm.png", "Icon_Army_Of_Dolls.png", "Icon_CentipedeTransparent.png",
+            "Icon_Cloak.png", "Icon_Cursed_Doll.png", "Icon_Hell_Doll.png",
+            "Icon_TenantTransparent.png", "Little_joey.png", "Mangler.png", "Smiley.png", "Tsuchinoko_Icon.png"
+        ];
+
+        const I18N = {
+            zh: {
+                loadFiles: "🧷 选择存档文件（多选）",
+                loadFolder: "📁 选择文件夹",
+                export: "💾 导出数据",
+                tabStats: "基础属性",
+                tabTapes: "磁带解锁",
+                tabInventory: "物品栏",
+                autoSave: "Auto Save",
+                nonLinear: "Non Linear",
+                catGeneral: "可收集",
+                catKeys: "钥匙",
+                catKeycards: "钥匙卡",
+                catCodex: "档案",
+                tickets: "奖票",
+                flashlight: "手电筒",
+                backpack: "背包扩容",
+                lives: "剩余生命",
+                infLives: "无限生命",
+                canGetLives: "可获得生命",
+                depth: "深度",
+                unlockAll: "一键解锁全部磁带",
+                unlockWarn: "(同时解锁自定义模式)",
+                entities: "查看实体图鉴",
+                unlockAllCodex: "一键解锁全部档案",
+                versionWarn: "⚠️ 警告：游戏版本可能不支持！",
+                fileLoaded: "已加载：{0} 个文件",
+                invFull: "背包已满",
+                added: "已添加",
+                modified: "已修改",
+                deleted: "已删除",
+                saved: "已导出",
+                selectItem: "选择物品",
+                modifyItem: "修改物品",
+                search: "搜索...",
+                unknown: "未知物品",
+                headerTitle: "The Classrooms 存档编辑器",
+                byAuthor: "By ZGQ Inc.",
+                steamGuide: "Steam 指南链接",
+                footerRights: "© 2025 ZGQ Inc.",
+                reset: "重置",
+                close: "关闭",
+                quantity: "数量：",
+                maxStackInfo: "（最大值由物品决定）",
+                maxStackPrefix: "最大堆叠：",
+                saveChanges: "保存修改",
+                replaceItem: "替换物品",
+                deleteItem: "删除物品",
+                modifyTitle: "修改物品",
+                selectTitle: "选择物品",
+                replaceTitle: "替换物品",
+                ccPrefix: "本作品采用",
+                ccLink: "知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议",
+                ccSuffix: "进行许可。",
+                parseError: "解析失败：",
+                regHeaderError: "无法识别 Reg 文件头，可能是编码问题",
+                jsonError: "Reg 数据转换 JSON 失败"
+            },
+            en: {
+                loadFiles: "🧷 Select Save Files",
+                loadFolder: "📁 Select Folder",
+                export: "💾 Export",
+                tabStats: "Stats",
+                tabTapes: "TAPES",
+                tabInventory: "Inventory",
+                autoSave: "Auto Save",
+                nonLinear: "Non Linear",
+                catGeneral: "Collectables",
+                catKeys: "Keys",
+                catKeycards: "Keycards",
+                catCodex: "Codex",
+                tickets: "Tickets",
+                flashlight: "Flashlight",
+                backpack: "Backpack Lvl",
+                lives: "Lives",
+                infLives: "Infinite Lives",
+                canGetLives: "Can Gain Lives",
+                depth: "Depth",
+                unlockAll: "Unlock All Tapes",
+                unlockWarn: "(Also unlock custom mode)",
+                entities: "View Entities",
+                unlockAllCodex: "Unlock All Codex",
+                versionWarn: "⚠️ Warning: Game version may not be supported!",
+                fileLoaded: "Loaded: {0} files",
+                invFull: "Inventory Full",
+                added: "Added",
+                modified: "Modified",
+                deleted: "Deleted",
+                saved: "Exported",
+                selectItem: "Select Item",
+                modifyItem: "Modify Item",
+                search: "Search...",
+                unknown: "Unknown",
+                headerTitle: "The Classrooms Save Editor",
+                byAuthor: "By ZGQ Inc.",
+                steamGuide: "Steam Guide Link",
+                footerRights: "© 2025 ZGQ Inc.",
+                reset: "Reset",
+                close: "Close",
+                quantity: "Quantity:",
+                maxStackInfo: "(Max determined by item)",
+                maxStackPrefix: "Max Stack: ",
+                saveChanges: "Save Changes",
+                replaceItem: "Replace Item",
+                deleteItem: "Delete Item",
+                modifyTitle: "Modify Item",
+                selectTitle: "Select Item",
+                replaceTitle: "Replace Item",
+                ccPrefix: "This work is licensed under a",
+                ccLink: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+                ccSuffix: ".",
+                parseError: "Parse Error: ",
+                regHeaderError: "Cannot recognize Reg header, possible encoding issue",
+                jsonError: "Failed to parse JSON from Reg data"
+            }
+        };
+
+        const ENDLESS_ROOMS = [
+            { k: "Non-Linear Classrooms", i: "Keycard_Classrooms.png", n: "Classrooms" },
+            { k: "Non-Linear Libraryrooms", i: "Keycard_Libraryrooms.png", n: "Libraryrooms" },
+            { k: "Non-Linear Bathrooms", i: "Keycard_Bathrooms.png", n: "Bathrooms" },
+            { k: "Non-Linear Churchrooms", i: "Keycard_Churchrooms.png", n: "Churchrooms" },
+            { k: "Non-Linear Poolrooms", i: "Keycard_Poolrooms.png", n: "Poolrooms" },
+            { k: "Non-Linear Playrooms", i: "Keycard_Playrooms.png", n: "Playrooms" },
+            { k: "Non-Linear Kidrooms", i: "Keycard_Kidrooms.png", n: "Kidrooms" }
+        ];
+
+        let APP = {
+            lang: 'zh',
+            gameVer: '',
+            db: { all: {}, cats: {} },
+            editors: {
+                left: { active: false, data: {}, nested: {}, name: "Auto Save", regKey: null, isInstantClear: false },
+                right: { active: false, data: {}, nested: {}, name: "Non Linear", regKey: null, isInstantClear: false }
+            },
+            ui: { invCat: 'Collectables', globalFormat: 'json' },
+            state: { pendingSide: '', pendingSlot: -1, isReplacing: false }
+        };
+
+        window.onload = async () => {
+            try {
+                const r = await fetch(VERSION_FILE);
+                if (r.ok) APP.gameVer = (await r.text()).trim();
+            } catch (e) { }
+
+            try {
+                const r = await fetch(DB_FILE);
+                if (r.ok) parseDB(await r.json());
+            } catch (e) { }
+
+            updateLabels();
+            initImgViewer();
+        };
+
+        function parseDB(json) {
+            APP.db.cats = json;
+            for (let cat in json) {
+                json[cat].forEach(item => {
+                    item._cat = cat;
+                    APP.db.all[item.idStr] = item;
+                });
+            }
+        }
+
+        function t(k) { return I18N[APP.lang][k] || k; }
+
+        function setLanguage(l) {
+            APP.lang = l;
+            updateLabels();
+            refreshUI();
+        }
+
+        function updateLabels() {
+            document.querySelectorAll('[data-i18n]').forEach(el => el.innerText = t(el.getAttribute('data-i18n')));
+            const searchInput = document.getElementById('modalSearch');
+            if (searchInput) searchInput.placeholder = t('search');
+        }
+
+        function showToast(msg, type = '') {
+            const c = document.getElementById('toast-container');
+            const d = document.createElement('div');
+            d.className = `toast ${type}`;
+            d.innerText = msg;
+            c.appendChild(d);
+            setTimeout(() => {
+                d.style.animation = 'fadeOut 0.3s forwards';
+                setTimeout(() => d.remove(), 300);
+            }, 3000);
+        }
+
+        document.getElementById('fileInput').addEventListener('change', handleFiles);
+        document.getElementById('folderInput').addEventListener('change', handleFiles);
+
+        async function handleFiles(e) {
+            const files = Array.from(e.target.files);
+            if (!files.length) return;
+
+            APP.editors.left.active = false;
+            APP.editors.right.active = false;
+            APP.editors.left.data = {};
+            APP.editors.right.data = {};
+            APP.editors.left.nested = {};
+            APP.editors.right.nested = {};
+            APP.editors.left.regKey = null;
+            APP.editors.right.regKey = null;
+            document.querySelectorAll('.split-col').forEach(el => el.classList.add('inactive'));
+
+            const vFile = files.find(f => f.name === 'version.txt');
+            if (vFile) {
+                const txt = (await vFile.text()).trim();
+                if (APP.gameVer && txt > APP.gameVer) showToast(t('versionWarn'), 'error');
+            }
+
+            let loaded = 0;
+            for (const f of files) {
+                let txt = "";
+                let isReg = f.name.toLowerCase().endsWith('.reg');
+
+                try {
+                    txt = await f.text();
+
+                    if (isReg && !txt.includes("Windows Registry Editor")) {
+                        console.log("Detecting encoding issue, retrying as UTF-16LE...");
+                        txt = await readAsUTF16LE(f);
+                        if (!txt.includes("Windows Registry Editor")) {
+                            showToast(t('regHeaderError'), 'error');
+                        }
+                    }
+                } catch (err) {
+                    console.error("Read file error", err);
+                    continue;
+                }
+
+                if (isReg || (f.name.endsWith('.txt') && txt.includes("Windows Registry Editor Version"))) {
+                    APP.ui.globalFormat = 'reg';
+                    const count = parseRegRobust(txt);
+                    if (count > 0) loaded++;
+                }
+                else if (!f.name.includes("Inventory_Database")) {
+                    APP.ui.globalFormat = 'json';
+                    try {
+                        const idx = txt.indexOf('{');
+                        if (idx > -1) {
+                            const data = JSON.parse(txt.substring(idx));
+                            const side = (f.name.includes("Non Linear") || data["Non Linear Lives"] !== undefined) ? 'right' : 'left';
+                            loadSide(side, data, f.name);
+                            loaded++;
+                        }
+                    } catch (err) { console.warn("Parse error", f.name); }
+                }
+            }
+
+            if (loaded > 0) {
+                document.getElementById('editorArea').style.display = 'block';
+                document.getElementById('statusText').innerText = t('fileLoaded').replace('{0}', loaded);
+                updateBadges();
+                refreshUI();
+            } else {
+                showToast("未找到有效数据，请检查文件编码或内容", 'error');
+            }
+        }
+
+        function readAsUTF16LE(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = (e) => resolve(e.target.result);
+                reader.onerror = (e) => reject(e);
+                reader.readAsText(file, 'UTF-16LE');
+            });
+        }
+
+        function loadSide(side, data, name) {
+            APP.editors[side].data = data;
+            APP.editors[side].name = name;
+            APP.editors[side].active = true;
+            const nest = {};
+            ['Collectables', 'Codex', 'Flashlight', 'Upgrades', 'Keys', 'Keycards'].forEach(k => {
+                try {
+                    nest[k] = data[k] ? JSON.parse(data[k]) : { i: [], s: [] };
+                    if (!nest[k].i) nest[k].i = [];
+                    if (!nest[k].s) nest[k].s = [];
+                } catch (e) { nest[k] = { i: [], s: [] }; }
+            });
+            APP.editors[side].nested = nest;
+        }
+
+        function parseRegRobust(txt) {
+            const lines = txt.split(/\r?\n/);
+            let currentKey = null;
+            let hexBuffer = "";
+            let foundCount = 0;
+
+            for (let i = 0; i < lines.length; i++) {
+                let line = lines[i].trim();
+                if (!line) continue;
+
+                if (line.startsWith('"') && (line.includes('"=hex:') || line.includes('"=hex(7):'))) {
+                    const endQuote = line.indexOf('"', 1);
+                    if (endQuote > -1) {
+                        const keyName = line.substring(1, endQuote);
+                        if (keyName.includes("Auto Save") || keyName.includes("Non Linear")) {
+                            currentKey = keyName;
+                            const hexStart = line.indexOf(':') + 1;
+                            hexBuffer = line.substring(hexStart).trim();
+                        } else {
+                            currentKey = null;
+                        }
+                    }
+                }
+                else if (currentKey) {
+                    hexBuffer += line;
+                }
+
+                if (currentKey && hexBuffer.length > 0) {
+                    if (hexBuffer.endsWith('\\')) {
+                        hexBuffer = hexBuffer.slice(0, -1);
+                    } else {
+                        processHexBlock(currentKey, hexBuffer);
+                        foundCount++;
+                        currentKey = null;
+                        hexBuffer = "";
+                    }
+                }
+            }
+            return foundCount;
+        }
+
+        function processHexBlock(keyName, hexStr) {
+            const cleanHex = hexStr.replace(/[\s,]/g, '');
+            try {
+                const jsonStr = hexToString(cleanHex);
+                if (!jsonStr || jsonStr.trim().length === 0) return;
+
+                const data = JSON.parse(jsonStr);
+                const side = keyName.includes("Non Linear") ? 'right' : 'left';
+
+                APP.editors[side].regKey = keyName;
+                loadSide(side, data, keyName);
+            } catch (e) {
+                console.error("Hex parse failed for " + keyName, e);
+                showToast(t('jsonError') + ": " + keyName, 'error');
+            }
+        }
+
+        function hexToString(hex) {
+            const parts = [];
+            for (let i = 0; i < hex.length; i += 2) {
+                parts.push(hex.substr(i, 2));
+            }
+            if (parts.length > 0 && parts[parts.length - 1] === '00') parts.pop();
+            const u8 = new Uint8Array(parts.map(x => parseInt(x, 16)));
+            return new TextDecoder("utf-8").decode(u8);
+        }
+
+        function updateBadges() {
+            document.getElementById('badgeJson').classList.toggle('show', APP.ui.globalFormat === 'json');
+            document.getElementById('badgeReg').classList.toggle('show', APP.ui.globalFormat === 'reg');
+            ['stats', 'levels', 'inv'].forEach(tab => {
+                if (APP.editors.left.active) document.getElementById(`col_left_${tab}`).classList.remove('inactive');
+                if (APP.editors.right.active) document.getElementById(`col_right_${tab}`).classList.remove('inactive');
+            });
+        }
+
+        function switchTab(id) {
+            document.querySelectorAll('.tab-content').forEach(e => e.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(e => e.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+            const map = { stats: 0, levels: 1, inventory: 2 };
+            document.querySelectorAll('.tab-btn')[map[id]].classList.add('active');
+        }
+
+        function refreshUI() {
+            ['left', 'right'].forEach(side => {
+                if (!APP.editors[side].active) return;
+                renderStats(side);
+                renderLevels(side);
+                renderInv(side);
+            });
+        }
+
+        function renderStats(side) {
+            const d = APP.editors[side].data;
+            const n = APP.editors[side].nested;
+            const fList = n.Flashlight.i;
+            const fVal = fList.length ? (fList[0].q || 0) : 0;
+            const bp = n.Upgrades.i.find(x => x.i === BACKPACK_UUID);
+            const bpVal = bp ? (bp.q || 1) : 1;
+
+            let batt = 'Battery0.png';
+            if (fVal > 180) batt = 'Battery3.png';
+            else if (fVal > 120) batt = 'Battery2.png';
+            else if (fVal > 60) batt = 'Battery1.png';
+
+            let html = `
+                <div class="form-row">
+                    <div class="form-label"><img src="img/UI/Icons/purple-pink-ticket-isolated-white.png" class="form-icon"> ${t('tickets')}</div>
+                    <input type="number" value="${d.TicketsCounted || 0}" onchange="setData('${side}', 'TicketsCounted', this.value)" class="styled-input">
+                </div>
+                <div class="form-row">
+                    <div class="form-label">
+                        <img src="img/UI/Icons/Flashlight_Icon.png" class="form-icon"> ${t('flashlight')}
+                        <img src="img/UI/Icons/${batt}" style="width:16px" id="icon_flash_${side}">
+                    </div>
+                    <div style="flex:1; display:flex; align-items:center; gap:8px;">
+                        <input type="range" min="0" max="240" value="${fVal}" class="styled-slider" oninput="setFlashlight('${side}', this.value)">
+                        <span id="txt_flash_${side}" style="font-family:monospace; font-size:12px; width:25px; text-align:right">${fVal}</span>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-label"><img src="img/UI/Icons/Backpack_upgrades.png" class="form-icon"> ${t('backpack')}</div>
+                    <select onchange="setBackpack('${side}', this.value)" class="styled-select">
+                        <option value="1" ${bpVal <= 1 ? 'selected' : ''}>Level 1</option>
+                        <option value="2" ${bpVal == 2 ? 'selected' : ''}>Level 2</option>
+                        <option value="3" ${bpVal == 3 ? 'selected' : ''}>Level 3</option>
+                    </select>
+                </div>
+            `;
+
+            if (side === 'right') {
+                html += `
+                    <div style="border-top:1px solid #333; margin-top:15px; padding-top:15px;">
+                        <div class="form-row">
+                            <div class="form-label">${t('lives')}</div>
+                            <input type="number" value="${d["Non Linear Lives"] || 0}" onchange="setData('${side}', 'Non Linear Lives', this.value)" class="styled-input">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-label">${t('infLives')}</div>
+                            <label class="switch"><input type="checkbox" ${d["Infinite Lives"] ? 'checked' : ''} onchange="setData('${side}', 'Infinite Lives', this.checked)"><span class="slider"></span></label>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-label">${t('canGetLives')}</div>
+                            <label class="switch"><input type="checkbox" ${d["Can Get Lives"] ? 'checked' : ''} onchange="setData('${side}', 'Can Get Lives', this.checked)"><span class="slider"></span></label>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-label">${t('depth')}</div>
+                            <input type="number" value="${d.Depth || 0}" onchange="setData('${side}', 'Depth', this.value)" class="styled-input">
+                        </div>
+                    </div>
+                `;
+            }
+            document.getElementById(`body_${side}_stats`).innerHTML = html;
+        }
+
+        function renderLevels(side) {
+            const isInstant = APP.editors[side].isInstantClear;
+            let html = '';
+
+            if (side === 'left') {
+                html += `
+                    <div class="form-row" style="margin-bottom:5px; background:var(--panel-bg); border-color:var(--accent);">
+                        <div class="form-label" style="font-weight:bold; color:var(--accent);">${t('unlockAll')} <small style="font-weight:normal; opacity:0.7;">${t('unlockWarn')}</small></div>
+                        <label class="switch"><input type="checkbox" ${isInstant ? 'checked' : ''} onchange="toggleInstantClear('${side}', this.checked)"><span class="slider"></span></label>
+                    </div>
+                    <div class="tapes-grid">
+                `;
+                for (let i = 1; i <= 12; i++) {
+                    const unlocked = isInstant || (APP.editors[side].data[`Section${i}`] === 1);
+                    const lockedClass = isInstant ? 'locked-mode' : '';
+                    let imgIdx = i > 8 ? 8 : i;
+                    html += `
+                        <div class="tape-card ${unlocked ? 'unlocked' : ''} ${lockedClass}" onclick="clickTape('${side}', ${i})">
+                            <img src="img/UI/Tapes/Tape${imgIdx}.png" onerror="this.src='img/UI/Icons/VHS_Tape.png'">
+                            <div class="tape-label">Section ${i}</div>
+                        </div>
+                    `;
+                }
+                html += '</div>';
+            } else {
+                html += '<div style="display:flex; flex-direction:column; gap:8px;">';
+                ENDLESS_ROOMS.forEach(r => {
+                    const val = APP.editors[side].data[r.k] || 0;
+                    html += `
+                        <div class="form-row">
+                            <div class="form-label">
+                                <img src="img/Inventory/Keycards/${r.i}" width="28" style="object-fit:contain">
+                                ${r.n}
+                            </div>
+                            <input type="number" value="${val}" onchange="setData('${side}', '${r.k}', this.value)" class="styled-input">
+                        </div>
+                    `;
+                });
+                html += '</div>';
+            }
+            document.getElementById(`body_${side}_levels`).innerHTML = html;
+        }
+
+        function setInvCategory(cat) {
+            APP.ui.invCat = cat;
+            document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+            const idx = ['Collectables', 'Keys', 'Keycards', 'Codex'].indexOf(cat);
+            if (idx > -1) document.querySelectorAll('.cat-btn')[idx].classList.add('active');
+            refreshUI();
+        }
+
+        function renderInv(side) {
+            const cat = APP.ui.invCat;
+            const n = APP.editors[side].nested;
+            const list = n[cat] ? (cat === 'Codex' ? n[cat].i : n[cat].s) : [];
+            const con = document.getElementById(`body_${side}_inv`);
+
+            if (cat === 'Codex') {
+                let html = `
+                    <div style="display:flex; gap:10px; margin-bottom:10px;">
+                        <button class="btn btn-primary" style="flex:1" onclick="showEntityViewer()">📃 ${t('entities')}</button>
+                        <button class="btn" style="flex:1" onclick="unlockAllCodex('${side}')">🔓 ${t('unlockAllCodex')}</button>
+                    </div>
+                    <div class="codex-list">
+                `;
+                list.forEach((item, idx) => {
+                    const db = APP.db.all[item.i] || { name: item.i, img: 'newspaper.png' };
+                    const imgPath = `img/Inventory/Codex/${db.img}`;
+                    html += `
+                        <div class="codex-row" onclick="viewImage('${imgPath}')">
+                            <span style="font-size:16px;">📄</span>
+                            <span style="flex:1; font-size:18px;">${db.name}</span>
+                            <button class="btn btn-danger" style="padding:2px 8px;" onclick="event.stopPropagation(); delItem('${side}', ${idx}, true)">×</button>
+                        </div>
+                    `;
+                });
+                con.innerHTML = html + '</div>';
+            } else {
+                let html = '<div class="inv-grid">';
+                for (let i = 0; i < 15; i++) {
+                    const item = list.find(x => x.s === i);
+                    if (item) {
+                        const db = APP.db.all[item.i] || { name: item.i, img: 'blank.png' };
+                        const imgPath = `img/Inventory/${cat}/${db.img}`;
+                        html += `
+                            <div class="inv-slot" title="${db.name}" onclick="initEditItem('${side}', ${i})">
+                                <img src="${imgPath}" onerror="this.src='img/Inventory/Collectables/blank.png'">
+                                <div class="inv-name">${db.name}</div>
+                                <div class="inv-qty">${item.q}</div>
+                            </div>
+                        `;
+                    } else {
+                        html += `<div class="inv-slot empty" onclick="initAddItem('${side}', ${i})"></div>`;
+                    }
+                }
+                con.innerHTML = html + '</div>';
+            }
+        }
+
+        function setData(side, k, v) {
+            if (typeof v === 'boolean') APP.editors[side].data[k] = v;
+            else APP.editors[side].data[k] = parseInt(v);
+        }
+
+        function setFlashlight(side, v) {
+            v = parseInt(v);
+            document.getElementById(`txt_flash_${side}`).innerText = v;
+            let batt = 'Battery0.png';
+            if (v > 180) batt = 'Battery3.png';
+            else if (v > 120) batt = 'Battery2.png';
+            else if (v > 60) batt = 'Battery1.png';
+            document.getElementById(`icon_flash_${side}`).src = `img/UI/Icons/${batt}`;
+
+            const list = APP.editors[side].nested.Flashlight.i;
+            if (list.length) list[0].q = v;
+            else APP.editors[side].nested.Flashlight.i.push({ i: FLASHLIGHT_UUID, q: v });
+        }
+
+        function setBackpack(side, v) {
+            const list = APP.editors[side].nested.Upgrades.i;
+            const item = list.find(x => x.i === BACKPACK_UUID);
+            if (item) item.q = parseInt(v);
+            else list.push({ i: BACKPACK_UUID, q: parseInt(v) });
+        }
+
+        function toggleInstantClear(side, val) {
+            APP.editors[side].isInstantClear = val;
+            if (val) {
+                for (let i = 1; i <= 12; i++) APP.editors[side].data[`Section${i}`] = 1;
+            }
+            refreshUI();
+        }
+
+        function clickTape(side, i) {
+            if (APP.editors[side].isInstantClear) return;
+            const current = APP.editors[side].data[`Section${i}`];
+            const target = current === 1 ? 0 : 1;
+            if (target === 1) {
+                for (let x = 1; x <= i; x++) APP.editors[side].data[`Section${x}`] = 1;
+            } else {
+                for (let x = i; x <= 12; x++) APP.editors[side].data[`Section${x}`] = 0;
+            }
+            refreshUI();
+        }
+
+        function unlockAllCodex(side) {
+            const n = APP.editors[side].nested;
+            if (!n.Codex) n.Codex = { i: [], s: [] };
+            const existing = new Set(n.Codex.i.map(x => x.i));
+
+            if (APP.db.cats['Codex']) {
+                APP.db.cats['Codex'].forEach(item => {
+                    if (!existing.has(item.idStr)) {
+                        n.Codex.i.push({ i: item.idStr, q: 1 });
+                    }
+                });
+            }
+            showToast(t('unlockAllCodex'), "success");
+            refreshUI();
+        }
+
+        function initAddItem(side, slot) {
+            APP.state.pendingSide = side;
+            APP.state.pendingSlot = slot;
+
+            document.getElementById('modalTitle').innerText = t('selectTitle');
+            document.getElementById('modalSearchContainer').style.display = 'block';
+            document.getElementById('modalQtyContainer').style.display = 'flex';
+            document.getElementById('modalAddQty').value = 1;
+
+            const cat = APP.ui.invCat;
+            const list = APP.db.cats[cat] || [];
+
+            renderPickerItems(list);
+
+            document.getElementById('generalModal').style.display = 'flex';
+            document.getElementById('modalSearch').value = '';
+            document.getElementById('modalSearch').focus();
+        }
+
+        function renderPickerItems(list) {
+            const body = document.getElementById('modalBody');
+            const cat = APP.ui.invCat;
+
+            body.innerHTML = `<div class="item-picker-list">
+                ${list.sort((a, b) => a.name.localeCompare(b.name)).map(item => {
+                const path = `img/Inventory/${cat}/${item.img}`;
+                return `
+                        <div class="picker-item" onclick="confirmAddItem('${item.idStr}')">
+                            <img src="${path}" onerror="this.src='img/Inventory/Collectables/blank.png'">
+                            <span>${item.name}</span>
+                        </div>
+                    `;
+            }).join('')}
+            </div>`;
+
+            const input = document.getElementById('modalSearch');
+            input.oninput = (e) => {
+                const term = e.target.value.toLowerCase();
+                document.querySelectorAll('.picker-item').forEach(el => {
+                    el.style.display = el.innerText.toLowerCase().includes(term) ? 'flex' : 'none';
+                });
+            };
+        }
+
+        function confirmAddItem(uuid) {
+            if (APP.state.isReplacing) return replaceConfirm(uuid);
+
+            const side = APP.state.pendingSide;
+            const slot = APP.state.pendingSlot;
+            const qty = parseInt(document.getElementById('modalAddQty').value) || 1;
+            const cat = APP.ui.invCat;
+            const db = APP.db.all[uuid];
+
+            const finalQty = Math.min(qty, db.stackCapacity || 99);
+
+            if (!APP.editors[side].nested[cat]) APP.editors[side].nested[cat] = { i: [], s: [] };
+            APP.editors[side].nested[cat].s.push({ i: uuid, q: finalQty, s: slot });
+
+            closeGeneralModal();
+            refreshUI();
+        }
+
+        function initEditItem(side, slot) {
+            APP.state.pendingSide = side;
+            APP.state.pendingSlot = slot;
+            const cat = APP.ui.invCat;
+            const list = APP.editors[side].nested[cat].s;
+            const item = list.find(x => x.s === slot);
+            const db = APP.db.all[item.i] || { name: item.i, stackCapacity: 99, img: 'blank.png' };
+
+            document.getElementById('modName').innerText = db.name;
+            document.getElementById('modMax').innerText = t('maxStackPrefix') + (db.stackCapacity || 99);
+            document.getElementById('modImg').src = `img/Inventory/${cat}/${db.img}`;
+            document.getElementById('modQty').value = item.q;
+            document.getElementById('modQty').max = db.stackCapacity || 99;
+
+            document.getElementById('modifyModal').style.display = 'flex';
+        }
+
+        function saveModification() {
+            const side = APP.state.pendingSide;
+            const slot = APP.state.pendingSlot;
+            const cat = APP.ui.invCat;
+            const list = APP.editors[side].nested[cat].s;
+            const item = list.find(x => x.s === slot);
+            const db = APP.db.all[item.i];
+
+            const max = db ? (db.stackCapacity || 99) : 99;
+            let newQty = parseInt(document.getElementById('modQty').value);
+            if (newQty > max) newQty = max;
+            if (newQty < 1) newQty = 1;
+
+            item.q = newQty;
+            closeModifyModal();
+            refreshUI();
+            showToast(t('modified'), 'success');
+        }
+
+        function deleteItem() {
+            const side = APP.state.pendingSide;
+            const slot = APP.state.pendingSlot;
+            const cat = APP.ui.invCat;
+            const list = APP.editors[side].nested[cat].s;
+            const idx = list.findIndex(x => x.s === slot);
+
+            if (idx > -1) list.splice(idx, 1);
+
+            closeModifyModal();
+            refreshUI();
+            showToast(t('deleted'), 'info');
+        }
+
+        function replaceItem() {
+            closeModifyModal();
+            document.getElementById('modalTitle').innerText = t('replaceTitle');
+            document.getElementById('modalSearchContainer').style.display = 'block';
+            document.getElementById('modalQtyContainer').style.display = 'none';
+
+            const list = APP.db.cats[APP.ui.invCat] || [];
+            renderPickerItems(list);
+
+            APP.state.isReplacing = true;
+            document.getElementById('generalModal').style.display = 'flex';
+        }
+
+        function replaceConfirm(uuid) {
+            const side = APP.state.pendingSide;
+            const slot = APP.state.pendingSlot;
+            const cat = APP.ui.invCat;
+            const list = APP.editors[side].nested[cat].s;
+            const item = list.find(x => x.s === slot);
+
+            item.i = uuid;
+            item.q = 1;
+
+            APP.state.isReplacing = false;
+            closeGeneralModal();
+            refreshUI();
+            showToast(t('modified'), "success");
+        }
+
+        function delItem(side, idx, isCodex) {
+            const cat = APP.ui.invCat;
+            const list = isCodex ? APP.editors[side].nested[cat].i : APP.editors[side].nested[cat].s;
+            list.splice(idx, 1);
+            refreshUI();
+        }
+
+        function showEntityViewer() {
+            document.getElementById('modalTitle').innerText = t('entities');
+            document.getElementById('modalSearchContainer').style.display = 'none';
+            document.getElementById('modalQtyContainer').style.display = 'none';
+
+            const body = document.getElementById('modalBody');
+            body.innerHTML = `<div class="item-picker-list">
+                ${ENTITY_LIST.map(img => `
+                    <div class="picker-item" onclick="viewImage('img/Entities/${img}')">
+                        <img src="img/Entities/${img}">
+                        <span>${img.replace('.png', '')}</span>
+                    </div>
+                `).join('')}
+            </div>`;
+
+            document.getElementById('generalModal').style.display = 'flex';
+        }
+
+        function closeGeneralModal() {
+            document.getElementById('generalModal').style.display = 'none';
+            APP.state.isReplacing = false;
+        }
+        function closeModifyModal() { document.getElementById('modifyModal').style.display = 'none'; }
+
+        let viewState = { scale: 1, panX: 0, panY: 0, drag: false, lastX: 0, lastY: 0 };
+
+        function viewImage(src) {
+            const v = document.getElementById('imgViewer');
+            document.getElementById('viewerImage').src = src;
+            v.style.display = 'flex';
+            resetZoom();
+        }
+
+        function closeImageViewer() { document.getElementById('imgViewer').style.display = 'none'; }
+
+        function initImgViewer() {
+            const con = document.getElementById('viewerContainer');
+            const img = document.getElementById('viewerImage');
+            con.addEventListener('wheel', e => {
+                e.preventDefault();
+                viewState.scale *= (e.deltaY > 0 ? 0.9 : 1.1);
+                updateTrans();
+            });
+            img.addEventListener('mousedown', e => {
+                viewState.drag = true; viewState.lastX = e.clientX; viewState.lastY = e.clientY;
+                img.style.cursor = 'grabbing';
+            });
+            window.addEventListener('mouseup', () => {
+                viewState.drag = false; img.style.cursor = 'grab';
+            });
+            window.addEventListener('mousemove', e => {
+                if (!viewState.drag) return;
+                viewState.panX += e.clientX - viewState.lastX;
+                viewState.panY += e.clientY - viewState.lastY;
+                viewState.lastX = e.clientX; viewState.lastY = e.clientY;
+                updateTrans();
+            });
+        }
+        function resetZoom() { viewState = { scale: 1, panX: 0, panY: 0, drag: false }; updateTrans(); }
+        function updateTrans() {
+            document.getElementById('viewerImage').style.transform = `translate(${viewState.panX}px, ${viewState.panY}px) scale(${viewState.scale})`;
+        }
+
+        function exportData() {
+            ['left', 'right'].forEach(side => {
+                if (!APP.editors[side].active) return;
+                Object.keys(APP.editors[side].nested).forEach(k => {
+                    APP.editors[side].data[k] = JSON.stringify(APP.editors[side].nested[k]);
+                });
+            });
+
+            if (APP.ui.globalFormat === 'reg') {
+                let c = "Windows Registry Editor Version 5.00\r\n\r\n[HKEY_CURRENT_USER\\Software\\Xefier Games and Hillcrest Games\\The Classrooms]\r\n";
+
+                if (APP.editors.left.active) {
+                    const keyName = APP.editors.left.regKey || "Auto Save_h890997547";
+                    c += `"${keyName}"=hex:${jsonToHex(APP.editors.left.data)}\r\n`;
+                }
+
+                if (APP.editors.right.active) {
+                    const keyName = APP.editors.right.regKey || "Non Linear_h2645076279";
+                    c += `"${keyName}"=hex:${jsonToHex(APP.editors.right.data)}\r\n`;
+                }
+
+                download("Save.reg", c, "text/plain");
+            } else {
+                if (APP.editors.left.active) download(APP.editors.left.name, JSON.stringify(APP.editors.left.data), "application/octet-stream");
+                if (APP.editors.right.active) setTimeout(() => download(APP.editors.right.name, JSON.stringify(APP.editors.right.data), "application/octet-stream"), 500);
+            }
+            showToast(t('saved'), 'success');
+        }
+
+        function jsonToHex(obj) {
+            const s = JSON.stringify(obj);
+            const b = new TextEncoder().encode(s);
+            let h = [];
+            for (let x of b) h.push(x.toString(16).padStart(2, '0'));
+            h.push("00");
+            let fullHex = h.join(",");
+            let out = "";
+            let ptr = 0;
+            const width = 75;
+
+            while (ptr < fullHex.length) {
+                if (ptr + width < fullHex.length) {
+                    let chunk = fullHex.substr(ptr, width);
+                    let lastComma = chunk.lastIndexOf(',');
+                    if (lastComma === -1) lastComma = width;
+                    let safeChunk = chunk.substring(0, lastComma);
+                    out += safeChunk + ",\\\r\n  ";
+                    ptr += safeChunk.length + 1;
+                } else {
+                    out += fullHex.substr(ptr);
+                    ptr += width;
+                }
+            }
+            return out;
+        }
+
+        function download(n, c, t) {
+            const b = new Blob([c], { type: t });
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(b);
+            a.download = n;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
+</body>
+
+</html>

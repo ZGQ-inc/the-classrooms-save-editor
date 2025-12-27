@@ -1,0 +1,1411 @@
+{
+	"m_CorrespondingSourceObject": { "m_FileID": 0, "m_PathID": 0 },
+	"m_EditorClassIdentifier": "",
+	"m_EditorHideFlags": 0,
+	"m_Enabled": 1,
+	"m_GameObject": { "m_FileID": 0, "m_PathID": 0 },
+	"m_HideFlags": 0,
+	"m_Name": "InventoryItemManager",
+	"m_PrefabAsset": { "m_FileID": 0, "m_PathID": 0 },
+	"m_PrefabInstance": { "m_FileID": 0, "m_PathID": 0 },
+	"m_Script": { "m_FileID": 1, "m_PathID": 6112 },
+	"m_Structure": {
+		"items": [
+			{
+				"name": "Stat_Exhaustion",
+				"_class": { "m_FileID": 0, "m_PathID": 16866 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 0 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "d878a07c-521c-415a-8855-95bed590c065"
+			},
+			{
+				"name": "Stat_Smell",
+				"_class": { "m_FileID": 0, "m_PathID": 16866 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 0 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "004c4e64-18fe-4776-a9d6-5a0135260f6c"
+			},
+			{
+				"name": "Stat_Deodorant",
+				"_class": { "m_FileID": 0, "m_PathID": 16866 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 0 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "374234f5-846a-48d1-b383-a2f7024aa961"
+			},
+			{
+				"name": "Equipment_Keychain",
+				"_class": { "m_FileID": 0, "m_PathID": 16865 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2011 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Equipment_Keychain",
+				"attributes": [],
+				"idStr": "b643168a-554b-451a-81ab-cfeb5d8e5440"
+			},
+			{
+				"name": "Equipment_Backpack",
+				"_class": { "m_FileID": 0, "m_PathID": 16865 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2053 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Equipment_Backpack",
+				"attributes": [],
+				"idStr": "31b8628c-ee5e-4730-91c5-7d5ddd58b99b"
+			},
+			{
+				"name": "Key_Van",
+				"_class": { "m_FileID": 0, "m_PathID": 16856 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2080 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Van",
+				"attributes": [
+					{
+						"key": "KeyID",
+						"value": "-1"
+					}
+				],
+				"idStr": "957c7651-7ff2-4174-aa49-13002d31960e"
+			},
+			{
+				"name": "Key_Elevator",
+				"_class": { "m_FileID": 0, "m_PathID": 16856 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 4923 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2111 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Elevator",
+				"attributes": [
+					{
+						"key": "KeyID",
+						"value": "0"
+					}
+				],
+				"idStr": "b7c28dff-8dfd-4c09-a96e-17b95d06af0e"
+			},
+			{
+				"name": "Key_Janitor",
+				"_class": { "m_FileID": 0, "m_PathID": 16856 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 2810 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1973 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Janitor",
+				"attributes": [
+					{
+						"key": "KeyID",
+						"value": "1"
+					}
+				],
+				"idStr": "acc0a7a7-d254-4a0d-b4d6-04e03aa6c94d"
+			},
+			{
+				"name": "Key_Red",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 2812 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2093 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Red",
+				"attributes": [],
+				"idStr": "96094ae5-6db4-4eb0-a6e6-1bda9ebde7b8"
+			},
+			{
+				"name": "Key_Orange",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 2809 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1976 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Orange",
+				"attributes": [],
+				"idStr": "a3ef59bb-c9b8-4338-9bac-eea9f6f668d5"
+			},
+			{
+				"name": "Key_Yellow",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 2811 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2095 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Yellow\n",
+				"attributes": [],
+				"idStr": "a40def41-65de-49dd-90d0-c2b0821f472d"
+			},
+			{
+				"name": "Key_Green",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 5719 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2094 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Green",
+				"attributes": [
+					{
+						"key": "KeyID",
+						"value": "2"
+					}
+				],
+				"idStr": "24f28667-e104-40c6-8db7-85422e643dc5"
+			},
+			{
+				"name": "Key_Cyan",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6702 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2098 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Cyan",
+				"attributes": [],
+				"idStr": "eb560173-79f7-43aa-925c-d6f9068c5d9e"
+			},
+			{
+				"name": "Key_Blue",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6700 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2099 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Blue",
+				"attributes": [
+					{
+						"key": "KeyID",
+						"value": "3"
+					}
+				],
+				"idStr": "d67450c9-4fe8-4ae9-936f-a76dc63c7531"
+			},
+			{
+				"name": "Key_Indigo",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 2814 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1969 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Indigo",
+				"attributes": [],
+				"idStr": "265cff48-b8bb-4868-b820-237c7673c174"
+			},
+			{
+				"name": "Key_Violet",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 2813 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2090 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Violet",
+				"attributes": [],
+				"idStr": "35b1d84d-6424-4488-b605-23978f5dda68"
+			},
+			{
+				"name": "Key_Bronze",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6694 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1978 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Bronze",
+				"attributes": [],
+				"idStr": "4690fd2f-7a38-4804-bc07-20324691ca09"
+			},
+			{
+				"name": "Key_Silver",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6701 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2112 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Silver",
+				"attributes": [],
+				"idStr": "ffec1def-6722-4e77-b2cd-b0fd4b890e43"
+			},
+			{
+				"name": "Key_Gold",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6696 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1963 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Gold",
+				"attributes": [],
+				"idStr": "0adafc9c-49ae-42d6-a140-dc9f1ce5649c"
+			},
+			{
+				"name": "Key_Black",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6699 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2088 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Black",
+				"attributes": [],
+				"idStr": "b784d820-a519-4367-b555-d7b8d9dcfdd5"
+			},
+			{
+				"name": "Key_White",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6704 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2105 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_White",
+				"attributes": [],
+				"idStr": "09e871ef-2f0e-4ae3-b202-7c17eb6c2c33"
+			},
+			{
+				"name": "Key_Common",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6697 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2088 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Common",
+				"attributes": [],
+				"idStr": "c577127a-5990-428a-8f98-a45dbf8340c2"
+			},
+			{
+				"name": "Key_Uncommon",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6703 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1978 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Uncommon",
+				"attributes": [],
+				"idStr": "a146c923-5b0a-4edf-a4c1-342d4601e16a"
+			},
+			{
+				"name": "Key_Rare",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6695 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2112 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Rare",
+				"attributes": [],
+				"idStr": "56066236-8925-4064-b3ce-721ea670987c"
+			},
+			{
+				"name": "Key_Epic",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6705 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1963 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Epic",
+				"attributes": [],
+				"idStr": "37b717ae-dc5a-4f88-8384-bff9f6ce997b"
+			},
+			{
+				"name": "Key_Legendary",
+				"_class": { "m_FileID": 0, "m_PathID": 16855 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6698 },
+				"sprite": { "m_FileID": 0, "m_PathID": 0 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Key_Legendary",
+				"attributes": [],
+				"idStr": "326a9508-828b-467f-b385-6cdf7e7528a7"
+			},
+			{
+				"name": "Key_ScrewDriver",
+				"_class": { "m_FileID": 0, "m_PathID": 16864 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 4933 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2073 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "KeyID",
+						"value": "4"
+					}
+				],
+				"idStr": "261d819e-91c7-4e01-a0bc-debf48ccc9eb"
+			},
+			{
+				"name": "Codex",
+				"_class": { "m_FileID": 0, "m_PathID": 16865 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2036 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Codex",
+				"attributes": [],
+				"idStr": "b513d2d8-b61a-48cc-a410-bf2466762d4f"
+			},
+			{
+				"name": "Codex_Newspaper01",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2023 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Newspaper01",
+				"attributes": [
+					{
+						"key": "Group",
+						"value": "Misc"
+					}
+				],
+				"idStr": "5811b1c7-86f2-4340-9a6e-25e2b5daeb72"
+			},
+			{
+				"name": "Glowstick",
+				"_class": { "m_FileID": 0, "m_PathID": 16864 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7085 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2035 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Glowstick",
+				"attributes": [],
+				"idStr": "675c2130-4992-4e6a-98a0-dcce1015dd21"
+			},
+			{
+				"name": "Battery",
+				"_class": { "m_FileID": 0, "m_PathID": 16864 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 4746 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2066 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Battery",
+				"attributes": [],
+				"idStr": "943dd738-2b2a-4016-8fed-704d93f43a64"
+			},
+			{
+				"name": "EggTimer",
+				"_class": { "m_FileID": 0, "m_PathID": 16864 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7489 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2086 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_EggTimer",
+				"attributes": [],
+				"idStr": "15326a43-aba7-4e74-b8ab-f9216a79f77a"
+			},
+			{
+				"name": "Codex_Diary_InHell",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2067 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Diary_InHell"
+					}
+				],
+				"idStr": "e58863fe-24f4-46f2-9265-0068c3c78ccd"
+			},
+			{
+				"name": "Codex_Diary_IsNotSafe",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2020 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Diary_IsNotSafe"
+					}
+				],
+				"idStr": "c41c83f9-594b-4df3-a712-d031c512ff21"
+			},
+			{
+				"name": "Codex_Diary_LostTrackOfTime",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2074 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Diary_LostTrackOfTime"
+					}
+				],
+				"idStr": "932e11dd-9791-4305-b599-d79a383e4afc"
+			},
+			{
+				"name": "Codex_Diary_Smiler",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1995 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Diary_Smiler"
+					}
+				],
+				"idStr": "832f4356-5b8e-4010-bcb1-b647eef621f3"
+			},
+			{
+				"name": "Codex_Diary_WillToWrite",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2056 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Diary_WillToWrite"
+					}
+				],
+				"idStr": "e720588f-02bd-4eea-8ea2-1e552ac2a987"
+			},
+			{
+				"name": "Codex_Diary_WokeUsEarly",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2013 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Diary_WokeUsEarly"
+					}
+				],
+				"idStr": "6e8df0f0-8bba-4a06-b4cb-a63e4ac21c69"
+			},
+			{
+				"name": "Codex_Diary7",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 4738 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2046 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Diary7"
+					}
+				],
+				"idStr": "42f2d8c5-5715-40ec-ae7e-2d2ace6b1b4a"
+			},
+			{
+				"name": "Codex_Diary_Clown",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 4737 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2045 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Diary_Clown"
+					}
+				],
+				"idStr": "7bc9f83c-7cc9-4061-8bb1-36f9e6bca52b"
+			},
+			{
+				"name": "Codex_ARC_TestLog01",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2082 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_ARC_TestLog01"
+					}
+				],
+				"idStr": "b621849e-4fdd-4aa1-a9f2-0c605aec13c5"
+			},
+			{
+				"name": "Codex_ARC_DollDocument",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1994 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_ARC_DollDocument"
+					}
+				],
+				"idStr": "74118588-5afd-45fa-906d-42d26add744a"
+			},
+			{
+				"name": "Codex_ARC_Fax01",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6806 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2064 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_ARC_Fax01"
+					}
+				],
+				"idStr": "6c23c2d4-f274-4968-b069-0d7e95024d4f"
+			},
+			{
+				"name": "Codex_ARC_Fax02",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 2611 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2016 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_ARC_Fax02"
+					}
+				],
+				"idStr": "d4a78439-098e-4866-b9a8-655707af8fe5"
+			},
+			{
+				"name": "Codex_ARC_Fax03",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6807 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2060 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_ARC_Fax03"
+					}
+				],
+				"idStr": "0bce32d5-7a69-435f-8a41-56a2ec44c91d"
+			},
+			{
+				"name": "Codex_ARC_Fax04",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 2610 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2042 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_ARC_Fax04"
+					}
+				],
+				"idStr": "f36a7375-1e0a-433e-8ba2-e9b7c970e938"
+			},
+			{
+				"name": "Codex_ArcDocument216",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6665 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2021 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_ArcDocument216"
+					}
+				],
+				"idStr": "4b9eaaa3-2981-43d6-a99a-bcc9c4c371c2"
+			},
+			{
+				"name": "Codex_ArcDocument555",
+				"_class": { "m_FileID": 0, "m_PathID": 0 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2009 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_ArcDocument555"
+					}
+				],
+				"idStr": "431302dc-5036-4475-9b0e-0108e939c930"
+			},
+			{
+				"name": "Codex_ArcDocument608",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6662 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2019 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_ArcDocument608"
+					}
+				],
+				"idStr": "2ad12f79-2c7d-4d89-8559-81d9bcf0bdf6"
+			},
+			{
+				"name": "Codex_ArcDocument1225",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6670 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2041 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_ArcDocument1225"
+					}
+				],
+				"idStr": "791fce09-34ca-48d4-bb2b-fc950d9a6f52"
+			},
+			{
+				"name": "Codex_ArcDocument1263_Title",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6669 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2002 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_ArcDocument1263"
+					}
+				],
+				"idStr": "f1e92534-2370-4845-a2e6-86be8475efb3"
+			},
+			{
+				"name": "Codex_ArcDocument1263_Title DO NOT USE",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 0 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "af3f1da9-39dd-4113-b8f7-611783aa5595"
+			},
+			{
+				"name": "Codex_DemonDogDocument",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6666 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2012 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_DemonDogDocument"
+					}
+				],
+				"idStr": "5dfd386f-cb6e-4518-92c9-539aecd5e4fa"
+			},
+			{
+				"name": "Codex_Gangler",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6661 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2040 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Gangler"
+					}
+				],
+				"idStr": "0af66eaf-1a93-42cc-be3b-3781c04d5701"
+			},
+			{
+				"name": "Codex_Microwave",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6668 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2063 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Microwave"
+					}
+				],
+				"idStr": "07702087-2145-4d24-bb3c-d265321f7f31"
+			},
+			{
+				"name": "Codex_Snake",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6667 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2044 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Snake"
+					}
+				],
+				"idStr": "4a8d55f8-dc18-4c25-bf1e-15f20129722b"
+			},
+			{
+				"name": "Codex_Recipe_CameraCase",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6292 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2057 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "6146e015-666d-4d55-b099-903676f1329d"
+			},
+			{
+				"name": "Codex_Tenant",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6664 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2075 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Tenant"
+					}
+				],
+				"idStr": "d1e8c3c6-b2fe-44d1-86f6-6e721269198c"
+			},
+			{
+				"name": "Codex_Necropede",
+				"_class": { "m_FileID": 0, "m_PathID": 16850 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6663 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2008 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "Term",
+						"value": "Codex_Necropede"
+					}
+				],
+				"idStr": "0436c9d1-81ca-47ce-981f-bcf736ff5a5f"
+			},
+			{
+				"name": "Flashlight",
+				"_class": { "m_FileID": 0, "m_PathID": 16865 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2015 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Flashlight\n",
+				"attributes": [],
+				"idStr": "83f90f15-d055-4d02-9f8e-74755ac04b11"
+			},
+			{
+				"name": "FloppyDisk_Basic",
+				"_class": { "m_FileID": 0, "m_PathID": 16864 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1989 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "9df4e55e-b876-48ad-94e6-277d82095eb1"
+			},
+			{
+				"name": "8Ball",
+				"_class": { "m_FileID": 0, "m_PathID": 16864 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7872 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2084 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_8Ball",
+				"attributes": [],
+				"idStr": "259f2642-4034-4845-aa35-d16ec7bb1871"
+			},
+			{
+				"name": "Tape_ARC01",
+				"_class": { "m_FileID": 0, "m_PathID": 16863 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 4936 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2047 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Tape_ARC01",
+				"attributes": [],
+				"idStr": "a7c33301-b8fe-41ce-921b-98371f692af2"
+			},
+			{
+				"name": "Tape_ARC02",
+				"_class": { "m_FileID": 0, "m_PathID": 0 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 0 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Tape_ARC02",
+				"attributes": [],
+				"idStr": "bcdc4469-7756-4de0-b740-8c101d6c1bc0"
+			},
+			{
+				"name": "Tape_Chewtopia",
+				"_class": { "m_FileID": 0, "m_PathID": 16863 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 5737 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2047 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Tape_Chewtopia",
+				"attributes": [],
+				"idStr": "8cf6644c-9959-41cb-820b-65e2c511b4d3"
+			},
+			{
+				"name": "Tape_SuperstructureIntro",
+				"_class": { "m_FileID": 0, "m_PathID": 16863 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7917 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2047 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Tape_SuperstructureIntro",
+				"attributes": [],
+				"idStr": "048dff0c-de43-42df-8466-ded6135fa529"
+			},
+			{
+				"name": "Tape_AsbestHistory",
+				"_class": { "m_FileID": 0, "m_PathID": 16863 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 3382 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2047 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Tape_AsbestHistory",
+				"attributes": [],
+				"idStr": "33ebf265-ded6-4819-ba04-23943ca660a0"
+			},
+			{
+				"name": "Tape_DescentOrientation",
+				"_class": { "m_FileID": 0, "m_PathID": 16863 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 3381 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2047 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Tape_DescentOrientation",
+				"attributes": [],
+				"idStr": "548e7e62-7319-4ba7-a1f1-b3a2312ae804"
+			},
+			{
+				"name": "Book",
+				"_class": { "m_FileID": 0, "m_PathID": 16849 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 4333 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2031 },
+				"stackCapacity": 99,
+				"desc": "Item_Description_Book",
+				"attributes": [],
+				"idStr": "6319e8e3-97ad-4118-949c-575a929d66aa"
+			},
+			{
+				"name": "Book1",
+				"_class": { "m_FileID": 0, "m_PathID": 0 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 0 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "59625c27-a98b-410b-a5dc-0a1f4a0b2ad6"
+			},
+			{
+				"name": "Book2",
+				"_class": { "m_FileID": 0, "m_PathID": 16849 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 4083 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2039 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Book2",
+				"attributes": [],
+				"idStr": "56e64f9b-04d0-4a57-8856-43075cfd630c"
+			},
+			{
+				"name": "Book3",
+				"_class": { "m_FileID": 0, "m_PathID": 16849 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6741 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2027 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Book3",
+				"attributes": [],
+				"idStr": "adf0b69d-5916-4584-bbb8-4d4ac05975f0"
+			},
+			{
+				"name": "Book4",
+				"_class": { "m_FileID": 0, "m_PathID": 16849 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 3673 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2049 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Book4",
+				"attributes": [],
+				"idStr": "5acfa4e4-3a27-4eb9-8b17-070afc54e444"
+			},
+			{
+				"name": "Book5",
+				"_class": { "m_FileID": 0, "m_PathID": 16849 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 4333 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2031 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Book5",
+				"attributes": [],
+				"idStr": "9d76c8f9-a5a2-457b-bd55-bee59884fbd2"
+			},
+			{
+				"name": "Book6",
+				"_class": { "m_FileID": 0, "m_PathID": 16849 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 4612 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2028 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Book6",
+				"attributes": [],
+				"idStr": "a39ddae6-eb8e-4f7f-af27-511204540b06"
+			},
+			{
+				"name": "Book7",
+				"_class": { "m_FileID": 0, "m_PathID": 16849 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 4833 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2065 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Book7",
+				"attributes": [],
+				"idStr": "1950b18d-f595-4ed4-b36f-3f36e86662b7"
+			},
+			{
+				"name": "Book8",
+				"_class": { "m_FileID": 0, "m_PathID": 16849 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 2980 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2085 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Book8",
+				"attributes": [],
+				"idStr": "0ea98f5b-f65d-45db-8244-e168cc91832c"
+			},
+			{
+				"name": "Book9",
+				"_class": { "m_FileID": 0, "m_PathID": 16849 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6541 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2087 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Book9",
+				"attributes": [],
+				"idStr": "803e2d14-2839-4348-bcc9-649c81136735"
+			},
+			{
+				"name": "Book10",
+				"_class": { "m_FileID": 0, "m_PathID": 16849 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 2711 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2000 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "776de24d-5dc8-4c07-b90f-fc20c27ae051"
+			},
+			{
+				"name": "Loonie",
+				"_class": { "m_FileID": 0, "m_PathID": 16851 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 5508 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2054 },
+				"stackCapacity": 999,
+				"desc": "Item_Description_Loonie",
+				"attributes": [],
+				"idStr": "f69a2951-8c98-49df-ae9d-ddb6114a3d45"
+			},
+			{
+				"name": "ArcadeToken",
+				"_class": { "m_FileID": 0, "m_PathID": 16851 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 5506 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2072 },
+				"stackCapacity": 999,
+				"desc": "ItemDescription_ArcadeToken",
+				"attributes": [],
+				"idStr": "2bd5300c-794b-42d2-8b90-1bab455ac3a3"
+			},
+			{
+				"name": "Puzzle_Piece",
+				"_class": { "m_FileID": 0, "m_PathID": 16864 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 5507 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2083 },
+				"stackCapacity": 176,
+				"desc": "Item_Description_PuzzlePiece",
+				"attributes": [],
+				"idStr": "e6e8f6b8-6130-4214-b117-8ad71f4e23d2"
+			},
+			{
+				"name": "Biscuit",
+				"_class": { "m_FileID": 0, "m_PathID": 16852 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 5505 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2058 },
+				"stackCapacity": 99,
+				"desc": "Item_Description_Biscuit",
+				"attributes": [],
+				"idStr": "927f81d4-6fa9-478f-a485-0561c52572eb"
+			},
+			{
+				"name": "Arcade_Ticket",
+				"_class": { "m_FileID": 0, "m_PathID": 16861 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2043 },
+				"stackCapacity": 9999,
+				"desc": "",
+				"attributes": [],
+				"idStr": "71f5d239-8914-4751-91e1-3ce716d4c880"
+			},
+			{
+				"name": "Gumball_Black",
+				"_class": { "m_FileID": 0, "m_PathID": 16852 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6069 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1992 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Gumball_Black",
+				"attributes": [],
+				"idStr": "961ba9f5-27d0-4f05-9c78-1f9f47bab2e1"
+			},
+			{
+				"name": "Gumball_Blue",
+				"_class": { "m_FileID": 0, "m_PathID": 16852 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 4838 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1993 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Gumball_Blue",
+				"attributes": [],
+				"idStr": "f2a09a71-59fd-4a3a-9ce1-0853cdc45c66"
+			},
+			{
+				"name": "Gumball_Green",
+				"_class": { "m_FileID": 0, "m_PathID": 16852 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 5767 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2069 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Gumball_Green",
+				"attributes": [],
+				"idStr": "bc262eb6-d3bd-43c9-922a-ff5fd7da2625"
+			},
+			{
+				"name": "Gumball_Orange",
+				"_class": { "m_FileID": 0, "m_PathID": 16852 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7412 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2050 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Gumball_Orange",
+				"attributes": [],
+				"idStr": "a79d4bb9-572e-479d-876c-6c1d17f565a7"
+			},
+			{
+				"name": "Gumball_Pink",
+				"_class": { "m_FileID": 0, "m_PathID": 16852 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 3360 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1990 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Gumball_Pink",
+				"attributes": [],
+				"idStr": "57768297-ace4-47fb-a5c3-5ddcc6ca3ea0"
+			},
+			{
+				"name": "Gumball_Purple",
+				"_class": { "m_FileID": 0, "m_PathID": 16852 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 3326 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2005 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Gumball_Purple",
+				"attributes": [],
+				"idStr": "b0d0ea96-50eb-4aae-bc16-6c57fee829eb"
+			},
+			{
+				"name": "Gumball_Red",
+				"_class": { "m_FileID": 0, "m_PathID": 16852 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 2679 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2061 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Gumball_Red",
+				"attributes": [],
+				"idStr": "b884cb25-7f50-49c8-a4a1-1951290c0d25"
+			},
+			{
+				"name": "Gumball_White",
+				"_class": { "m_FileID": 0, "m_PathID": 16852 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 5103 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2026 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Gumball_White",
+				"attributes": [],
+				"idStr": "4b4bfd02-c425-4ba7-b887-ee65cb1b94ae"
+			},
+			{
+				"name": "Gumball_Yella",
+				"_class": { "m_FileID": 0, "m_PathID": 16852 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 3486 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2059 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Gumball_Yella",
+				"attributes": [],
+				"idStr": "da3106c6-6b40-466f-9b3f-d53e6bd64cce"
+			},
+			{
+				"name": "Waterpoof_Camcorder_Case",
+				"_class": { "m_FileID": 0, "m_PathID": 16864 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7351 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2017 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Waterpoof_Camcorder_Case",
+				"attributes": [],
+				"idStr": "73b1cfc4-2baf-4c3f-ab23-89501ed03917"
+			},
+			{
+				"name": "Broken_Goggles",
+				"_class": { "m_FileID": 0, "m_PathID": 16864 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 5171 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2078 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Broken_Goggles",
+				"attributes": [],
+				"idStr": "5d160a7f-de24-4f4d-ba92-b5cff4ecc7bb"
+			},
+			{
+				"name": "Keycard_01",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7524 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1977 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Keycard_01",
+				"attributes": [],
+				"idStr": "64541bd7-58b9-4bb0-a1ba-64f5d3d2e0ac"
+			},
+			{
+				"name": "Keycard_02",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7405 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1966 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Keycard_02",
+				"attributes": [],
+				"idStr": "e73144b8-a69c-4d0c-9c4b-ece0ef1bd953"
+			},
+			{
+				"name": "Keycard_03",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 6557 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2108 },
+				"stackCapacity": 1,
+				"desc": "Item_Description_Keycard_03",
+				"attributes": [],
+				"idStr": "450d5eb9-5184-4fa8-b110-ea2ac6661de3"
+			},
+			{
+				"name": "Keycard_Depth0",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2097 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Keycard_Depth0",
+				"attributes": [],
+				"idStr": "660cdc1c-ca4a-48b5-be6c-d6599d5eda2f"
+			},
+			{
+				"name": "Keycard_Depth10",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2107 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Keycard_Depth10",
+				"attributes": [],
+				"idStr": "39aa00d1-9f43-4b1a-ae02-d81adf6ca1d2"
+			},
+			{
+				"name": "Keycard_Depth20",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1972 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Keycard_Depth20",
+				"attributes": [],
+				"idStr": "dab418d2-a97d-49fe-913f-38514d8c6d57"
+			},
+			{
+				"name": "Keycard_Depth30",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2106 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Keycard_Depth30",
+				"attributes": [],
+				"idStr": "860ee924-a387-40fa-8d7c-edcb7682c2be"
+			},
+			{
+				"name": "Keycard_Depth40",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2100 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Keycard_Depth40",
+				"attributes": [],
+				"idStr": "ff501e78-827f-4121-9364-97902ca40a43"
+			},
+			{
+				"name": "Keycard_Depth50",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2104 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Keycard_Depth50",
+				"attributes": [],
+				"idStr": "2574d703-1345-4f7c-a256-dcaa16c75ead"
+			},
+			{
+				"name": "Keycard_Depth60",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1965 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Keycard_Depth60",
+				"attributes": [],
+				"idStr": "505621b7-81c9-4356-9094-b6304fefd310"
+			},
+			{
+				"name": "Keycard_Depth70",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2096 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Keycard_Depth70",
+				"attributes": [],
+				"idStr": "528a8c40-a255-4961-94d7-2a5ae5f74dc1"
+			},
+			{
+				"name": "Keycard_Depth80",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1979 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Keycard_Depth80",
+				"attributes": [],
+				"idStr": "cbd7b31e-035b-4a16-8ac1-dda7f1f96b09"
+			},
+			{
+				"name": "Keycard_Depth90",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1970 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Keycard_Depth90",
+				"attributes": [],
+				"idStr": "1dfc1cb3-6ebc-46cf-9c79-f060ae8dbcfe"
+			},
+			{
+				"name": "Keycard_Depth100",
+				"_class": { "m_FileID": 0, "m_PathID": 16859 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1964 },
+				"stackCapacity": 0,
+				"desc": "Item_Description_Keycard_Depth100",
+				"attributes": [],
+				"idStr": "7f24a2d7-c83d-4ae7-b91a-78fbec6dd695"
+			},
+			{
+				"name": "Keycard_Classrooms",
+				"_class": { "m_FileID": 0, "m_PathID": 16858 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7521 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2092 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "c81ac951-0e91-4ffc-a852-5780e2f87e46"
+			},
+			{
+				"name": "Keycard_Libraryrooms",
+				"_class": { "m_FileID": 0, "m_PathID": 16858 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7523 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2110 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "34cc1c25-d500-4ac6-a462-1cf9d4bcafa2"
+			},
+			{
+				"name": "Keycard_Bathrooms",
+				"_class": { "m_FileID": 0, "m_PathID": 16858 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7526 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2109 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "3dd9ed8c-b9d8-45a3-8df0-18c498ab19a0"
+			},
+			{
+				"name": "Keycard_Churchrooms",
+				"_class": { "m_FileID": 0, "m_PathID": 16858 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1975 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "9c0379d4-bc5b-4f5a-b7fa-e20d56590042"
+			},
+			{
+				"name": "Keycard_Poolrooms",
+				"_class": { "m_FileID": 0, "m_PathID": 16858 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7525 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2091 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "ba3dc0da-2230-4fae-aed0-28f0ae539d56"
+			},
+			{
+				"name": "Keycard_Playrooms",
+				"_class": { "m_FileID": 0, "m_PathID": 16858 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7520 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2101 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "7de31fdb-cfa3-4e71-8713-b22c030584e9"
+			},
+			{
+				"name": "Keycard_Kidrooms",
+				"_class": { "m_FileID": 0, "m_PathID": 16858 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7522 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1980 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "05c119c1-1207-4f08-8f46-460c9f8ae63f"
+			},
+			{
+				"name": "Large_Fuse",
+				"_class": { "m_FileID": 0, "m_PathID": 16854 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7143 },
+				"sprite": { "m_FileID": 0, "m_PathID": 1999 },
+				"stackCapacity": 99,
+				"desc": "",
+				"attributes": [
+					{
+						"key": "DisallowSave",
+						"value": "true"
+					}
+				],
+				"idStr": "d2e63244-5d98-43a2-953a-4c3306defcf9"
+			},
+			{
+				"name": "StinkBomb",
+				"_class": { "m_FileID": 0, "m_PathID": 16864 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 5398 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2081 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "4d9f064d-aec2-41e5-b4ab-c159a66d049d"
+			},
+			{
+				"name": "Deodorant",
+				"_class": { "m_FileID": 0, "m_PathID": 16864 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 2718 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2052 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "8ff4bb87-3207-4442-9c27-af3e5d8a1cf3"
+			},
+			{
+				"name": "Backpack",
+				"_class": { "m_FileID": 0, "m_PathID": 16867 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7939 },
+				"sprite": { "m_FileID": 0, "m_PathID": 0 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "04062d45-1861-4b19-9ff5-4e6e21ffe524"
+			},
+			{
+				"name": "Compass",
+				"_class": { "m_FileID": 0, "m_PathID": 0 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 0 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "e185626b-e104-43e4-9b56-8c26d146f20d"
+			},
+			{
+				"name": "Canine Death Whistle",
+				"_class": { "m_FileID": 0, "m_PathID": 16853 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 7904 },
+				"sprite": { "m_FileID": 0, "m_PathID": 2076 },
+				"stackCapacity": 0,
+				"desc": "Canine Death Whistle Description",
+				"attributes": [],
+				"idStr": "083e29cc-bbe0-42f4-a9cc-ecad2c3fb86b"
+			},
+			{
+				"name": "Last Item",
+				"_class": { "m_FileID": 0, "m_PathID": 0 },
+				"gameObject": { "m_FileID": 0, "m_PathID": 0 },
+				"sprite": { "m_FileID": 0, "m_PathID": 0 },
+				"stackCapacity": 0,
+				"desc": "",
+				"attributes": [],
+				"idStr": "c82e0007-4933-447b-8051-d268b4ec1d27"
+			}
+		]
+	}
+}
