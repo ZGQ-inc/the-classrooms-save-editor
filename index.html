@@ -73,7 +73,7 @@
 
         .app-header {
             background: var(--header-bg);
-            padding: 10px 20px;
+            padding: 5px 10px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -170,10 +170,11 @@
         }
 
         .container {
-            max-width: 1400px;
-            margin: 30px auto;
-            padding: 0 10px;
+            max-width: 1200px;
+            margin: 10px auto;
+            padding: 0 5px;
             width: 100%;
+            height: 100%;
             flex: 1;
         }
 
@@ -524,7 +525,7 @@
 
         .tapes-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
             gap: 10px;
         }
 
@@ -621,7 +622,7 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 8px;
-            max-width: 320px;
+            max-width: 275px;
             margin: 0 auto;
         }
 
@@ -716,8 +717,8 @@
             border: 1px solid #444;
             border-radius: 12px;
             width: 95%;
-            max-width: 600px;
-            max-height: 85vh;
+            max-width: 75vw;
+            max-height: 95vh;
             display: flex;
             flex-direction: column;
             box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
@@ -783,6 +784,8 @@
             font-size: 14px;
             color: #aaa;
             line-height: 1.2;
+            word-break: break-all;
+            overflow-wrap: break-word;
         }
 
         .modifier-row {
@@ -943,11 +946,17 @@
             .app-header {
                 flex-direction: column;
                 align-items: flex-start;
-                gap: 15px;
+                gap: 5px;
             }
 
             .split-view {
                 flex-direction: column;
+            }
+
+            .split-col {
+                flex: none;
+                width: 100%;
+                min-height: 0;
             }
 
             .inv-grid {
@@ -1199,10 +1208,21 @@
         const BACKPACK_UUID = "04062d45-1861-4b19-9ff5-4e6e21ffe524";
         const FLASHLIGHT_UUID = "943dd738-2b2a-4016-8fed-704d93f43a64";
         const ENTITY_LIST = [
-            "Arachnophone.png", "Clown.png", "Dolphin_Icon.png", "Gangler.png",
-            "Icon_Alpha_Wyrm.png", "Icon_Army_Of_Dolls.png", "Icon_CentipedeTransparent.png",
-            "Icon_Cloak.png", "Icon_Cursed_Doll.png", "Icon_Hell_Doll.png",
-            "Icon_TenantTransparent.png", "Little_joey.png", "Mangler.png", "Smiley.png", "Tsuchinoko_Icon.png"
+            "Arachnophone.png",
+            "Clown.png",
+            "Dolphin_Icon.png",
+            "Gangler.png",
+            "Icon_Alpha_Wyrm.png",
+            "Icon_Army_Of_Dolls.png",
+            "Icon_CentipedeTransparent.png",
+            "Icon_Cloak.png",
+            "Icon_Cursed_Doll.png",
+            "Icon_Hell_Doll.png",
+            "Icon_TenantTransparent.png",
+            "Little_joey.png",
+            "Mangler.png",
+            "Smiley.png",
+            "Tsuchinoko_Icon.png"
         ];
 
         const I18N = {
@@ -1330,6 +1350,17 @@
             { k: "Non-Linear Poolrooms", i: "Keycard_Poolrooms.png", n: "Poolrooms" },
             { k: "Non-Linear Playrooms", i: "Keycard_Playrooms.png", n: "Playrooms" },
             { k: "Non-Linear Kidrooms", i: "Keycard_Kidrooms.png", n: "Kidrooms" }
+        ];
+
+        const STORY_LEVELS = [
+            "Classrooms",
+            "Libraryrooms",
+            "Bathrooms",
+            "Churchrooms",
+            "Poolrooms",
+            "Playrooms",
+            "Kidrooms",
+            ""
         ];
 
         let APP = {
@@ -1606,7 +1637,7 @@
                 <div class="form-row">
                     <div class="form-label">
                         <img src="img/UI/Icons/Flashlight_Icon.png" class="form-icon"> ${t('flashlight')}
-                        <img src="img/UI/Icons/${batt}" style="width:16px" id="icon_flash_${side}">
+                        <img src="img/UI/Icons/${batt}" style="width:24px" id="icon_flash_${side}">
                     </div>
                     <div style="flex:1; display:flex; align-items:center; gap:8px;">
                         <input type="range" min="0" max="240" value="${fVal}" class="styled-slider" oninput="setFlashlight('${side}', this.value)">
@@ -1660,17 +1691,21 @@
                     </div>
                     <div class="tapes-grid">
                 `;
-                for (let i = 1; i <= 12; i++) {
+
+                STORY_LEVELS.forEach((name, idx) => {
+                    const i = idx + 1;
                     const unlocked = isInstant || (APP.editors[side].data[`Section${i}`] === 1);
                     const lockedClass = isInstant ? 'locked-mode' : '';
                     let imgIdx = i > 8 ? 8 : i;
+
                     html += `
                         <div class="tape-card ${unlocked ? 'unlocked' : ''} ${lockedClass}" onclick="clickTape('${side}', ${i})">
                             <img src="img/UI/Tapes/Tape${imgIdx}.png" onerror="this.src='img/UI/Icons/VHS_Tape.png'">
-                            <div class="tape-label">Section ${i}</div>
+                            <div class="tape-label">${name}</div>
                         </div>
                     `;
-                }
+                });
+
                 html += '</div>';
             } else {
                 html += '<div style="display:flex; flex-direction:column; gap:8px;">';
@@ -1776,7 +1811,7 @@
         function toggleInstantClear(side, val) {
             APP.editors[side].isInstantClear = val;
             if (val) {
-                for (let i = 1; i <= 12; i++) APP.editors[side].data[`Section${i}`] = 1;
+                for (let i = 1; i <= STORY_LEVELS.length; i++) APP.editors[side].data[`Section${i}`] = 1;
             }
             refreshUI();
         }
@@ -1788,7 +1823,7 @@
             if (target === 1) {
                 for (let x = 1; x <= i; x++) APP.editors[side].data[`Section${x}`] = 1;
             } else {
-                for (let x = i; x <= 12; x++) APP.editors[side].data[`Section${x}`] = 0;
+                for (let x = i; x <= STORY_LEVELS.length; x++) APP.editors[side].data[`Section${x}`] = 0;
             }
             refreshUI();
         }
@@ -1833,7 +1868,7 @@
             const cat = APP.ui.invCat;
 
             body.innerHTML = `<div class="item-picker-list">
-                ${list.sort((a, b) => a.name.localeCompare(b.name)).map(item => {
+                ${list.map(item => {
                 const path = `img/Inventory/${cat}/${item.img}`;
                 return `
                         <div class="picker-item" onclick="confirmAddItem('${item.idStr}')">
