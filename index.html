@@ -1648,7 +1648,7 @@
             let html = `
                 <div class="form-row">
                     <div class="form-label"><img src="img/UI/Icons/purple-pink-ticket-isolated-white.png" class="form-icon"> ${t('tickets')}</div>
-                    <input type="number" value="${d.TicketsCounted || 0}" onchange="setData('${side}', 'TicketsCounted', this.value)" class="styled-input">
+                    <input type="number" value="${d['Tickets Counted'] || 0}" onchange="setData('${side}', 'Tickets Counted', this.value)" class="styled-input">
                 </div>
                 <div class="form-row">
                     <div class="form-label">
