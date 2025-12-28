@@ -2,6 +2,8 @@
 
 本项目是一个基于 Web 的纯静态 GUI 存档编辑器，专为游戏 *The Classrooms* 设计。
 
+![preview](https://the-classrooms.zgqinc.gq/preview.png)
+
 # 功能列表
 
 ### 核心功能
