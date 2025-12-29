@@ -1842,7 +1842,9 @@
             if (val) {
                 for (let i = 1; i <= STORY_LEVELS.length; i++) APP.editors[side].data[`Section${i}`] = 1;
             }
-            refreshUI();
+            setTimeout(() => {
+                refreshUI();
+            }, 100);
         }
 
         function clickTape(side, i) {
