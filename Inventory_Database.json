@@ -204,19 +204,19 @@
             "name": "Codex_ARC_Fax02",
             "idStr": "d4a78439-098e-4866-b9a8-655707af8fe5",
             "stackCapacity": 1,
-            "img": "Fax2.png"
+            "img": "fax2.png"
         },
         {
             "name": "Codex_ARC_Fax03",
             "idStr": "0bce32d5-7a69-435f-8a41-56a2ec44c91d",
             "stackCapacity": 1,
-            "img": "Fax3.png"
+            "img": "fax3.png"
         },
         {
             "name": "Codex_ARC_Fax04",
             "idStr": "f36a7375-1e0a-433e-8ba2-e9b7c970e938",
             "stackCapacity": 1,
-            "img": "Fax4.png"
+            "img": "fax4.png"
         },
         {
             "name": "Codex_ArcDocument216",
