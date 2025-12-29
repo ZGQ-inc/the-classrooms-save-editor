@@ -2083,22 +2083,24 @@
         function viewImage(src) {
             const image = new Image();
             image.src = src;
-            image.alt = "Image Viewer";
+            
+            const filename = src.substring(src.lastIndexOf('/') + 1).split('.')[0];
+            image.alt = filename; 
 
             const viewer = new Viewer(image, {
                 hidden: function () {
                     viewer.destroy();
                 },
+                navbar: false,
                 title: true,
-                navbar: true,
                 toolbar: {
                     zoomIn: 4,
                     zoomOut: 4,
                     oneToOne: 4,
                     reset: 4,
-                    prev: 4,
-                    play: 0,
-                    next: 4,
+                    prev: 0,
+                    play: 4,
+                    next: 0,
                     rotateLeft: 4,
                     rotateRight: 4,
                     flipHorizontal: 4,
