@@ -875,11 +875,6 @@
             cursor: grab;
         } */
 
-        .viewer-backdrop {
-            background-color: #000 !important;
-            opacity: 1 !important;
-        }
-
         #toast-container {
             position: fixed;
             top: 100px;
@@ -2088,9 +2083,9 @@
         function viewImage(src) {
             const image = new Image();
             image.src = src;
-
+            
             const filename = src.substring(src.lastIndexOf('/') + 1).split('.')[0];
-            image.alt = filename;
+            image.alt = filename; 
 
             const viewer = new Viewer(image, {
                 hidden: function () {
@@ -2114,7 +2109,7 @@
                 loading: true,
                 transition: true,
                 backdrop: true,
-                backdrop: 'rgba(0, 0, 0, 1)'
+                backdrop: '#000'
             });
 
             viewer.show();
