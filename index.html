@@ -14,6 +14,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Classrooms Save Editor">
     <meta name="twitter:description" content="By ZGQ Inc.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.css">
     <style>
         :root {
             --bg-color: #080808;
@@ -837,6 +838,7 @@
             object-fit: contain;
         }
 
+        /* 
         .img-viewer {
             position: fixed;
             top: 0;
@@ -871,7 +873,7 @@
             max-height: 90%;
             transition: transform 0.1s;
             cursor: grab;
-        }
+        } */
 
         #toast-container {
             position: fixed;
@@ -983,7 +985,7 @@
 
     <div id="toast-container"></div>
 
-    <div class="img-viewer" id="imgViewer">
+    <!-- <div class="img-viewer" id="imgViewer">
         <div class="viewer-header">
             <button class="btn btn-primary" onclick="resetZoom()" data-i18n="reset">Reset</button>
             <button class="btn btn-danger" onclick="closeImageViewer()" data-i18n="close">Close</button>
@@ -991,7 +993,7 @@
         <div class="viewer-body" id="viewerContainer">
             <img id="viewerImage" src="" draggable="false">
         </div>
-    </div>
+    </div> -->
 
     <div class="modal-overlay" id="generalModal">
         <div class="modal">
@@ -1216,6 +1218,7 @@
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.js"></script>
     <script>
         const DB_FILE = "Inventory_Database.json";
         const VERSION_FILE = "version.txt";
@@ -1280,8 +1283,8 @@
                 steamLink: "游戏 Steam 链接",
                 githubLink: "项目地址",
                 footerRights: "© 2025 ZGQ Inc.",
-                reset: "重置",
-                close: "关闭",
+                // reset: "重置",
+                // close: "关闭",
                 quantity: "数量：",
                 maxStackInfo: "（最大值由物品决定）",
                 maxStackPrefix: "最大堆叠：",
@@ -1338,8 +1341,8 @@
                 steamLink: "Game Steam Link",
                 githubLink: "Source Code",
                 footerRights: "© 2025 ZGQ Inc.",
-                reset: "Reset",
-                close: "Close",
+                // reset: "Reset",
+                // close: "Close",
                 quantity: "Quantity:",
                 maxStackInfo: "(Max determined by item)",
                 maxStackPrefix: "Max Stack: ",
@@ -2038,44 +2041,90 @@
         }
         function closeModifyModal() { document.getElementById('modifyModal').style.display = 'none'; }
 
-        let viewState = { scale: 1, panX: 0, panY: 0, drag: false, lastX: 0, lastY: 0 };
+        // let viewState = { scale: 1, panX: 0, panY: 0, drag: false, lastX: 0, lastY: 0 };
+
+        // function viewImage(src) {
+        //     const v = document.getElementById('imgViewer');
+        //     document.getElementById('viewerImage').src = src;
+        //     v.style.display = 'flex';
+        //     resetZoom();
+        // }
+
+        // function closeImageViewer() { document.getElementById('imgViewer').style.display = 'none'; }
+
+        // function initImgViewer() {
+        //     const con = document.getElementById('viewerContainer');
+        //     const img = document.getElementById('viewerImage');
+        //     con.addEventListener('wheel', e => {
+        //         e.preventDefault();
+        //         viewState.scale *= (e.deltaY > 0 ? 0.9 : 1.1);
+        //         updateTrans();
+        //     });
+        //     img.addEventListener('mousedown', e => {
+        //         viewState.drag = true; viewState.lastX = e.clientX; viewState.lastY = e.clientY;
+        //         img.style.cursor = 'grabbing';
+        //     });
+        //     window.addEventListener('mouseup', () => {
+        //         viewState.drag = false; img.style.cursor = 'grab';
+        //     });
+        //     window.addEventListener('mousemove', e => {
+        //         if (!viewState.drag) return;
+        //         viewState.panX += e.clientX - viewState.lastX;
+        //         viewState.panY += e.clientY - viewState.lastY;
+        //         viewState.lastX = e.clientX; viewState.lastY = e.clientY;
+        //         updateTrans();
+        //     });
+        // }
+        // function resetZoom() { viewState = { scale: 1, panX: 0, panY: 0, drag: false }; updateTrans(); }
+        // function updateTrans() {
+        //     document.getElementById('viewerImage').style.transform = `translate(${viewState.panX}px, ${viewState.panY}px) scale(${viewState.scale})`;
+        // }
 
         function viewImage(src) {
-            const v = document.getElementById('imgViewer');
-            document.getElementById('viewerImage').src = src;
-            v.style.display = 'flex';
-            resetZoom();
+            const image = new Image();
+            image.src = src;
+            image.alt = "Image Viewer";
+
+            const viewer = new Viewer(image, {
+                hidden: function () {
+                    viewer.destroy();
+                },
+                title: true,
+                navbar: true,
+                toolbar: {
+                    zoomIn: 4,
+                    zoomOut: 4,
+                    oneToOne: 4,
+                    reset: 4,
+                    prev: 4,
+                    play: 0,
+                    next: 4,
+                    rotateLeft: 4,
+                    rotateRight: 4,
+                    flipHorizontal: 4,
+                    flipVertical: 4,
+                },
+                loading: true,
+                transition: true,
+                backdrop: 'rgba(0, 0, 0, 0.9)'
+            });
+
+            viewer.show();
         }
 
-        function closeImageViewer() { document.getElementById('imgViewer').style.display = 'none'; }
+        window.onload = async () => {
+            try {
+                const r = await fetch(VERSION_FILE);
+                if (r.ok) APP.gameVer = (await r.text()).trim();
+            } catch (e) { }
 
-        function initImgViewer() {
-            const con = document.getElementById('viewerContainer');
-            const img = document.getElementById('viewerImage');
-            con.addEventListener('wheel', e => {
-                e.preventDefault();
-                viewState.scale *= (e.deltaY > 0 ? 0.9 : 1.1);
-                updateTrans();
-            });
-            img.addEventListener('mousedown', e => {
-                viewState.drag = true; viewState.lastX = e.clientX; viewState.lastY = e.clientY;
-                img.style.cursor = 'grabbing';
-            });
-            window.addEventListener('mouseup', () => {
-                viewState.drag = false; img.style.cursor = 'grab';
-            });
-            window.addEventListener('mousemove', e => {
-                if (!viewState.drag) return;
-                viewState.panX += e.clientX - viewState.lastX;
-                viewState.panY += e.clientY - viewState.lastY;
-                viewState.lastX = e.clientX; viewState.lastY = e.clientY;
-                updateTrans();
-            });
-        }
-        function resetZoom() { viewState = { scale: 1, panX: 0, panY: 0, drag: false }; updateTrans(); }
-        function updateTrans() {
-            document.getElementById('viewerImage').style.transform = `translate(${viewState.panX}px, ${viewState.panY}px) scale(${viewState.scale})`;
-        }
+            try {
+                const r = await fetch(DB_FILE);
+                if (r.ok) parseDB(await r.json());
+            } catch (e) { }
+
+            updateLabels();
+        };
 
         function exportData() {
             ['left', 'right'].forEach(side => {
