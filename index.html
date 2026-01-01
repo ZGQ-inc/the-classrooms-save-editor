@@ -989,16 +989,6 @@
 
     <div id="toast-container"></div>
 
-    <!-- <div class="img-viewer" id="imgViewer">
-        <div class="viewer-header">
-            <button class="btn btn-primary" onclick="resetZoom()" data-i18n="reset">Reset</button>
-            <button class="btn btn-danger" onclick="closeImageViewer()" data-i18n="close">Close</button>
-        </div>
-        <div class="viewer-body" id="viewerContainer">
-            <img id="viewerImage" src="" draggable="false">
-        </div>
-    </div> -->
-
     <div class="modal-overlay" id="generalModal">
         <div class="modal">
             <div class="modal-header">
@@ -1011,7 +1001,7 @@
             </div>
             <div id="modalQtyContainer" style="padding: 15px 20px 0; display:none; align-items:center; gap:10px;">
                 <label style="font-size:14px; color:#aaa;" data-i18n="quantity">Quantity:</label>
-                <input type="number" id="modalAddQty" value="1" min="1" class="styled-input">
+                <input type="number" id="modalAddQty" value="1" min="1" class="styled-input no-negative">
                 <span style="font-size:12px; color:#666;" data-i18n="maxStackInfo">(Max determined by item)</span>
             </div>
             <div class="modal-content" id="modalBody"></div>
@@ -1037,7 +1027,7 @@
 
                 <div class="form-row" style="margin-bottom:10px;">
                     <label class="form-label" data-i18n="quantity">Quantity</label>
-                    <input type="number" id="modQty" class="styled-input" style="width:100px">
+                    <input type="number" id="modQty" class="styled-input no-negative" style="width:100px" min="1">
                 </div>
 
                 <div style="display:flex; flex-direction:column; gap:10px;">
@@ -1272,12 +1262,13 @@
                 entities: "查看实体图鉴",
                 unlockAllCodex: "一键解锁全部档案",
                 versionWarn: "⚠️ 警告：游戏版本可能不支持！",
-                fileLoaded: "已加载：{0} 个文件",
-                invFull: "背包已满",
-                added: "已添加",
-                modified: "已修改",
-                deleted: "已删除",
-                saved: "已导出",
+                noNegativeWarn: "❌ 数值不能为负数。",
+                fileLoaded: "✅ 已加载：{0} 个文件",
+                invFull: "❌ 背包已满",
+                added: "✅ 已添加",
+                modified: "✅ 已修改",
+                deleted: "✅ 已删除",
+                saved: "✅ 已导出",
                 selectItem: "选择物品",
                 modifyItem: "修改物品",
                 search: "搜索...",
@@ -1287,8 +1278,6 @@
                 steamLink: "游戏 Steam 链接",
                 githubLink: "项目地址",
                 footerRights: "© 2025 ZGQ Inc.",
-                // reset: "重置",
-                // close: "关闭",
                 quantity: "数量：",
                 maxStackInfo: "（最大值由物品决定）",
                 maxStackPrefix: "最大堆叠：",
@@ -1330,12 +1319,13 @@
                 entities: "View Entities",
                 unlockAllCodex: "Unlock All Codex",
                 versionWarn: "⚠️ Warning: Game version may not be supported!",
-                fileLoaded: "Loaded: {0} files",
-                invFull: "Inventory Full",
-                added: "Added",
-                modified: "Modified",
-                deleted: "Deleted",
-                saved: "Exported",
+                noNegativeWarn: "❌ Value cannot be negative.",
+                fileLoaded: "✅ Loaded: {0} files",
+                invFull: "❌ Inventory Full",
+                added: "✅ Added",
+                modified: "✅ Modified",
+                deleted: "✅ Deleted",
+                saved: "✅ Exported",
                 selectItem: "Select Item",
                 modifyItem: "Modify Item",
                 search: "Search...",
@@ -1345,8 +1335,6 @@
                 steamLink: "Game Steam Link",
                 githubLink: "Source Code",
                 footerRights: "© 2025 ZGQ Inc.",
-                // reset: "Reset",
-                // close: "Close",
                 quantity: "Quantity:",
                 maxStackInfo: "(Max determined by item)",
                 maxStackPrefix: "Max Stack: ",
@@ -1411,9 +1399,17 @@
 
             const browserLang = navigator.language || navigator.userLanguage;
             APP.lang = browserLang.toLowerCase().startsWith('zh') ? 'zh' : 'en';
-
             const langSelect = document.querySelector('.styled-select');
             if (langSelect) langSelect.value = APP.lang;
+
+            document.body.addEventListener('input', function (e) {
+                if (e.target.classList.contains('no-negative')) {
+                    if (e.target.value < 0) {
+                        e.target.value = 0;
+                        showToast(t('noNegativeWarn'), 'error');
+                    }
+                }
+            });
 
             updateLabels();
             initImgViewer();
@@ -1667,7 +1663,7 @@
                            step="1" 
                            value="${d['Tickets Counted'] || 0}" 
                            onchange="let v = parseInt(this.value) || 0; if(v > 2147400000) v = 2147400000; if(v < 0) v = 0; this.value = v; setData('${side}', 'Tickets Counted', v)" 
-                           class="styled-input">
+                           class="styled-input no-negative">
                 </div>
                 <div class="form-row">
                     <div class="form-label">
@@ -1694,7 +1690,7 @@
                     <div style="border-top:1px solid #333; margin-top:15px; padding-top:15px;">
                         <div class="form-row">
                             <div class="form-label">${t('lives')}</div>
-                            <input type="number" value="${d["Non Linear Lives"] || 0}" onchange="setData('${side}', 'Non Linear Lives', this.value)" class="styled-input">
+                            <input type="number" min="0" value="${d["Non Linear Lives"] || 0}" onchange="if(this.value<0)this.value=0; setData('${side}', 'Non Linear Lives', this.value)" class="styled-input no-negative">
                         </div>
                         <div class="form-row">
                             <div class="form-label">${t('infLives')}</div>
@@ -1706,7 +1702,7 @@
                         </div>
                         <div class="form-row">
                             <div class="form-label">${t('depth')}</div>
-                            <input type="number" value="${d.Depth || 0}" onchange="setData('${side}', 'Depth', this.value)" class="styled-input">
+                            <input type="number" min="0" value="${d.Depth || 0}" onchange="if(this.value<0)this.value=0; setData('${side}', 'Depth', this.value)" class="styled-input no-negative">
                         </div>
                     </div>
                 `;
@@ -1752,7 +1748,7 @@
                                 <img src="img/Inventory/Keycards/${r.i}" width="28" style="object-fit:contain">
                                 ${r.n}
                             </div>
-                            <input type="number" value="${val}" onchange="setData('${side}', '${r.k}', this.value)" class="styled-input">
+                            <input type="number" min="0" value="${val}" onchange="if(this.value<0)this.value=0; setData('${side}', '${r.k}', this.value)" class="styled-input no-negative">
                         </div>
                     `;
                 });
@@ -1818,8 +1814,13 @@
         }
 
         function setData(side, k, v) {
-            if (typeof v === 'boolean') APP.editors[side].data[k] = v;
-            else APP.editors[side].data[k] = parseInt(v);
+            if (typeof v === 'boolean') {
+                APP.editors[side].data[k] = v;
+            } else {
+                let val = parseInt(v) || 0;
+                if (val < 0) val = 0;
+                APP.editors[side].data[k] = val;
+            }
         }
 
         function setFlashlight(side, v) {
@@ -2052,45 +2053,6 @@
             APP.state.isReplacing = false;
         }
         function closeModifyModal() { document.getElementById('modifyModal').style.display = 'none'; }
-
-        // let viewState = { scale: 1, panX: 0, panY: 0, drag: false, lastX: 0, lastY: 0 };
-
-        // function viewImage(src) {
-        //     const v = document.getElementById('imgViewer');
-        //     document.getElementById('viewerImage').src = src;
-        //     v.style.display = 'flex';
-        //     resetZoom();
-        // }
-
-        // function closeImageViewer() { document.getElementById('imgViewer').style.display = 'none'; }
-
-        // function initImgViewer() {
-        //     const con = document.getElementById('viewerContainer');
-        //     const img = document.getElementById('viewerImage');
-        //     con.addEventListener('wheel', e => {
-        //         e.preventDefault();
-        //         viewState.scale *= (e.deltaY > 0 ? 0.9 : 1.1);
-        //         updateTrans();
-        //     });
-        //     img.addEventListener('mousedown', e => {
-        //         viewState.drag = true; viewState.lastX = e.clientX; viewState.lastY = e.clientY;
-        //         img.style.cursor = 'grabbing';
-        //     });
-        //     window.addEventListener('mouseup', () => {
-        //         viewState.drag = false; img.style.cursor = 'grab';
-        //     });
-        //     window.addEventListener('mousemove', e => {
-        //         if (!viewState.drag) return;
-        //         viewState.panX += e.clientX - viewState.lastX;
-        //         viewState.panY += e.clientY - viewState.lastY;
-        //         viewState.lastX = e.clientX; viewState.lastY = e.clientY;
-        //         updateTrans();
-        //     });
-        // }
-        // function resetZoom() { viewState = { scale: 1, panX: 0, panY: 0, drag: false }; updateTrans(); }
-        // function updateTrans() {
-        //     document.getElementById('viewerImage').style.transform = `translate(${viewState.panX}px, ${viewState.panY}px) scale(${viewState.scale})`;
-        // }
 
         function viewImage(src) {
             const image = new Image();
