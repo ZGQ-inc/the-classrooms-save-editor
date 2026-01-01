@@ -886,6 +886,37 @@
             }
         }
 
+        @keyframes modalPopOut {
+            from {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            to {
+                transform: scale(0.95);
+                opacity: 0;
+            }
+        }
+
+        @keyframes overlayFadeOut {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+            }
+        }
+
+        .modal-overlay.closing {
+            animation: overlayFadeOut 0.2s forwards;
+            pointer-events: none;
+        }
+
+        .modal-overlay.closing .modal {
+            animation: modalPopOut 0.2s forwards;
+        }
+
         @keyframes slideIn {
             from {
                 transform: translateX(100%)
@@ -2022,11 +2053,26 @@
             document.getElementById('generalModal').style.display = 'flex';
         }
 
-        function closeGeneralModal() {
-            document.getElementById('generalModal').style.display = 'none';
-            APP.state.isReplacing = false;
+        function _animateClose(modalId, callback) {
+            const overlay = document.getElementById(modalId);
+            overlay.classList.add('closing');
+
+            setTimeout(() => {
+                overlay.style.display = 'none';
+                overlay.classList.remove('closing');
+                if (callback) callback();
+            }, 200);
         }
-        function closeModifyModal() { document.getElementById('modifyModal').style.display = 'none'; }
+
+        function closeGeneralModal() {
+            _animateClose('generalModal', () => {
+                APP.state.isReplacing = false;
+            });
+        }
+
+        function closeModifyModal() {
+            _animateClose('modifyModal');
+        }
 
         function viewImage(src) {
             const image = new Image();
