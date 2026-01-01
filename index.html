@@ -1374,6 +1374,17 @@
                 }
             });
 
+            window.onclick = function (event) {
+                const generalModal = document.getElementById('generalModal');
+                const modifyModal = document.getElementById('modifyModal');
+                if (event.target === generalModal) {
+                    closeGeneralModal();
+                }
+                if (event.target === modifyModal) {
+                    closeModifyModal();
+                }
+            }
+
             updateLabels();
             initImgViewer();
         };
