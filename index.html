@@ -1409,6 +1409,12 @@
                 if (r.ok) parseDB(await r.json());
             } catch (e) { }
 
+            const browserLang = navigator.language || navigator.userLanguage;
+            APP.lang = browserLang.toLowerCase().startsWith('zh') ? 'zh' : 'en';
+
+            const langSelect = document.querySelector('.styled-select');
+            if (langSelect) langSelect.value = APP.lang;
+
             updateLabels();
             initImgViewer();
         };
@@ -2120,20 +2126,6 @@
 
             viewer.show();
         }
-
-        window.onload = async () => {
-            try {
-                const r = await fetch(VERSION_FILE);
-                if (r.ok) APP.gameVer = (await r.text()).trim();
-            } catch (e) { }
-
-            try {
-                const r = await fetch(DB_FILE);
-                if (r.ok) parseDB(await r.json());
-            } catch (e) { }
-
-            updateLabels();
-        };
 
         function exportData() {
             ['left', 'right'].forEach(side => {
