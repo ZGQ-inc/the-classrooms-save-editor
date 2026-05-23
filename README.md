@@ -65,3 +65,19 @@
 
 * **纯静态**：无需后端服务器，所有数据处理在浏览器本地完成。
 * **版本控制**：通过 `version.txt` 自动检测游戏版本兼容性。
+
+# 使用说明
+
+### 存档位置说明，以及格式解释
+
+主要适用于Windows，Linux等平台大同小异。
+
+如果你需要修改存档，请关闭Steam云，本地存档保存在注册表中，路径为
+
+`计算机\HKEY_CURRENT_USER\Software\Xefier Games and Hillcrest Games\The Classrooms`
+
+主模式存档项目为 `Auto Save_h1234567` ，非线性模式存档项目为 `Non Linear_h1234567` ，使用BINARY格式储存，但是即便关闭了Steam云，游戏依旧会同步Steam云路径中的存档，这个位置是
+
+`C:\Program Files (x86)\Steam\userdata\<你的SteamID32>\2099110\remote`
+
+使用你喜欢的文本编辑器打开这个明文储存的文件进行修改，无需关注注册表，除非你玩的是盗版。

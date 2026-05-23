@@ -125,6 +125,12 @@
             "idStr": "326a9508-828b-467f-b385-6cdf7e7528a7",
             "stackCapacity": 99,
             "img": "Key_Black.png"
+        },
+        {
+            "name": "Key_SeveredHand_Caleb",
+            "idStr": "db5a15dd-3730-41ea-a5fa-ae5edc578c9d",
+            "stackCapacity": 99,
+            "img": "White1px.png"
         }
     ],
     "Codex": [
@@ -219,19 +225,19 @@
             "img": "fax4.png"
         },
         {
-            "name": "Codex_ArcDocument216",
+            "name": "Codex_ARC_CloakedFigure",
             "idStr": "4b9eaaa3-2981-43d6-a99a-bcc9c4c371c2",
             "stackCapacity": 1,
             "img": "Cloaksucker.png"
         },
         {
-            "name": "Codex_ArcDocument555",
+            "name": "Codex_ARC_Clown",
             "idStr": "431302dc-5036-4475-9b0e-0108e939c930",
             "stackCapacity": 1,
             "img": "ClownDocument555.png"
         },
         {
-            "name": "Codex_ArcDocument608",
+            "name": "Codex_ARC_Smiley",
             "idStr": "2ad12f79-2c7d-4d89-8559-81d9bcf0bdf6",
             "stackCapacity": 1,
             "img": "SmilerDocument608.png"
@@ -423,6 +429,12 @@
             "idStr": "05c119c1-1207-4f08-8f46-460c9f8ae63f",
             "stackCapacity": 99,
             "img": "Keycard_Kidrooms.png"
+        },
+        {
+            "name": "Keycard_Backrooms",
+            "idStr": "bda2fea6-ab1c-444d-84a7-5ecdac6364dd",
+            "stackCapacity": 99,
+            "img": "Keycard_Backrooms.png"
         }
     ],
     "Collectables": [
@@ -461,42 +473,6 @@
             "idStr": "259f2642-4034-4845-aa35-d16ec7bb1871",
             "stackCapacity": 99,
             "img": "8Ball.png"
-        },
-        {
-            "name": "Tape_ARC01",
-            "idStr": "a7c33301-b8fe-41ce-921b-98371f692af2",
-            "stackCapacity": 99,
-            "img": "Tape_ARC01.png"
-        },
-        {
-            "name": "Tape_ARC02",
-            "idStr": "bcdc4469-7756-4de0-b740-8c101d6c1bc0",
-            "stackCapacity": 99,
-            "img": "Tape_ARC01.png"
-        },
-        {
-            "name": "Tape_Chewtopia",
-            "idStr": "8cf6644c-9959-41cb-820b-65e2c511b4d3",
-            "stackCapacity": 99,
-            "img": "Tape_ARC01.png"
-        },
-        {
-            "name": "Tape_SuperstructureIntro",
-            "idStr": "048dff0c-de43-42df-8466-ded6135fa529",
-            "stackCapacity": 99,
-            "img": "Tape_ARC01.png"
-        },
-        {
-            "name": "Tape_AsbestHistory",
-            "idStr": "33ebf265-ded6-4819-ba04-23943ca660a0",
-            "stackCapacity": 99,
-            "img": "Tape_ARC01.png"
-        },
-        {
-            "name": "Tape_DescentOrientation",
-            "idStr": "548e7e62-7319-4ba7-a1f1-b3a2312ae804",
-            "stackCapacity": 99,
-            "img": "Tape_ARC01.png"
         },
         {
             "name": "Book",
@@ -695,6 +671,136 @@
             "idStr": "c82e0007-4933-447b-8051-d268b4ec1d27",
             "stackCapacity": 99,
             "img": "blank.png"
+        },
+        {
+            "name": "Balloon",
+            "idStr": "de89d93b-aa8e-4809-bf86-6eabc72e80fa",
+            "stackCapacity": 99,
+            "img": "White1px.png"
+        },
+        {
+            "name": "StinkBalloon",
+            "idStr": "7cad2fbe-3d93-4ff5-b391-6f27358ee4cc",
+            "stackCapacity": 99,
+            "img": "White1px.png"
+        },
+        {
+            "name": "WhoopeeCushion",
+            "idStr": "730291ea-2fee-4910-8694-b194540790ad",
+            "stackCapacity": 99,
+            "img": "White1px.png"
+        },
+        {
+            "name": "BrokenGlass",
+            "idStr": "6b8f49c7-0552-45e1-9321-9f67247a74dc",
+            "stackCapacity": 99,
+            "img": "White1px.png"
+        },
+        {
+            "name": "Leech",
+            "idStr": "33fa6182-f3f8-4f71-8293-02ec0fcfb0ac",
+            "stackCapacity": 99,
+            "img": "White1px.png"
+        },
+        {
+            "name": "DirtDemon",
+            "idStr": "3ad79d6b-ad44-427e-a122-0f55385c39fe",
+            "stackCapacity": 99,
+            "img": "White1px.png"
+        },
+        {
+            "name": "Fungus",
+            "idStr": "2aac394c-d0ec-40ad-9403-64eac302310b",
+            "stackCapacity": 99,
+            "img": "White1px.png"
+        },
+        {
+            "name": "Pills_Fungus",
+            "idStr": "27293fe4-207c-477d-8b81-4b3983ef3d21",
+            "stackCapacity": 99,
+            "img": "White1px.png"
+        },
+        {
+            "name": "Handsaw_Rusty",
+            "idStr": "3596470d-abd1-4fe7-8282-8dd7d38d0af6",
+            "stackCapacity": 99,
+            "img": "White1px.png"
+        },
+        {
+            "name": "Vector Mapping Unit",
+            "idStr": "bd628850-f1f9-4fbe-9595-7afe1356cfd8",
+            "stackCapacity": 99,
+            "img": "White1px.png"
+        }
+    ],
+    "Tapes": [
+        {
+            "name": "Tape_ARC01",
+            "idStr": "a7c33301-b8fe-41ce-921b-98371f692af2",
+            "stackCapacity": 99,
+            "img": "Tape_ARC01.png"
+        },
+        {
+            "name": "Tape_ARC02",
+            "idStr": "bcdc4469-7756-4de0-b740-8c101d6c1bc0",
+            "stackCapacity": 99,
+            "img": "Tape_ARC01.png"
+        },
+        {
+            "name": "Tape_Chewtopia",
+            "idStr": "8cf6644c-9959-41cb-820b-65e2c511b4d3",
+            "stackCapacity": 99,
+            "img": "Tape_ARC01.png"
+        },
+        {
+            "name": "Tape_SuperstructureIntro",
+            "idStr": "048dff0c-de43-42df-8466-ded6135fa529",
+            "stackCapacity": 99,
+            "img": "Tape_ARC01.png"
+        },
+        {
+            "name": "Tape_AsbestHistory",
+            "idStr": "33ebf265-ded6-4819-ba04-23943ca660a0",
+            "stackCapacity": 99,
+            "img": "Tape_ARC01.png"
+        },
+        {
+            "name": "Tape_DescentOrientation",
+            "idStr": "548e7e62-7319-4ba7-a1f1-b3a2312ae804",
+            "stackCapacity": 99,
+            "img": "Tape_ARC01.png"
+        }
+    ],
+    "Apparels": [
+        {
+            "name": "Apparel_RobertHoodie",
+            "idStr": "22344d6c-c7e8-4f3d-88cc-2368226c9f2c",
+            "stackCapacity": 99,
+            "img": "UI_Apparel_Hoodie.png"
+        },
+        {
+            "name": "Apparel_RobertJeans",
+            "idStr": "dcd414b3-9f28-4ff8-8fed-495b65642b29",
+            "stackCapacity": 99,
+            "img": "UI_Apparel_Jeans.png"
+        },
+        {
+            "name": "Apparel_RobertKicks",
+            "idStr": "cc9ce1b9-6b18-43d8-aea5-12c935ba97cc",
+            "stackCapacity": 99,
+            "img": "UI_Apparel_Shoes.png"
+        },
+        {
+            "name": "Apparel_Hazmat",
+            "idStr": "b381e340-3ab9-469e-bbb7-cd359ab932f2",
+            "stackCapacity": 99,
+            "img": "White1px.png"
+        },
+        {
+            "name": "Apparel_SweatshirtClassic",
+            "idStr": "4bcea537-afa0-4358-a8f5-f27dd77818df",
+            "stackCapacity": 99,
+            "img": "UI_Apparel_Hoodie.png"
         }
     ]
 }
