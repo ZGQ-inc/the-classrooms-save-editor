@@ -27,7 +27,7 @@
                 "name": "Stat_Deodorant",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "7f23ec348df724640b935c8089da778b",
+                    "guid": "26cc5dd070ba30c4f8f122b4c40b90d4",
                     "type": 2
                 },
                 "gameObject": {
@@ -45,7 +45,7 @@
                 "name": "Stat_Exhaustion",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "7f23ec348df724640b935c8089da778b",
+                    "guid": "26cc5dd070ba30c4f8f122b4c40b90d4",
                     "type": 2
                 },
                 "gameObject": {
@@ -63,7 +63,7 @@
                 "name": "Stat_Infection",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "7f23ec348df724640b935c8089da778b",
+                    "guid": "26cc5dd070ba30c4f8f122b4c40b90d4",
                     "type": 2
                 },
                 "gameObject": {
@@ -81,7 +81,7 @@
                 "name": "Stat_Madness",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "7f23ec348df724640b935c8089da778b",
+                    "guid": "26cc5dd070ba30c4f8f122b4c40b90d4",
                     "type": 2
                 },
                 "gameObject": {
@@ -99,7 +99,7 @@
                 "name": "Stat_Smell",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "7f23ec348df724640b935c8089da778b",
+                    "guid": "26cc5dd070ba30c4f8f122b4c40b90d4",
                     "type": 2
                 },
                 "gameObject": {
@@ -117,7 +117,7 @@
                 "name": "Equipment_Keychain",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "10f073eb8e55c824897eca61121b076f",
+                    "guid": "63c5342def001ed4f9e815e9824e6f8a",
                     "type": 2
                 },
                 "gameObject": {
@@ -125,7 +125,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "16c185b142a6dc348b91e6f3f2798859",
+                    "guid": "a52efb71039efac4cb069c2144c5efe0",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -137,7 +137,7 @@
                 "name": "Equipment_Backpack",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "78ed11269fb4fa84b86c0b9e137f8937",
+                    "guid": "9e8deab86fcf5e644a5b07f213530095",
                     "type": 2
                 },
                 "gameObject": {
@@ -145,7 +145,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "65e3598629da42d4fac20aa22060e128",
+                    "guid": "8e7217af95318ec488cc8cdd69bbed78",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -157,7 +157,7 @@
                 "name": "Equipment_Wallet",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "78ed11269fb4fa84b86c0b9e137f8937",
+                    "guid": "9e8deab86fcf5e644a5b07f213530095",
                     "type": 2
                 },
                 "gameObject": {
@@ -165,7 +165,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "2d236a0d4c869544cbc73c18e38c0e95",
+                    "guid": "dbc559ee3e107d24f968546c32098178",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -177,7 +177,7 @@
                 "name": "Equipment_GymBag",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "78ed11269fb4fa84b86c0b9e137f8937",
+                    "guid": "9e8deab86fcf5e644a5b07f213530095",
                     "type": 2
                 },
                 "gameObject": {
@@ -185,7 +185,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "47153efd9418de741bdf484abd22c950",
+                    "guid": "20d6f35fe7568d045a123ce9e0f7b258",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -197,7 +197,7 @@
                 "name": "Equipment_VhsTapes",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "78ed11269fb4fa84b86c0b9e137f8937",
+                    "guid": "9e8deab86fcf5e644a5b07f213530095",
                     "type": 2
                 },
                 "gameObject": {
@@ -205,7 +205,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "93c9722179b74b14b88f778962fa9c60",
+                    "guid": "961fd33e05a33564ab79d009fb3ff0cf",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -217,7 +217,7 @@
                 "name": "Key_Van",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "f1eef75fac3014241aec6382d699b5ab",
+                    "guid": "6cecdee204b66e74c9001ac9e29db655",
                     "type": 2
                 },
                 "gameObject": {
@@ -225,7 +225,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "cfdd5ac7dbb25a343966728f8e09c536",
+                    "guid": "f0053c366c9bceb469c6d76172435c4b",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -242,17 +242,17 @@
                 "name": "Key_Elevator",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "f1eef75fac3014241aec6382d699b5ab",
+                    "guid": "6cecdee204b66e74c9001ac9e29db655",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "93646d74f12b69246b548fb71f9ea348",
+                    "guid": "8b6905c2231bdc447b4e8018d3536c44",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "927eeb02aa457aa42b263d5c39b32533",
+                    "guid": "9fb88cb029898434e98d99aa0d51ce78",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -269,17 +269,17 @@
                 "name": "Key_Janitor",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "f1eef75fac3014241aec6382d699b5ab",
+                    "guid": "6cecdee204b66e74c9001ac9e29db655",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "36da175a9fc1cc343b452c58798dca72",
+                    "guid": "74da97740d38f5f4aa5376c95b5e29c3",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "9de8733fa2dd1b04dbde3e0fc8b59cfa",
+                    "guid": "d82448f61a138314686bdf0008918a59",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -296,17 +296,17 @@
                 "name": "Key_Red",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "2f4c339570abea24cb37cd0cddda0c3b",
+                    "guid": "bfe62bc072662d74f89ff8f85ce82a95",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "7aa2ae80be91ed3408785d553cb36d81",
+                    "guid": "7e2d6c31d9c554c4799832ee99f9ca1f",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -318,17 +318,17 @@
                 "name": "Key_Orange",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "9f45d7eaa9d48ac4bb48a662a7bc5fd7",
+                    "guid": "c54bb6f1c546c5c458d18dbdd49ffc46",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "e651af598bc5ced4a8cf515b40f4493e",
+                    "guid": "1fbf74cc2e04fd44f9235ea94a10d3e2",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -340,17 +340,17 @@
                 "name": "Key_Yellow",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "f1a9a0143f70da846bcb4aee59460414",
+                    "guid": "d2d726cf1322cc44ca4dd37d0a044520",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "b5c69e73c16d2d6408bbb814c4684e4e",
+                    "guid": "618ed855405a3ab4a9079740226ca0c8",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -362,17 +362,17 @@
                 "name": "Key_Green",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "1b19bf0509a70544998a94836a4a0c0d",
+                    "guid": "35de7395a0ddb3d46b9024dc58a3b014",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "d1c992be6a8b319439492024f60cea5d",
+                    "guid": "052134f86a6e7154c8ca6fa31845fe8a",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -389,17 +389,17 @@
                 "name": "Key_Cyan",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "4ec3d699fe9e4ea42b0296a4cbb8c9b6",
+                    "guid": "9863048d29eee7449ab8999883aa402e",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "99a6ecfae2440454aab8bddc04f9a67b",
+                    "guid": "750820ee45a260c47b12e32dac928af0",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -411,17 +411,17 @@
                 "name": "Key_Blue",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "d3757c67b54556248ad159fd17d2ceb6",
+                    "guid": "e0b031e71e4adbd4c90e158e3522b137",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "20106ef0d93718e479ea13ed1e78698c",
+                    "guid": "80dc92d2dc419124c8f02e6957ddec56",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -438,17 +438,17 @@
                 "name": "Key_Indigo",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "80b20bf5c4469404e8ef73caec79e8e0",
+                    "guid": "40fd40fbb97a68d47844a4252273072b",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "a9fa4fb2c8e310c4ba196d599ff20aa5",
+                    "guid": "31fba743f5a17bd43b0847b22a13b2a1",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -460,17 +460,17 @@
                 "name": "Key_Violet",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "c313ddd2af2a842459cfd2e3892bb387",
+                    "guid": "a281ba59733898a45aed44cc261db0c2",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "ba08a8914c4b8a04ca3bf15d1ab8b0bb",
+                    "guid": "f457ca7c910bfe84d92ce3f54081ed86",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -482,17 +482,17 @@
                 "name": "Key_Bronze",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "06ede94ed69be3047a8a3dfe174ad045",
+                    "guid": "0c8292199a4f4cb48ba2de3fb96b5e4d",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "4a41f949bdbf455429ceaf4218ecefab",
+                    "guid": "ce0f72d8526cda4428497bb5f4f66ae2",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -504,17 +504,17 @@
                 "name": "Key_Silver",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "317670daa7dbf1e46877c4615f85b821",
+                    "guid": "05b029d609e553f47b8b48c361852ce1",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "aa43e980579b3c94ca0f41367515c806",
+                    "guid": "a01966dc972705445b6b404848497555",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -526,17 +526,17 @@
                 "name": "Key_Gold",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "52fe54296a2e93249b4dfc9b804b2b6d",
+                    "guid": "0caaf4596ff07da42a08fdb070a77aab",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "9cbb39e66f836874dbc2348a8d5459b8",
+                    "guid": "3fb2e96061f13d743b576555ba06fd01",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -548,17 +548,17 @@
                 "name": "Key_Black",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "902d3acfa0762d14784bd378ae101642",
+                    "guid": "55c1cdbd4e21b78429df9e2cb4d65dd4",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "5883eaee98bd8444db9d9964e916044a",
+                    "guid": "bea9111c82b44404b8521996b119838b",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -570,17 +570,17 @@
                 "name": "Key_White",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "56cada45380a4ea48a6cabc57ac814ae",
+                    "guid": "89abed2a723431a44a1beb17594d84e6",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "aaccca332201a1043943e2d6694f0785",
+                    "guid": "2d4feac6c90229349994f05ad1cd2380",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -592,17 +592,17 @@
                 "name": "Key_Common",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "d5c332cbc005363439ccbe9d287e523e",
+                    "guid": "a814aed35ebaf864693fb73923db63fe",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "5883eaee98bd8444db9d9964e916044a",
+                    "guid": "bea9111c82b44404b8521996b119838b",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -614,17 +614,17 @@
                 "name": "Key_Uncommon",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "47622b501cf18664d97d85d2dd0f9603",
+                    "guid": "398141910a602bb44ac03b495cd77ddf",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "4a41f949bdbf455429ceaf4218ecefab",
+                    "guid": "ce0f72d8526cda4428497bb5f4f66ae2",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -636,17 +636,17 @@
                 "name": "Key_Rare",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "94d47be91cd365d49a7344952b63876d",
+                    "guid": "6aede5e33fb4d61479711736bdbc656d",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "aa43e980579b3c94ca0f41367515c806",
+                    "guid": "a01966dc972705445b6b404848497555",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -658,17 +658,17 @@
                 "name": "Key_Epic",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "be1642b54027fa6418798c6190fbca21",
+                    "guid": "b4c71bf4f9159164a81a6929c8718200",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "9cbb39e66f836874dbc2348a8d5459b8",
+                    "guid": "3fb2e96061f13d743b576555ba06fd01",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -680,12 +680,12 @@
                 "name": "Key_Legendary",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d3d2652149a72ce46b4a612018b2ce12",
+                    "guid": "08fb029f7aa04da4d8cc9c52884967f7",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "9c722350989c39b41baf03331dfb88b7",
+                    "guid": "b5338ec52b934544d9acad59099df9ab",
                     "type": 2
                 },
                 "sprite": {
@@ -700,17 +700,17 @@
                 "name": "Key_ScrewDriver",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "0cb713617e4a72140b58f7a0e65d9791",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "49630b3d6fdf333438aa0bc4f1b4ebce",
+                    "guid": "a91e4cb8a296b484cac030ae552e785e",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "36ff3c900488cce47b8b77532ab2aadd",
+                    "guid": "28d37d16072334245ae2337b9d91c47f",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -727,14 +727,18 @@
                 "name": "Key_SeveredHand_Caleb",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "af44a2d9c0f7c114192ce15628a6ee87",
+                    "guid": "6cecdee204b66e74c9001ac9e29db655",
                     "type": 2
                 },
                 "gameObject": {
-                    "fileID": 0
+                    "fileID": 1709254077376921,
+                    "guid": "15808191f2de62c42bb5e92df86a99f4",
+                    "type": 2
                 },
                 "sprite": {
-                    "fileID": 0
+                    "fileID": 21300000,
+                    "guid": "edf2ce21b06c3f34381ea5021d72975a",
+                    "type": 2
                 },
                 "stackCapacity": 0,
                 "desc": null,
@@ -745,7 +749,7 @@
                 "name": "Codex",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "78ed11269fb4fa84b86c0b9e137f8937",
+                    "guid": "9e8deab86fcf5e644a5b07f213530095",
                     "type": 2
                 },
                 "gameObject": {
@@ -753,7 +757,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "a0d5b3decd737bd42ac5708af9bf72d0",
+                    "guid": "7c076b637de819842b149851765112a0",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -765,7 +769,7 @@
                 "name": "Codex_Newspaper01",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
@@ -773,7 +777,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "160ce54276865034f9d85cc36492bbc9",
+                    "guid": "45cb5446b85416d408bccb04f66504e6",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -790,17 +794,17 @@
                 "name": "Glowstick",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "0cb713617e4a72140b58f7a0e65d9791",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "94105b35026b5a14f892cdaeb56518e5",
+                    "guid": "b030598bf43001b4e802c717cd3d6422",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "fe78165a3236da44d9a21eec6378c553",
+                    "guid": "06d4c75fcc0404747b33b15f13e707d2",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -812,17 +816,17 @@
                 "name": "Battery",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "0cb713617e4a72140b58f7a0e65d9791",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "8bce331aaba6f4b40bfea408ea232b22",
+                    "guid": "e1982238d3540fc4c9196686137f1442",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "270d5e70ed192834f935c38c84a32610",
+                    "guid": "2d28cdec9cd02e942a9b12f9b5785454",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -834,17 +838,17 @@
                 "name": "EggTimer",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "0cb713617e4a72140b58f7a0e65d9791",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "23de1bb13a1206f41b26bb63d98227e2",
+                    "guid": "1fc51102f04cf5f4782866a1351c02cc",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "17c5b5838f3e5744f801b47eac904b5e",
+                    "guid": "ee4da7ce59b14dd409b1b0d1368e4ef1",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -856,7 +860,7 @@
                 "name": "Codex_Diary_InHell",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
@@ -864,7 +868,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "42b209cce2de6f040bb67840a684f771",
+                    "guid": "39ee40a83abdc474daf30c7b9ffd31a0",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -881,7 +885,7 @@
                 "name": "Codex_Diary_IsNotSafe",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
@@ -889,7 +893,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "d8a4fbf8ee96ec748bbb817967283a5d",
+                    "guid": "89d47f310b3a02b489a3a42a1e92fbc6",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -906,7 +910,7 @@
                 "name": "Codex_Diary_LostTrackOfTime",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
@@ -914,7 +918,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "22db05d65da4b6048a30a4a927d12a47",
+                    "guid": "2d0ef6d4823678242ae4df59f401464f",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -931,7 +935,7 @@
                 "name": "Codex_Diary_Smiler",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
@@ -939,7 +943,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "74d35e91490d37642b000500df97e779",
+                    "guid": "bf779dcd57114384790933276cfc578d",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -956,7 +960,7 @@
                 "name": "Codex_Diary_WillToWrite",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
@@ -964,7 +968,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "814c0d8a21e274e4eb84028dd174660e",
+                    "guid": "febca8e0bb82c584c8a5b71a808c4830",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -981,7 +985,7 @@
                 "name": "Codex_Diary_WokeUsEarly",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
@@ -989,7 +993,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "7032a5bb0edcd3241a9562327a074dc5",
+                    "guid": "2157d756329b6db49b53d085d9c851c3",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1006,17 +1010,17 @@
                 "name": "Codex_Diary7",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "3201f341cae4a624e9a5f98978cc4b64",
+                    "guid": "27e33009976d07947990111231cf45c2",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "2aa8884ac26945c44b3f5e86484c2ef9",
+                    "guid": "5da1335ee9056dd419cf1f821184610f",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1033,17 +1037,17 @@
                 "name": "Codex_Diary_Clown",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "10cbb626400ba0e4ca7d74671ad72176",
+                    "guid": "f22fc4a3f327eac439141cc559c36b82",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "eb24474c97412ad4db524a74a8ae1bb1",
+                    "guid": "601a58da4555bb24e8399d4ca395f459",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1060,7 +1064,7 @@
                 "name": "Codex_ARC_TestLog01",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
@@ -1068,7 +1072,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "2a409146781895443b0ac02d502861ae",
+                    "guid": "0b176e279c0d06244ad8548441ad158f",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1085,17 +1089,17 @@
                 "name": "Codex_ARC_Fax01",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "4739b5be19afd574a90ee2a2cde35166",
+                    "guid": "66655e88543b5d445bef38d4a2754d86",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "86a6784b2f439854e99e7461acf06076",
+                    "guid": "394fc3fc18e74e44e86b3a11ac378748",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1112,17 +1116,17 @@
                 "name": "Codex_ARC_Fax02",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "5b69ce28c558f2c40910c1bd6ce2c19f",
+                    "guid": "a52fbce4b77ee8c42adb42e63d2d3c16",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "5de15171c5c2fb54e803e71944b18106",
+                    "guid": "7a4507cca1f2608429ac8d2018cd78cf",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1139,17 +1143,17 @@
                 "name": "Codex_ARC_Fax03",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "6b52fa66a2dd1a54e84fa2e836fd9808",
+                    "guid": "4b262a744b61441408015eeca2626cd9",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "b24155fefa09ffb47925afaa70243ec2",
+                    "guid": "87f471122131b904fba83af60395084a",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1166,17 +1170,17 @@
                 "name": "Codex_ARC_Fax04",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "15024b2eadb3fbd4fb3451e4181691ea",
+                    "guid": "6f0e87c099401994a99a3bb608c08482",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "1d50cb6164adec04ebc8e49dded102db",
+                    "guid": "b23f88c0290d54b4aa869fda03def916",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1193,7 +1197,7 @@
                 "name": "Codex_ARC_DollDocument",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
@@ -1201,7 +1205,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "0fc3cab7f6f213741a32d7edb50772e1",
+                    "guid": "54fc901fd87e7a44d982f0e209ab7f74",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1218,17 +1222,17 @@
                 "name": "Codex_ARC_CloakedFigure",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "3b24f8e2dd6a97a4db985bff6b25b4b8",
+                    "guid": "86a99219bc1b33a4b99c0bbee84b373e",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "1b39ce8920e7d3349b900a8c64bee6e0",
+                    "guid": "31fb9af688a398b4e9b6245215f52b44",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1245,7 +1249,7 @@
                 "name": "Codex_ARC_Clown",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
@@ -1253,7 +1257,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "72a98e51b5ffd0a47a5a81132acacba6",
+                    "guid": "0ebae6ba90ebbde409eef30cdfea5a71",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1270,17 +1274,17 @@
                 "name": "Codex_ARC_Smiley",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "ce48794ecbd2a14409aaf66f423d7f04",
+                    "guid": "8b9291a6891c14d49a571657343e0c7a",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "460d113456593a64397b6dc36692329f",
+                    "guid": "6fd1eff5aa6c574468c02471a6081c14",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1297,17 +1301,17 @@
                 "name": "Codex_ArcDocument1225",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "287dba3c79dccfb489a570f1b1a7956f",
+                    "guid": "2ff4caa78e152c84ab3200ca293420ef",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "f1af54668b93b5b4a9bd847af6790e0c",
+                    "guid": "fd0279374aa860547b02b1f2ae602073",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1324,17 +1328,17 @@
                 "name": "Codex_ArcDocument1263_Title",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "051ce58c768e11e468922878aff86319",
+                    "guid": "6e19029c8686ece49837c87f14fdbc67",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "775e2d1b12db9324087fc006861da383",
+                    "guid": "dc08c2d24100cfe43badba8f455287a4",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1351,7 +1355,7 @@
                 "name": "Codex_ArcDocument1263_Title DO NOT USE",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
@@ -1366,20 +1370,42 @@
                 "idStr": "af3f1da9-39dd-4113-b8f7-611783aa5595"
             },
             {
-                "name": "Codex_DemonDogDocument",
+                "name": "Codex_ArcVacuumNote",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "6c1d0cfb8d1bd8e4285c894cd9eb79c7",
+                    "guid": "7bee539fc108a30408c10a9a31ab35c6",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "c675bb022594d5a45a5249f5be0af843",
+                    "guid": "9388a6809a2d45b4b8e5438d4f4b8785",
+                    "type": 2
+                },
+                "stackCapacity": 0,
+                "desc": null,
+                "attributes": [],
+                "idStr": "d7dc5bc7-f25f-470a-9cea-df77fc39bdac"
+            },
+            {
+                "name": "Codex_DemonDogDocument",
+                "_class": {
+                    "fileID": 11400000,
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
+                    "type": 2
+                },
+                "gameObject": {
+                    "fileID": 1709254077376921,
+                    "guid": "7aba9198a3a73dd4780bcea29964bee6",
+                    "type": 2
+                },
+                "sprite": {
+                    "fileID": 21300000,
+                    "guid": "25b7654e7cad3534a93b32bb93fd2312",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1396,17 +1422,17 @@
                 "name": "Codex_Gangler",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "89654047b5a8b134ab86d3614b0e4a3a",
+                    "guid": "43a3745057e35e04ea53b339ca1fde7b",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "27db470dcc9b5a342adcb135820dd83a",
+                    "guid": "a5fd6cca7befe594f8f9da1549b0922a",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1420,20 +1446,42 @@
                 "idStr": "0af66eaf-1a93-42cc-be3b-3781c04d5701"
             },
             {
-                "name": "Codex_Microwave",
+                "name": "Codex_Gramophone",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "398e005c38d6242489f239f13283aab5",
+                    "guid": "af03bc497dc19cb4085340b62ead6508",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "5f1461d7936e1654da5f2b61fc582139",
+                    "guid": "071b05234d6ccfc4a8c21d08a1f31889",
+                    "type": 2
+                },
+                "stackCapacity": 0,
+                "desc": null,
+                "attributes": [],
+                "idStr": "a447cf2c-29e4-4c52-8e28-1e5af18e2e6e"
+            },
+            {
+                "name": "Codex_Microwave",
+                "_class": {
+                    "fileID": 11400000,
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
+                    "type": 2
+                },
+                "gameObject": {
+                    "fileID": 1709254077376921,
+                    "guid": "cf7962fda36b2e44dbb672953b85ec21",
+                    "type": 2
+                },
+                "sprite": {
+                    "fileID": 21300000,
+                    "guid": "eaeb93f22b7055749bec801235bc05c1",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1450,17 +1498,17 @@
                 "name": "Codex_Snake",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "1e13a46170a42354b87075aec7bb009c",
+                    "guid": "b7a52afd71748d343809b2530becb30e",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "7d0171962bc56894d879fc4edb9b3b1a",
+                    "guid": "f11e1757d24f3d44187775d73a694d16",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1477,17 +1525,17 @@
                 "name": "Codex_Recipe_CameraCase",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "d86fee99393f9e943b389cc3300c01c0",
+                    "guid": "e8840b9bc5694dd4cafdf1519e759dd9",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "b91fe2aed42f31641b42e0b5c4feb26a",
+                    "guid": "29b402a30e4506240a65dbb5304e6c57",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1499,17 +1547,17 @@
                 "name": "Codex_Tenant",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "f0cd5e22601c4b84e87cfa1602fc0d17",
+                    "guid": "91adf489b328a814fb46da6ecad537e6",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "f6c94fc4463f40d4ea20d8bb398b65c3",
+                    "guid": "fa5a43e283c3dc84e8f60bcb0a81a3ac",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1526,17 +1574,17 @@
                 "name": "Codex_Necropede",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "25340c5b173d9c1429e69c00fe605db6",
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "8b8247ee9eb07764ba05faa431cc87a4",
+                    "guid": "355e5c05eae89e7428864ddacfbdd865",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "a6d96ebef3e5e6149a2afa0eab2812c9",
+                    "guid": "21bcf276f11480b4f8c751f9efbacf24",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1550,10 +1598,145 @@
                 "idStr": "0436c9d1-81ca-47ce-981f-bcf736ff5a5f"
             },
             {
+                "name": "Codex_ArcDocument912_Fungus",
+                "_class": {
+                    "fileID": 11400000,
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
+                    "type": 2
+                },
+                "gameObject": {
+                    "fileID": 1709254077376921,
+                    "guid": "bd1bd6413bc665b43b7d5951c2ab6de7",
+                    "type": 2
+                },
+                "sprite": {
+                    "fileID": 21300000,
+                    "guid": "a08eeeba204d6fe46a40649d63300b69",
+                    "type": 2
+                },
+                "stackCapacity": 0,
+                "desc": null,
+                "attributes": [
+                    {
+                        "key": "Term",
+                        "value": "Codex_Idol"
+                    }
+                ],
+                "idStr": "869cb0ba-30ec-4ee6-977d-59b3a194337e"
+            },
+            {
+                "name": "Codex_FungusTestLog",
+                "_class": {
+                    "fileID": 11400000,
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
+                    "type": 2
+                },
+                "gameObject": {
+                    "fileID": 1709254077376921,
+                    "guid": "1cb973b35477d5349885999dfc666008",
+                    "type": 2
+                },
+                "sprite": {
+                    "fileID": 21300000,
+                    "guid": "ca84231c3164ceb4eb75d92968090d8e",
+                    "type": 2
+                },
+                "stackCapacity": 0,
+                "desc": null,
+                "attributes": [
+                    {
+                        "key": "Term",
+                        "value": "Codex_FungusTestLog"
+                    }
+                ],
+                "idStr": "2e727dd1-3d2b-4f99-99d6-c379677cb1b8"
+            },
+            {
+                "name": "Codex_Grinner",
+                "_class": {
+                    "fileID": 11400000,
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
+                    "type": 2
+                },
+                "gameObject": {
+                    "fileID": 1709254077376921,
+                    "guid": "1c7fd93d55e5c114f943e87bb70185f6",
+                    "type": 2
+                },
+                "sprite": {
+                    "fileID": 21300000,
+                    "guid": "f4dc69dbe31195d4299b380c191e45c9",
+                    "type": 2
+                },
+                "stackCapacity": 0,
+                "desc": null,
+                "attributes": [
+                    {
+                        "key": "Term",
+                        "value": "Codex_Grinner"
+                    }
+                ],
+                "idStr": "c7ee51d7-61b9-4dac-86f0-10a3042648fd"
+            },
+            {
+                "name": "Codex_ARCHazmatNotice",
+                "_class": {
+                    "fileID": 11400000,
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
+                    "type": 2
+                },
+                "gameObject": {
+                    "fileID": 1709254077376921,
+                    "guid": "fa2528c5609e5d64587c54a904e8c255",
+                    "type": 2
+                },
+                "sprite": {
+                    "fileID": 21300000,
+                    "guid": "acbc9254fa0fcd740917054fe33b00b1",
+                    "type": 2
+                },
+                "stackCapacity": 0,
+                "desc": null,
+                "attributes": [
+                    {
+                        "key": "Term",
+                        "value": "Codex_ARCHazmatNotice"
+                    }
+                ],
+                "idStr": "1df0e30d-660f-46a4-98ee-93c346f2714c"
+            },
+            {
+                "name": "Codex_CalebJournal01",
+                "_class": {
+                    "fileID": 11400000,
+                    "guid": "d5e115f0208cfa1438a6ceb9ed09be34",
+                    "type": 2
+                },
+                "gameObject": {
+                    "fileID": 1709254077376921,
+                    "guid": "cee5fe48e171c194faf3c7a0de6a32f0",
+                    "type": 2
+                },
+                "sprite": {
+                    "fileID": 21300000,
+                    "guid": "5855329222ad4ff498e234048f9e19f8",
+                    "type": 2
+                },
+                "stackCapacity": 0,
+                "desc": null,
+                "attributes": [
+                    {
+                        "key": "Term",
+                        "value": "Codex_ARC_CalebJournal01"
+                    }
+                ],
+                "idStr": "08cb43f5-3ecd-4fd0-b4db-ecfc0032a7ac"
+            },
+            {
                 "name": "Flashlight",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "78ed11269fb4fa84b86c0b9e137f8937",
+                    "guid": "9e8deab86fcf5e644a5b07f213530095",
                     "type": 2
                 },
                 "gameObject": {
@@ -1561,7 +1744,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "a3525233653f47c47972dbb804dfc72d",
+                    "guid": "e84c59655832a5449802656450b55f07",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1573,7 +1756,7 @@
                 "name": "FloppyDisk_Basic",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "0cb713617e4a72140b58f7a0e65d9791",
                     "type": 2
                 },
                 "gameObject": {
@@ -1581,7 +1764,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "18d9d6450ac625b44a0e949f3f6369f2",
+                    "guid": "b95741b80a78b8f4188ed30d285fddc7",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1593,17 +1776,17 @@
                 "name": "8Ball",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "0cb713617e4a72140b58f7a0e65d9791",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "f4075b41d7da1a04cae6c8860c2d3c83",
+                    "guid": "a545e7f3494df6b4da8f09133870c610",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "b2672545afa80a9429475690b151483a",
+                    "guid": "58418ad026fef90458bf2a98a400c2ae",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1615,17 +1798,17 @@
                 "name": "Tape_ARC01",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "10da838c4ee8306499f148a016ed8baa",
+                    "guid": "6b3271ec840308244a7c00379a5d3d72",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "17b9fb1d907431e43a3bfcd4eb0b25f4",
+                    "guid": "d0e6a3b34eae4c14595ef271aa0b8dfd",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "2bf5cf6feec2de04fb3c9743647cf2dd",
+                    "guid": "f42da0459fab5ab459a60dcf2f07fb32",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1653,17 +1836,17 @@
                 "name": "Tape_Chewtopia",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "10da838c4ee8306499f148a016ed8baa",
+                    "guid": "6b3271ec840308244a7c00379a5d3d72",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "8e09fb214c00fe04a9926eb5945835a0",
+                    "guid": "c54082eaef4a50b499350260f9c370ac",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "2bf5cf6feec2de04fb3c9743647cf2dd",
+                    "guid": "f42da0459fab5ab459a60dcf2f07fb32",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1675,17 +1858,17 @@
                 "name": "Tape_SuperstructureIntro",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "10da838c4ee8306499f148a016ed8baa",
+                    "guid": "6b3271ec840308244a7c00379a5d3d72",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "b5cf94acaa947564282b482cb342bde5",
+                    "guid": "59e449b2d9782eb4297898a417df28ee",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "2bf5cf6feec2de04fb3c9743647cf2dd",
+                    "guid": "f42da0459fab5ab459a60dcf2f07fb32",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1697,17 +1880,17 @@
                 "name": "Tape_AsbestHistory",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "10da838c4ee8306499f148a016ed8baa",
+                    "guid": "6b3271ec840308244a7c00379a5d3d72",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "0e69f1374c04b664fa651cc61884a5b0",
+                    "guid": "3b88896ddb6bcc249bacfed182ef6d57",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "2bf5cf6feec2de04fb3c9743647cf2dd",
+                    "guid": "f42da0459fab5ab459a60dcf2f07fb32",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1719,17 +1902,17 @@
                 "name": "Tape_DescentOrientation",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "10da838c4ee8306499f148a016ed8baa",
+                    "guid": "6b3271ec840308244a7c00379a5d3d72",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "e94781f109d3cf04da50f9e97cb0bd78",
+                    "guid": "01e411f6733b9b742b5791cafe4af02b",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "2bf5cf6feec2de04fb3c9743647cf2dd",
+                    "guid": "f42da0459fab5ab459a60dcf2f07fb32",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1738,20 +1921,42 @@
                 "idStr": "548e7e62-7319-4ba7-a1f1-b3a2312ae804"
             },
             {
-                "name": "Book",
+                "name": "Tape_FungalPills",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "2aeffcb8a479a354385910a29e73f849",
+                    "guid": "6b3271ec840308244a7c00379a5d3d72",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "243a9cd25e94de944b46ad3914250407",
+                    "guid": "90204fb81459ede40ac2ccd4b87895b1",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "aa0dbbf402f79a44c81e040da57a4811",
+                    "guid": "f42da0459fab5ab459a60dcf2f07fb32",
+                    "type": 2
+                },
+                "stackCapacity": 0,
+                "desc": "Item_Description_Tape_FungalPills",
+                "attributes": [],
+                "idStr": "a354291a-f0dd-4b9a-9bce-9f459dd05a93"
+            },
+            {
+                "name": "Book",
+                "_class": {
+                    "fileID": 11400000,
+                    "guid": "817ad27e396a12e428e1256e41c27211",
+                    "type": 2
+                },
+                "gameObject": {
+                    "fileID": 1709254077376921,
+                    "guid": "3570b872223521e4e8b0bd8f1f4a21cd",
+                    "type": 2
+                },
+                "sprite": {
+                    "fileID": 21300000,
+                    "guid": "9ac5102de87048f47b26ac35949e37bd",
                     "type": 2
                 },
                 "stackCapacity": 99,
@@ -1779,17 +1984,17 @@
                 "name": "Book2",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "2aeffcb8a479a354385910a29e73f849",
+                    "guid": "817ad27e396a12e428e1256e41c27211",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "9b50a51a296ce8f46bbf1efe70eb6cd5",
+                    "guid": "d3ab794ba51c86c4288dbd25a18a1ec7",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "21a8adcf627d02a40ab23c746454fb31",
+                    "guid": "189e0419e02d73c4f93c6d3c3b3143d4",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1801,17 +2006,17 @@
                 "name": "Book3",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "2aeffcb8a479a354385910a29e73f849",
+                    "guid": "817ad27e396a12e428e1256e41c27211",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "2e020c811cf65be46acb475721eadc02",
+                    "guid": "1291336827e89e24580f2d63fee7bd65",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "57f42e0ba517e3847acfcd0519a0f074",
+                    "guid": "1c156f9152cbfa940bbdec538f0da542",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1823,17 +2028,17 @@
                 "name": "Book4",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "2aeffcb8a479a354385910a29e73f849",
+                    "guid": "817ad27e396a12e428e1256e41c27211",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "df7aa2913d470ca4a9d9ffed294353e0",
+                    "guid": "f6b052547046b0c45aa7e02a99a88eef",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "c1e4168aeb9dd4944bb7281be60b24fc",
+                    "guid": "b1c8f5a7c6d15a74aad84edd21c06fb1",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1845,17 +2050,17 @@
                 "name": "Book5",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "2aeffcb8a479a354385910a29e73f849",
+                    "guid": "817ad27e396a12e428e1256e41c27211",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "243a9cd25e94de944b46ad3914250407",
+                    "guid": "3570b872223521e4e8b0bd8f1f4a21cd",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "aa0dbbf402f79a44c81e040da57a4811",
+                    "guid": "9ac5102de87048f47b26ac35949e37bd",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1867,17 +2072,17 @@
                 "name": "Book6",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "2aeffcb8a479a354385910a29e73f849",
+                    "guid": "817ad27e396a12e428e1256e41c27211",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "3184a2116fcb843409145a35788677af",
+                    "guid": "d996ea17b012ab24c8f7957de9bc671a",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "d476950fea1325244af4fc09b870e685",
+                    "guid": "b295a675f86077643a32c5b5966848f4",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1889,17 +2094,17 @@
                 "name": "Book7",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "2aeffcb8a479a354385910a29e73f849",
+                    "guid": "817ad27e396a12e428e1256e41c27211",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "e4c4259fcade6c14f9e9801a00644672",
+                    "guid": "1f3a8d116422c074daaeda39ca9c05f7",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "1218164e34af6cd47b53014f32349724",
+                    "guid": "94d3b8541e726e74580e923200d050fe",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1911,17 +2116,17 @@
                 "name": "Book8",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "2aeffcb8a479a354385910a29e73f849",
+                    "guid": "817ad27e396a12e428e1256e41c27211",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "d9a1d933f81443541a649a7a1bcff1fc",
+                    "guid": "5eefb95bdec0a8147bc8a1e47791223f",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "071a14275b0d33244bb52905b9308bd6",
+                    "guid": "66d042fe853b7004aa9345af1902c109",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1933,17 +2138,17 @@
                 "name": "Book9",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "2aeffcb8a479a354385910a29e73f849",
+                    "guid": "817ad27e396a12e428e1256e41c27211",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "e6a7f52234baa754daf1b9c9d0b2b354",
+                    "guid": "12b6e8ea55ef69943a1414737923450b",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "9ca5847a899018e449e0ea4dc212f2e1",
+                    "guid": "0a60699065ecfa547acf39795f1fe256",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1955,17 +2160,17 @@
                 "name": "Book10",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "2aeffcb8a479a354385910a29e73f849",
+                    "guid": "817ad27e396a12e428e1256e41c27211",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "11410423b3dc1224aa176ab5e4def5ee",
+                    "guid": "aa707474769d9e7449ab9181ba688d9a",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "1472b76e3a164f94aae0cbc385bc8258",
+                    "guid": "bc8ae94f419dedd47be3e9cfa35c85f6",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -1977,17 +2182,17 @@
                 "name": "Loonie",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6e25b51a5acbf1441822b703284f25d2",
+                    "guid": "790cd2a05c4974246a8f67750bd30e17",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "87091ca7f6c63dd4bb1d2563f9e07091",
+                    "guid": "8c390ac5bcbdc254b8423c672f46aa5c",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "57995dafa19f1104c8cd26d3f182a53e",
+                    "guid": "419bde47d7fdd4a49b808c4e2b83f70b",
                     "type": 2
                 },
                 "stackCapacity": 999,
@@ -1999,17 +2204,17 @@
                 "name": "ArcadeToken",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6e25b51a5acbf1441822b703284f25d2",
+                    "guid": "790cd2a05c4974246a8f67750bd30e17",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "6a61e5914065b984093cb2a17b958c53",
+                    "guid": "928383cce9776e746a64c4b34dba6f34",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "e2e0e5737e079554a88515159c21b2f0",
+                    "guid": "e79671d91be219d4b99f255163f2007f",
                     "type": 2
                 },
                 "stackCapacity": 999,
@@ -2021,17 +2226,17 @@
                 "name": "Puzzle_Piece",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "0cb713617e4a72140b58f7a0e65d9791",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "159dca7511b02504ab9e7ddbc2dede80",
+                    "guid": "367721fb99689144c8fd4da8edb606d4",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "86d9fc33135ace04aa8d19c0c153209c",
+                    "guid": "16dafac074442204b8611b80f7332d01",
                     "type": 2
                 },
                 "stackCapacity": 176,
@@ -2043,17 +2248,17 @@
                 "name": "Biscuit",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6360dc220e7d0d04cb9e9f60e8e06d13",
+                    "guid": "8e6dfa56c8a65f045bb5b9deae846c0f",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "0b77c02e61a48754f89d5fa91979ac35",
+                    "guid": "aca507af3ef90bf4c8c6e68c9b553063",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "e035b4eabe0d7824aa644edf9cc5809e",
+                    "guid": "fe4d4f9bb35c10b40ac1128bf1c86619",
                     "type": 2
                 },
                 "stackCapacity": 99,
@@ -2065,7 +2270,7 @@
                 "name": "Arcade_Ticket",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "19e9b7fd83306334e97199d0d240d48f",
+                    "guid": "7c6a0370dbd7efd40981c96c5802011e",
                     "type": 2
                 },
                 "gameObject": {
@@ -2073,7 +2278,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "431a73145134fd242a4b89dfc5072e68",
+                    "guid": "6492ef7cd4d20834aa799f81b358c4e8",
                     "type": 2
                 },
                 "stackCapacity": 9999,
@@ -2085,17 +2290,17 @@
                 "name": "Gumball_Black",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6360dc220e7d0d04cb9e9f60e8e06d13",
+                    "guid": "8e6dfa56c8a65f045bb5b9deae846c0f",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "549d2fbc0d64173438817ea632435b5c",
+                    "guid": "9acfcf0819ff30148b79ed0a2ec7be60",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "1325199c7a71aa9429720d032237d3b4",
+                    "guid": "fad92b7ff770f3f4c8cf64b08ac623db",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -2107,17 +2312,17 @@
                 "name": "Gumball_Blue",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6360dc220e7d0d04cb9e9f60e8e06d13",
+                    "guid": "8e6dfa56c8a65f045bb5b9deae846c0f",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "8664d1519acb9db4392ffa27d165b311",
+                    "guid": "836f11a9edebcf34a8449521d3ce88f9",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "2eb12336e28f67244a49fbbcc2cde683",
+                    "guid": "1bb8055c351ac2f478015837736354df",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -2129,17 +2334,17 @@
                 "name": "Gumball_Green",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6360dc220e7d0d04cb9e9f60e8e06d13",
+                    "guid": "8e6dfa56c8a65f045bb5b9deae846c0f",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "4432dfa5566be0e439f72350f88d0322",
+                    "guid": "0d186710d7f22ea458f5ffdc33efe6d3",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "4b1b3fabe163a724f90b530cea696632",
+                    "guid": "7a54b189f23949f45b216b859f5272f7",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -2151,17 +2356,17 @@
                 "name": "Gumball_Orange",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6360dc220e7d0d04cb9e9f60e8e06d13",
+                    "guid": "8e6dfa56c8a65f045bb5b9deae846c0f",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "3ef8039e3231d324888c3ebb00a50ed3",
+                    "guid": "2e6e72040c34d56468f9caaf7e36e64f",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "9b4accb9aaf67ea45a5e7aecacba7ced",
+                    "guid": "02adffe2044d44e4c80a396ba81a3f34",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -2173,17 +2378,17 @@
                 "name": "Gumball_Pink",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6360dc220e7d0d04cb9e9f60e8e06d13",
+                    "guid": "8e6dfa56c8a65f045bb5b9deae846c0f",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "5c8fd0f7ffcb3e148934de1899c5fd2b",
+                    "guid": "c25541dc5e10446498d147760fe5000b",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "727b3feedeb6d1d4e88f34a674c50b1a",
+                    "guid": "e7d2361785574314780e7210c6e02dbe",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -2195,17 +2400,17 @@
                 "name": "Gumball_Purple",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6360dc220e7d0d04cb9e9f60e8e06d13",
+                    "guid": "8e6dfa56c8a65f045bb5b9deae846c0f",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "8df59f5b899c0e94d99129c8a0c45f77",
+                    "guid": "70e8b7d51fb2ed84190ac5564c99a51a",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "2bf7abb2124305a4392293ed6f915026",
+                    "guid": "6e341e5e28f64454cb55135472299693",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -2217,17 +2422,17 @@
                 "name": "Gumball_Red",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6360dc220e7d0d04cb9e9f60e8e06d13",
+                    "guid": "8e6dfa56c8a65f045bb5b9deae846c0f",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "2a9df9e7a7b21a84aa72dd22e1e4f347",
+                    "guid": "0471c9c1148cd474697b63583612f888",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "6e9a457a636fe8e4a96576b154459dff",
+                    "guid": "facba5bde40dd534f9deb20b712eb627",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -2239,17 +2444,17 @@
                 "name": "Gumball_White",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6360dc220e7d0d04cb9e9f60e8e06d13",
+                    "guid": "8e6dfa56c8a65f045bb5b9deae846c0f",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "4127dd6c620a61448b184bb919e1ff8f",
+                    "guid": "db141f40cefa494459111076cfae81a0",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "4cfe7a654fcf7fb4ea4ec82d1c28e682",
+                    "guid": "988bfaf146b9dba4794faf999eaef2bb",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -2261,17 +2466,17 @@
                 "name": "Gumball_Yella",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6360dc220e7d0d04cb9e9f60e8e06d13",
+                    "guid": "8e6dfa56c8a65f045bb5b9deae846c0f",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "ef5bf1e3f8cb8054a8461e6e2c5b4bcb",
+                    "guid": "7d6dcfc306de91c4dba50ce63e88db48",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "8f4ea930608e58546a32e7be4256ead4",
+                    "guid": "afa4590dabf33974d8965c79d94a7375",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -2283,17 +2488,17 @@
                 "name": "Waterpoof_Camcorder_Case",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "0cb713617e4a72140b58f7a0e65d9791",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "6ac828cc40fbf2845bf3d4f52aee248f",
+                    "guid": "3854659864246924b934104f101393f2",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "85b520c7cd2c5b347a76c25c95a594de",
+                    "guid": "b1eed42e4e21cf2488d37ebe954aae73",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2305,17 +2510,17 @@
                 "name": "Broken_Goggles",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "0cb713617e4a72140b58f7a0e65d9791",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "ec2f09bfd367a9946abfcc723ca1774a",
+                    "guid": "139474228d7626943b4e5688e797ed59",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "c4d16eb381a3ee1488d623f1a87d60a3",
+                    "guid": "19537abc8994e9549a048d007a1b9d42",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2327,17 +2532,17 @@
                 "name": "Keycard_01",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "e5c48739da870bd48b197eed62deba82",
+                    "guid": "a569be2a0bec6a448859a70d7aa10bbb",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "fc8e14686adf4e747a1c0aaa012c4dbd",
+                    "guid": "dd9065116ba37bb4fab5a4c9bea5b29b",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -2349,17 +2554,17 @@
                 "name": "Keycard_02",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "a8cf0a8c7f764d04ba220f41c1014ca7",
+                    "guid": "22f9898ca1d81944ca19f86280080121",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "31966f16f31f5fe4f9db737cf07edb7d",
+                    "guid": "868d711e231da4e4c84e8a89af895fab",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -2371,17 +2576,17 @@
                 "name": "Keycard_03",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "1da2482cc1d30b04d96f968ead88b618",
+                    "guid": "f1ca22b403c77d34ab6f05c50434b893",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "450f48568302f1b49b820b6b2445f8c8",
+                    "guid": "e8535c60985f4ca438b7e9a3f9476300",
                     "type": 2
                 },
                 "stackCapacity": 1,
@@ -2393,7 +2598,7 @@
                 "name": "Keycard_Depth0",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
@@ -2401,7 +2606,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "b03ebd92aabaeed4eaa6d041cd2e5bc5",
+                    "guid": "6e8ef9b7f6b6126459c758daea7164d8",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2413,7 +2618,7 @@
                 "name": "Keycard_Depth10",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
@@ -2421,7 +2626,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "aab4da929f2ab9248bf8d6d655342d64",
+                    "guid": "aaba2ee715d5aec459497132864dd3db",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2433,7 +2638,7 @@
                 "name": "Keycard_Depth20",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
@@ -2441,7 +2646,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "5472a6c1d96bb504e900a1b976a0d642",
+                    "guid": "caba67499b94b744899ae91c906bc91f",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2453,7 +2658,7 @@
                 "name": "Keycard_Depth30",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
@@ -2461,7 +2666,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "5bcbf439f43102347ac4220383127442",
+                    "guid": "6239b52d2b5fd2e4792db6c62b93d2e9",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2473,7 +2678,7 @@
                 "name": "Keycard_Depth40",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
@@ -2481,7 +2686,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "0b09b72546c9d9143b62f71edb7cb3d8",
+                    "guid": "351281e51a0e8c543b4ed94776bf0f31",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2493,7 +2698,7 @@
                 "name": "Keycard_Depth50",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
@@ -2501,7 +2706,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "51228ed636818714f9857b11438c1ec8",
+                    "guid": "fe46e8de6d39e7d4fb336a1b1ca23f6d",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2513,7 +2718,7 @@
                 "name": "Keycard_Depth60",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
@@ -2521,7 +2726,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "c2c0ae2e46ab9e4439e9fff455f66a7d",
+                    "guid": "e085d76076a1ce748aa31b7b5ef9264c",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2533,7 +2738,7 @@
                 "name": "Keycard_Depth70",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
@@ -2541,7 +2746,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "3a2a4b513e3b8d445bedb524cd0695c0",
+                    "guid": "3f0c2d52781094741a9c91fa207eca3b",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2553,7 +2758,7 @@
                 "name": "Keycard_Depth80",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
@@ -2561,7 +2766,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "c08d08717c01596498d8c3e630d5f736",
+                    "guid": "063ef114bca42524a9ccdf114467a4c9",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2573,7 +2778,7 @@
                 "name": "Keycard_Depth90",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
@@ -2581,7 +2786,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "ea772eb8990de74428ba7706f6d92cf8",
+                    "guid": "af83ae5445e388a41a2debdae3c59578",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2593,7 +2798,7 @@
                 "name": "Keycard_Depth100",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "4406ef2932c814a4db071669b8646afe",
+                    "guid": "167f5b89e899b7c45a89144d8cb40ae9",
                     "type": 2
                 },
                 "gameObject": {
@@ -2601,7 +2806,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "ceab3a98313d42c4b88bafac566ba838",
+                    "guid": "5593274b5deced44f803c1ccfbbcf40a",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2613,17 +2818,17 @@
                 "name": "Keycard_Classrooms",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "327f61383742e3d4e803a3bef0a3e73f",
+                    "guid": "827e762e06fef4143bc6624da5967fd6",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "70b617715a3b1b94e9d60df790d7a296",
+                    "guid": "666a1e079a20de64a92e701164e30f2c",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "be104890d72aaa44c92fdb46fe6ef56d",
+                    "guid": "7c5016796c1a5d341ab20e549ac2ff58",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2635,17 +2840,17 @@
                 "name": "Keycard_Libraryrooms",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "327f61383742e3d4e803a3bef0a3e73f",
+                    "guid": "827e762e06fef4143bc6624da5967fd6",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "4fbde051e7e629847827f54cf275b492",
+                    "guid": "d239c0f93ea8cea4ebe45d9226bf6b31",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "041843d4be24d1244b5e8cde4a5fee7e",
+                    "guid": "a91a744824281354ba0d58813d784212",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2657,17 +2862,17 @@
                 "name": "Keycard_Bathrooms",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "327f61383742e3d4e803a3bef0a3e73f",
+                    "guid": "827e762e06fef4143bc6624da5967fd6",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "50bc5cbc398c6684c823b30a9ce75fda",
+                    "guid": "36f1f068ead8f314f8c7c6ceb7ebe124",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "9d1e5636bd046f740b6a0886a640067c",
+                    "guid": "f584ce202166ac34cafc65300d0f8a9d",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2679,17 +2884,17 @@
                 "name": "Keycard_Churchrooms",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "327f61383742e3d4e803a3bef0a3e73f",
+                    "guid": "827e762e06fef4143bc6624da5967fd6",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "d9ba4d222ffaf34488526d65184d1a9e",
+                    "guid": "b1b284ecdde8c074198a878d70fd9a65",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "ff21291b160564a428458658d733b292",
+                    "guid": "66495df9f3af7ea408f4b18bca694c5b",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2701,17 +2906,17 @@
                 "name": "Keycard_Poolrooms",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "327f61383742e3d4e803a3bef0a3e73f",
+                    "guid": "827e762e06fef4143bc6624da5967fd6",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "fce7ea89c875ab84889622044942bdcb",
+                    "guid": "5a82938462dde964ba047fafa9ba73ff",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "45763e6ad85a16b4899f02d8d9d3a619",
+                    "guid": "f7af3f1d222b27640a2ce45f7f28d17b",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2723,17 +2928,17 @@
                 "name": "Keycard_Playrooms",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "327f61383742e3d4e803a3bef0a3e73f",
+                    "guid": "827e762e06fef4143bc6624da5967fd6",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "ef33569d7646d8247a2d226cf4a5157c",
+                    "guid": "e737b2871f993e0478616374f2951597",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "d03f6d9f9d1bf2a4f8970dd880e3442d",
+                    "guid": "586bc85499a5bfe4faf71b6caf3dbd9c",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2745,17 +2950,17 @@
                 "name": "Keycard_Kidrooms",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "327f61383742e3d4e803a3bef0a3e73f",
+                    "guid": "827e762e06fef4143bc6624da5967fd6",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "e71cef1e02e968645bd20bfad66d0547",
+                    "guid": "0cb1601cdf68e8d4c9f52258761d4ba6",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "cd9c19531ca04d34fba6b898573741e9",
+                    "guid": "2903ccb5cc732bb41b5a74b58964e1d9",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2767,17 +2972,17 @@
                 "name": "Keycard_Backrooms",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "327f61383742e3d4e803a3bef0a3e73f",
+                    "guid": "827e762e06fef4143bc6624da5967fd6",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "60796472c68ab6841827d95969aae699",
+                    "guid": "d02218876ba8632498cde0186eddd5b6",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "5826dfb15a1bd014eadb82fb3b95fbc1",
+                    "guid": "cbebad0370833fa41a39ebb5a98b24b4",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2789,17 +2994,17 @@
                 "name": "Large_Fuse",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d5bb45e7fc45ff349b8dfb65aef86fa0",
+                    "guid": "7bfc2c242b00cbd4d95786e0c6e1a87d",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "0f8d8a3f5164ae7479e61b17bed8b25e",
+                    "guid": "138268bc68edc754f8548336e6434919",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "74efbb7e8d0a7ca4fac165bf0b44911f",
+                    "guid": "83a8926ae8156f64db76c388a2f96bd0",
                     "type": 2
                 },
                 "stackCapacity": 99,
@@ -2816,17 +3021,17 @@
                 "name": "StinkBomb",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "0cb713617e4a72140b58f7a0e65d9791",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "0ec385a2cc82431428949fc9339da901",
+                    "guid": "0f661d2e39858fc4983b43676f6c25c2",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "c403f10bc9cc063489b6e5745f596897",
+                    "guid": "1bb57ce9cee6d62429756d5a08f626ad",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2838,17 +3043,17 @@
                 "name": "Deodorant",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "0cb713617e4a72140b58f7a0e65d9791",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "5a6467453753a084799a24fc4147b7a9",
+                    "guid": "427869c8d2dd4504b800beeb0677c024",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "fe08a02fe8d4f4e45b848c05292f55f2",
+                    "guid": "09c25755bea0f6a439608978cd63d673",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2860,12 +3065,12 @@
                 "name": "Backpack",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "d880dc5add494cc499fcec0925e87a46",
+                    "guid": "ecd00fa1fe5e32f4d97b079f53aac5e3",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "5423871fa50015a48ad3d2993c124b19",
+                    "guid": "ea072ab39276309459be3be7c3bc45fd",
                     "type": 2
                 },
                 "sprite": {
@@ -2896,17 +3101,17 @@
                 "name": "Canine Death Whistle",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "3462a4f25b2b5ca4f8449d6f037dd5e7",
+                    "guid": "6490dc75f44649d4c864be4c67b6dd45",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "640ba9ad7cecc0c4e9ec738896483b16",
+                    "guid": "00bca2fcc5388124bae84d16e593e256",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "8d0887149fca43e498394c5138fdc014",
+                    "guid": "66caeaa5c0158264ba74a83b82606989",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -2918,12 +3123,12 @@
                 "name": "Balloon",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "e7f6dcdd235b4c845b84d92a54331e78",
+                    "guid": "1eb17c038d869174f8d7434472e538a1",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "ed6827db22c0db24eaecdf70a38d471f",
+                    "guid": "d0940df7aae3215489ea18dce3d57c93",
                     "type": 2
                 },
                 "sprite": {
@@ -2938,12 +3143,12 @@
                 "name": "StinkBalloon",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "e7f6dcdd235b4c845b84d92a54331e78",
+                    "guid": "1eb17c038d869174f8d7434472e538a1",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "f6290e95ceed4284e9db387afe515a68",
+                    "guid": "90188088498361a4f8159fe5790c5af1",
                     "type": 2
                 },
                 "sprite": {
@@ -2958,12 +3163,12 @@
                 "name": "WhoopeeCushion",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "e7f6dcdd235b4c845b84d92a54331e78",
+                    "guid": "1eb17c038d869174f8d7434472e538a1",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "4ed867e83bfe64249b26f8ae934e48fa",
+                    "guid": "3a83b477e285f6743b35956ce88429d7",
                     "type": 2
                 },
                 "sprite": {
@@ -2978,12 +3183,12 @@
                 "name": "BrokenGlass",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "e7f6dcdd235b4c845b84d92a54331e78",
+                    "guid": "1eb17c038d869174f8d7434472e538a1",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "d8c444e666392bd4bbfc84f9089cc5e1",
+                    "guid": "c1574a8453726644492bd451f0d90d4c",
                     "type": 2
                 },
                 "sprite": {
@@ -2998,12 +3203,12 @@
                 "name": "Leech",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "e7f6dcdd235b4c845b84d92a54331e78",
+                    "guid": "1eb17c038d869174f8d7434472e538a1",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "fbd8b2ffa5091fd47976ae35f01996a7",
+                    "guid": "759eaf1793ea3474589892f350e3fcfa",
                     "type": 2
                 },
                 "sprite": {
@@ -3018,14 +3223,18 @@
                 "name": "DirtDemon",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "6cecdee204b66e74c9001ac9e29db655",
                     "type": 2
                 },
                 "gameObject": {
-                    "fileID": 0
+                    "fileID": 1709254077376921,
+                    "guid": "aaf80f95be493dd469c757eb1ffc8948",
+                    "type": 2
                 },
                 "sprite": {
-                    "fileID": 0
+                    "fileID": 21300000,
+                    "guid": "3231c12d01920bd41a3cedbd94aa051a",
+                    "type": 2
                 },
                 "stackCapacity": 0,
                 "desc": null,
@@ -3036,17 +3245,17 @@
                 "name": "Apparel_RobertHoodie",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "184b719750c289645979dea6a8d7e5d3",
+                    "guid": "9e039f728ccecf84e9518942d0d8093e",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "4842f7259553a734ab7852c080331ac5",
+                    "guid": "15e068f04c085f14bb5ced6013c4760e",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "a77ccfbf41cd1684a809ab8e927ce0dd",
+                    "guid": "f90b3cfdbf8002442a6969d7ca038abf",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -3063,17 +3272,17 @@
                 "name": "Apparel_RobertJeans",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "184b719750c289645979dea6a8d7e5d3",
+                    "guid": "9e039f728ccecf84e9518942d0d8093e",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "702949a67494ed4479da1a04c2f9395c",
+                    "guid": "4b6bc6b34c8726c47967f569a5a82837",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "5bdad59cfcfac984199e844ff9db38e0",
+                    "guid": "704d20c0666d481449dd050207233fea",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -3090,17 +3299,17 @@
                 "name": "Apparel_RobertKicks",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "184b719750c289645979dea6a8d7e5d3",
+                    "guid": "9e039f728ccecf84e9518942d0d8093e",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "6ffa00a4eeb375c44a2d35e07c9eef59",
+                    "guid": "6b4c218851f47494d9140d5afa086d17",
                     "type": 2
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "ffc130e315bca0644a4ba776dbd2afa2",
+                    "guid": "36902d35ca4f65b40a7bcfe8991267dd",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -3117,16 +3326,18 @@
                 "name": "Apparel_Hazmat",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "184b719750c289645979dea6a8d7e5d3",
+                    "guid": "9e039f728ccecf84e9518942d0d8093e",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "ae22cff97269a17468aa7dea1dd02c60",
+                    "guid": "cd70b2726ff54df4ca891765ee6d1115",
                     "type": 2
                 },
                 "sprite": {
-                    "fileID": 0
+                    "fileID": 21300000,
+                    "guid": "f0b055273a511d6469eb6c70b014b69c",
+                    "type": 2
                 },
                 "stackCapacity": 0,
                 "desc": null,
@@ -3142,7 +3353,7 @@
                 "name": "Apparel_SweatshirtClassic",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "184b719750c289645979dea6a8d7e5d3",
+                    "guid": "9e039f728ccecf84e9518942d0d8093e",
                     "type": 2
                 },
                 "gameObject": {
@@ -3150,7 +3361,7 @@
                 },
                 "sprite": {
                     "fileID": 21300000,
-                    "guid": "a77ccfbf41cd1684a809ab8e927ce0dd",
+                    "guid": "f90b3cfdbf8002442a6969d7ca038abf",
                     "type": 2
                 },
                 "stackCapacity": 0,
@@ -3172,7 +3383,9 @@
                     "fileID": 0
                 },
                 "sprite": {
-                    "fileID": 0
+                    "fileID": 21300000,
+                    "guid": "0d54ce2b2cde2ee4184d8f5e50aeb9fa",
+                    "type": 2
                 },
                 "stackCapacity": 0,
                 "desc": null,
@@ -3183,16 +3396,20 @@
                 "name": "Pills_Fungus",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "6360dc220e7d0d04cb9e9f60e8e06d13",
+                    "guid": "8e6dfa56c8a65f045bb5b9deae846c0f",
                     "type": 2
                 },
                 "gameObject": {
-                    "fileID": 0
+                    "fileID": 1709254077376921,
+                    "guid": "064ac16307df6fc4f8385c8ede73c99c",
+                    "type": 2
                 },
                 "sprite": {
-                    "fileID": 0
+                    "fileID": 21300000,
+                    "guid": "80c6ec4101b3e6f49b4be256189d1091",
+                    "type": 2
                 },
-                "stackCapacity": 0,
+                "stackCapacity": 99,
                 "desc": null,
                 "attributes": [],
                 "idStr": "27293fe4-207c-477d-8b81-4b3983ef3d21"
@@ -3201,14 +3418,18 @@
                 "name": "Handsaw_Rusty",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "43770ae866dca8646b8032b632546cc6",
+                    "guid": "f4e6338b7be924c438d1a87032e49fd8",
                     "type": 2
                 },
                 "gameObject": {
-                    "fileID": 0
+                    "fileID": 1709254077376921,
+                    "guid": "193e8098c02f4384c9787364d6854c4f",
+                    "type": 2
                 },
                 "sprite": {
-                    "fileID": 0
+                    "fileID": 21300000,
+                    "guid": "c83b07a072c33984e83f31110a03c9ae",
+                    "type": 2
                 },
                 "stackCapacity": 0,
                 "desc": null,
@@ -3219,12 +3440,12 @@
                 "name": "Vector Mapping Unit",
                 "_class": {
                     "fileID": 11400000,
-                    "guid": "a61c6a9a200897f4c831317156824cc9",
+                    "guid": "0cb713617e4a72140b58f7a0e65d9791",
                     "type": 2
                 },
                 "gameObject": {
                     "fileID": 1709254077376921,
-                    "guid": "9fd762330a426444aa0f6e9b009127c1",
+                    "guid": "06621c83d74909b45821639cc01eeba7",
                     "type": 2
                 },
                 "sprite": {
@@ -3249,7 +3470,7 @@
                 "stackCapacity": 0,
                 "desc": null,
                 "attributes": [],
-                "idStr": "af9ab42f-8047-4808-a4bb-f1716a3cbe75"
+                "idStr": "22828de4-2ff8-4ef4-b4f1-d86c00da36d8"
             }
         ]
     }

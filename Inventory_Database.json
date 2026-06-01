@@ -130,7 +130,7 @@
             "name": "Key_SeveredHand_Caleb",
             "idStr": "db5a15dd-3730-41ea-a5fa-ae5edc578c9d",
             "stackCapacity": 99,
-            "img": "White1px.png"
+            "img": "UI_SeveredHand.png"
         }
     ],
     "Codex": [
@@ -301,6 +301,48 @@
             "idStr": "0436c9d1-81ca-47ce-981f-bcf736ff5a5f",
             "stackCapacity": 1,
             "img": "829Centipede.png"
+        },
+        {
+            "name": "Codex_ArcVacuumNote",
+            "idStr": "d7dc5bc7-f25f-470a-9cea-df77fc39bdac",
+            "stackCapacity": 1,
+            "img": "VacuumNote.png"
+        },
+        {
+            "name": "Codex_Gramophone",
+            "idStr": "a447cf2c-29e4-4c52-8e28-1e5af18e2e6e",
+            "stackCapacity": 1,
+            "img": "GramophoneDocument103.png"
+        },
+        {
+            "name": "Codex_ArcDocument912_Fungus",
+            "idStr": "869cb0ba-30ec-4ee6-977d-59b3a194337e",
+            "stackCapacity": 1,
+            "img": "IdolDocument.png"
+        },
+        {
+            "name": "Codex_FungusTestLog",
+            "idStr": "2e727dd1-3d2b-4f99-99d6-c379677cb1b8",
+            "stackCapacity": 1,
+            "img": "FungusTestLog.png"
+        },
+        {
+            "name": "Codex_Grinner",
+            "idStr": "c7ee51d7-61b9-4dac-86f0-10a3042648fd",
+            "stackCapacity": 1,
+            "img": "GrinnerDocument.png"
+        },
+        {
+            "name": "Codex_ARCHazmatNotice",
+            "idStr": "1df0e30d-660f-46a4-98ee-93c346f2714c",
+            "stackCapacity": 1,
+            "img": "ARCHazmatNotice.png"
+        },
+        {
+            "name": "Codex_CalebJournal01",
+            "idStr": "08cb43f5-3ecd-4fd0-b4db-ecfc0032a7ac",
+            "stackCapacity": 1,
+            "img": "CalebJournal01.png"
         }
     ],
     "Keycards": [
@@ -706,25 +748,25 @@
             "name": "DirtDemon",
             "idStr": "3ad79d6b-ad44-427e-a122-0f55385c39fe",
             "stackCapacity": 99,
-            "img": "White1px.png"
+            "img": "UI_DirtDemon.png"
         },
         {
             "name": "Fungus",
             "idStr": "2aac394c-d0ec-40ad-9403-64eac302310b",
             "stackCapacity": 99,
-            "img": "White1px.png"
+            "img": "UI_Fungus.png"
         },
         {
             "name": "Pills_Fungus",
             "idStr": "27293fe4-207c-477d-8b81-4b3983ef3d21",
             "stackCapacity": 99,
-            "img": "White1px.png"
+            "img": "UI_Pills.png"
         },
         {
             "name": "Handsaw_Rusty",
             "idStr": "3596470d-abd1-4fe7-8282-8dd7d38d0af6",
-            "stackCapacity": 99,
-            "img": "White1px.png"
+            "stackCapacity": 1,
+            "img": "UI_RustyHandSaw.png"
         },
         {
             "name": "Vector Mapping Unit",
@@ -769,6 +811,12 @@
             "idStr": "548e7e62-7319-4ba7-a1f1-b3a2312ae804",
             "stackCapacity": 99,
             "img": "Tape_ARC01.png"
+        },
+        {
+            "name": "Tape_FungalPills",
+            "idStr": "a354291a-f0dd-4b9a-9bce-9f459dd05a93",
+            "stackCapacity": 1,
+            "img": "Tape_ARC01.png"
         }
     ],
     "Apparels": [
@@ -794,7 +842,7 @@
             "name": "Apparel_Hazmat",
             "idStr": "b381e340-3ab9-469e-bbb7-cd359ab932f2",
             "stackCapacity": 99,
-            "img": "White1px.png"
+            "img": "UI_HazmatHanging.png"
         },
         {
             "name": "Apparel_SweatshirtClassic",
