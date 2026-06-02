@@ -1374,7 +1374,7 @@
             "Playrooms",
             "Kidrooms",
             "Backrooms",
-            ""
+            " "
         ];
 
         let APP = {
@@ -1723,7 +1723,7 @@
                     const i = idx + 1;
                     const unlocked = isInstant || (APP.editors[side].data[`Section${i}`] === 1);
                     const lockedClass = isInstant ? 'locked-mode' : '';
-                    let imgIdx = i > 8 ? 8 : i;
+                    let imgIdx = i > 9 ? 9 : i;
 
                     html += `
                         <div class="tape-card ${unlocked ? 'unlocked' : ''} ${lockedClass}" onclick="clickTape('${side}', ${i})">
