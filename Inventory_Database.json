@@ -125,12 +125,6 @@
             "idStr": "326a9508-828b-467f-b385-6cdf7e7528a7",
             "stackCapacity": 99,
             "img": "Key_Black.png"
-        },
-        {
-            "name": "Key_SeveredHand_Caleb",
-            "idStr": "db5a15dd-3730-41ea-a5fa-ae5edc578c9d",
-            "stackCapacity": 99,
-            "img": "UI_SeveredHand.png"
         }
     ],
     "Codex": [
@@ -767,6 +761,12 @@
             "idStr": "3596470d-abd1-4fe7-8282-8dd7d38d0af6",
             "stackCapacity": 1,
             "img": "UI_RustyHandSaw.png"
+        },
+                {
+            "name": "Key_SeveredHand_Caleb",
+            "idStr": "db5a15dd-3730-41ea-a5fa-ae5edc578c9d",
+            "stackCapacity": 99,
+            "img": "UI_SeveredHand.png"
         },
         {
             "name": "Vector Mapping Unit",
