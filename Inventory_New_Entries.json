@@ -1,0 +1,935 @@
+{
+    "Keys": [],
+    "Codex": [
+        {
+            "name": "Codex_ARCVacuumNote",
+            "idStr": "d7dc5bc7-f25f-470a-9cea-df77fc39bdac",
+            "stackCapacity": 99,
+            "img": "Codex_ARCVacuumNote.png"
+        }
+    ],
+    "Keycards": [],
+    "Tapes": [],
+    "Apparels": [
+        {
+            "name": "Apparel_RobertsHoodie",
+            "idStr": "22344d6c-c7e8-4f3d-88cc-2368226c9f2c",
+            "stackCapacity": 99,
+            "img": "Apparel_RobertsHoodie.png"
+        },
+        {
+            "name": "Apparel_RobertsJeans",
+            "idStr": "dcd414b3-9f28-4ff8-8fed-495b65642b29",
+            "stackCapacity": 99,
+            "img": "Apparel_RobertsJeans.png"
+        },
+        {
+            "name": "Apparel_RobertsKicks",
+            "idStr": "cc9ce1b9-6b18-43d8-aea5-12c935ba97cc",
+            "stackCapacity": 99,
+            "img": "Apparel_RobertsKicks.png"
+        },
+        {
+            "name": "Apparel_ARCLabCoat",
+            "idStr": "c0a71a1c-4b0a-4c0a-9a1c-0a71c0a71a1c",
+            "stackCapacity": 99,
+            "img": "Apparel_ARCLabCoat.png"
+        },
+        {
+            "name": "Apparel_DressPants",
+            "idStr": "d7e55a17-9a25-4a17-b0a5-d7e55a17b0a5",
+            "stackCapacity": 99,
+            "img": "Apparel_DressPants.png"
+        },
+        {
+            "name": "Apparel_DressShoes",
+            "idStr": "d7e55403-9a5e-4403-b0e5-d7e55403b0e5",
+            "stackCapacity": 99,
+            "img": "Apparel_DressShoes.png"
+        },
+        {
+            "name": "Apparel_Belt_Flamingo",
+            "idStr": "be17f1a3-90a0-4b17-8f1a-be17f1a390a0",
+            "stackCapacity": 99,
+            "img": "Apparel_Belt_Flamingo.png"
+        },
+        {
+            "name": "Apparel_Appron_beefcake",
+            "idStr": "a99a0be3-9bee-4fca-8e3b-a99a0be3face",
+            "stackCapacity": 99,
+            "img": "Apparel_Appron_beefcake.png"
+        },
+        {
+            "name": "Apparel_SuitJacket",
+            "idStr": "9b310d29-f561-4ef9-82f7-a71be3308a44",
+            "stackCapacity": 99,
+            "img": "Apparel_SuitJacket.png"
+        },
+        {
+            "name": "Apparel_Glasses",
+            "idStr": "b7c74fe1-99e3-4f8b-b549-1feed03b520c",
+            "stackCapacity": 99,
+            "img": "Apparel_Glasses.png"
+        },
+        {
+            "name": "Apparel_Sweater",
+            "idStr": "225f956a-c999-45ee-a788-0c25b09a0542",
+            "stackCapacity": 99,
+            "img": "Apparel_Sweater.png"
+        },
+        {
+            "name": "Apparel_BlackJeans",
+            "idStr": "4dde8b08-e1eb-4c64-bc7e-61a0c3c7866d",
+            "stackCapacity": 99,
+            "img": "Apparel_BlackJeans.png"
+        },
+        {
+            "name": "Apparel_Sneakers02",
+            "idStr": "a69ba2c6-b6e1-496a-9080-77461cd30a60",
+            "stackCapacity": 99,
+            "img": "Apparel_Sneakers02.png"
+        },
+        {
+            "name": "Apparel_TShirt",
+            "idStr": "76d1c8a4-f104-4a00-88ba-84da10629aae",
+            "stackCapacity": 99,
+            "img": "Apparel_TShirt.png"
+        },
+        {
+            "name": "Apparel_Shirt",
+            "idStr": "cec041ff-338f-4623-a6b7-b5724622f8d3",
+            "stackCapacity": 99,
+            "img": "Apparel_Shirt.png"
+        },
+        {
+            "name": "Apparel_CasualShirt",
+            "idStr": "c797c6fe-28a4-4ad8-84b2-5ae332e95541",
+            "stackCapacity": 99,
+            "img": "Apparel_CasualShirt.png"
+        },
+        {
+            "name": "Apparel_PoloShirt",
+            "idStr": "c5ad701c-ef76-40dd-9e97-cd46665e8880",
+            "stackCapacity": 99,
+            "img": "Apparel_PoloShirt.png"
+        },
+        {
+            "name": "Apparel_Jacket",
+            "idStr": "46c75b5b-4ae4-46f2-9d14-292efc027eca",
+            "stackCapacity": 99,
+            "img": "Apparel_Jacket.png"
+        },
+        {
+            "name": "Apparel_Sleeveless",
+            "idStr": "16929d8c-1e42-43db-b383-a38c3f7488d5",
+            "stackCapacity": 99,
+            "img": "Apparel_Sleeveless.png"
+        },
+        {
+            "name": "Apparel_CropTop01",
+            "idStr": "de016c93-93dc-4222-8366-35354fbd320b",
+            "stackCapacity": 99,
+            "img": "Apparel_CropTop01.png"
+        },
+        {
+            "name": "Apparel_CropTop02",
+            "idStr": "71cda0b6-de0f-4d60-be7f-498148cbe62e",
+            "stackCapacity": 99,
+            "img": "Apparel_CropTop02.png"
+        },
+        {
+            "name": "Apparel_Vest",
+            "idStr": "092e2700-2951-4017-8331-7ca3536f1641",
+            "stackCapacity": 99,
+            "img": "Apparel_Vest.png"
+        },
+        {
+            "name": "Apparel_LeatherJacket",
+            "idStr": "4d1e7598-764e-4c0e-aaed-1e2794b42611",
+            "stackCapacity": 99,
+            "img": "Apparel_LeatherJacket.png"
+        },
+        {
+            "name": "Apparel_DenimJacket",
+            "idStr": "fb9816db-1db3-48b7-903e-2783dc6afce3",
+            "stackCapacity": 99,
+            "img": "Apparel_DenimJacket.png"
+        },
+        {
+            "name": "Apparel_CorduroyJacketBrown",
+            "idStr": "cd5e134c-15b8-4878-aa0f-c0b15e2cdf5f",
+            "stackCapacity": 99,
+            "img": "Apparel_CorduroyJacketBrown.png"
+        },
+        {
+            "name": "Apparel_CorduroyJacketNavy",
+            "idStr": "d89b6f99-a722-4321-9680-00a7fc062d01",
+            "stackCapacity": 99,
+            "img": "Apparel_CorduroyJacketNavy.png"
+        },
+        {
+            "name": "Apparel_CargoPants",
+            "idStr": "60cd846b-5784-44cd-994f-5972eb212028",
+            "stackCapacity": 99,
+            "img": "Apparel_CargoPants.png"
+        },
+        {
+            "name": "Apparel_Shorts",
+            "idStr": "f8880032-9db9-4c16-9677-84e3f2b0665f",
+            "stackCapacity": 99,
+            "img": "Apparel_Shorts.png"
+        },
+        {
+            "name": "Apparel_JoggingPants",
+            "idStr": "9c5e1281-15d5-426a-9120-d86e6b15b4af",
+            "stackCapacity": 99,
+            "img": "Apparel_JoggingPants.png"
+        },
+        {
+            "name": "Apparel_BaggyJeansBlue",
+            "idStr": "c8990e5a-24cf-42b2-8314-c116409fc5f9",
+            "stackCapacity": 99,
+            "img": "Apparel_BaggyJeansBlue.png"
+        },
+        {
+            "name": "Apparel_BaggyJeansBlack",
+            "idStr": "c48f60a9-41c1-48b5-87a0-4eb09e29f372",
+            "stackCapacity": 99,
+            "img": "Apparel_BaggyJeansBlack.png"
+        },
+        {
+            "name": "Apparel_SkirtNavy",
+            "idStr": "c2c2d418-9975-45c5-90ef-5dbb53b7c6ea",
+            "stackCapacity": 99,
+            "img": "Apparel_SkirtNavy.png"
+        },
+        {
+            "name": "Apparel_SkirtGray",
+            "idStr": "3fd58655-5edd-4a2f-b696-4d19dd7ba528",
+            "stackCapacity": 99,
+            "img": "Apparel_SkirtGray.png"
+        },
+        {
+            "name": "Apparel_Socks",
+            "idStr": "86183834-9827-476f-8ebe-93140165ed76",
+            "stackCapacity": 99,
+            "img": "Apparel_Socks.png"
+        },
+        {
+            "name": "Apparel_Sandals",
+            "idStr": "a2177682-c0b4-4c13-ac8a-bd83cbbf8d1f",
+            "stackCapacity": 99,
+            "img": "Apparel_Sandals.png"
+        },
+        {
+            "name": "Apparel_Boots",
+            "idStr": "ddb6cdaa-c0e9-41ba-9e80-f537cb56a94e",
+            "stackCapacity": 99,
+            "img": "Apparel_Boots.png"
+        },
+        {
+            "name": "Apparel_AnkleBoots",
+            "idStr": "b84e93b8-7ba3-4211-8acd-cff1f6eca36f",
+            "stackCapacity": 99,
+            "img": "Apparel_AnkleBoots.png"
+        },
+        {
+            "name": "Apparel_HighHeels",
+            "idStr": "0cfe63b7-faf3-4bb8-9d00-4f08a02f9052",
+            "stackCapacity": 99,
+            "img": "Apparel_HighHeels.png"
+        },
+        {
+            "name": "Apparel_AviatorGlasses",
+            "idStr": "a03d69b4-5b41-4e59-a82e-411701f7206d",
+            "stackCapacity": 99,
+            "img": "Apparel_AviatorGlasses.png"
+        },
+        {
+            "name": "Apparel_Wristwatch",
+            "idStr": "65801524-391b-4c92-a3c3-602ce5acd535",
+            "stackCapacity": 99,
+            "img": "Apparel_Wristwatch.png"
+        },
+        {
+            "name": "Apparel_ArmyTrainers",
+            "idStr": "9c034e65-df96-4414-a26e-6276f8878206",
+            "stackCapacity": 99,
+            "img": "Apparel_ArmyTrainers.png"
+        },
+        {
+            "name": "Apparel_ChelseaBoots",
+            "idStr": "995d6d84-b032-450a-95b3-e83164655a63",
+            "stackCapacity": 99,
+            "img": "Apparel_ChelseaBoots.png"
+        },
+        {
+            "name": "Apparel_CombatBoots",
+            "idStr": "287a93c6-07b2-4cf7-92f7-9c15a8949d1d",
+            "stackCapacity": 99,
+            "img": "Apparel_CombatBoots.png"
+        },
+        {
+            "name": "Apparel_FlipFlops",
+            "idStr": "c92813d7-c99d-4ca0-b03c-7f07804aadef",
+            "stackCapacity": 99,
+            "img": "Apparel_FlipFlops.png"
+        },
+        {
+            "name": "Apparel_Flippers",
+            "idStr": "9285c2ee-2124-489f-8c53-75ba2f8a18e5",
+            "stackCapacity": 99,
+            "img": "Apparel_Flippers.png"
+        },
+        {
+            "name": "Apparel_Loafers",
+            "idStr": "c6643041-4479-4f49-919e-50b0d3022d2e",
+            "stackCapacity": 99,
+            "img": "Apparel_Loafers.png"
+        },
+        {
+            "name": "Apparel_Trainers",
+            "idStr": "fbc03b8d-b9da-40bc-b80f-2544c936734e",
+            "stackCapacity": 99,
+            "img": "Apparel_Trainers.png"
+        },
+        {
+            "name": "Apparel_Sliders",
+            "idStr": "8dc38f81-ee87-4c55-b4ad-ec019f403cc0",
+            "stackCapacity": 99,
+            "img": "Apparel_Sliders.png"
+        },
+        {
+            "name": "Apparel_CargoShorts",
+            "idStr": "43a3f56d-893f-4f2e-b61c-4c17e49f89ec",
+            "stackCapacity": 99,
+            "img": "Apparel_CargoShorts.png"
+        },
+        {
+            "name": "Apparel_Chinos",
+            "idStr": "e54d67e0-fcad-4fa1-88c9-63609f6af5d9",
+            "stackCapacity": 99,
+            "img": "Apparel_Chinos.png"
+        },
+        {
+            "name": "Apparel_GymShorts",
+            "idStr": "5dd1b837-b8b5-418d-9106-34977c006490",
+            "stackCapacity": 99,
+            "img": "Apparel_GymShorts.png"
+        },
+        {
+            "name": "Apparel_TracksuitPants",
+            "idStr": "a7fde5c4-fa7a-4611-ae7b-c5c9db4a0a30",
+            "stackCapacity": 99,
+            "img": "Apparel_TracksuitPants.png"
+        },
+        {
+            "name": "Apparel_Beanie",
+            "idStr": "2c526566-4401-4b72-bcad-c896a8d58b04",
+            "stackCapacity": 99,
+            "img": "Apparel_Beanie.png"
+        },
+        {
+            "name": "Apparel_BucketHat",
+            "idStr": "bbdd9a84-fdfb-42c9-9220-1e4400ab241c",
+            "stackCapacity": 99,
+            "img": "Apparel_BucketHat.png"
+        },
+        {
+            "name": "Apparel_Cap",
+            "idStr": "e0264897-81d7-4839-972f-7ce34330898c",
+            "stackCapacity": 99,
+            "img": "Apparel_Cap.png"
+        },
+        {
+            "name": "Apparel_HardHat",
+            "idStr": "4475c441-fb32-4baf-977e-3b08df01bb3e",
+            "stackCapacity": 99,
+            "img": "Apparel_HardHat.png"
+        },
+        {
+            "name": "Apparel_AgentSunglasses",
+            "idStr": "2806fe73-603c-461b-b6cb-a8db289458fe",
+            "stackCapacity": 99,
+            "img": "Apparel_AgentSunglasses.png"
+        },
+        {
+            "name": "Apparel_CatEyeGlasses",
+            "idStr": "8183ab62-58fe-4cbd-b9c2-0c9a1e222b49",
+            "stackCapacity": 99,
+            "img": "Apparel_CatEyeGlasses.png"
+        },
+        {
+            "name": "Apparel_SafetyGlasses",
+            "idStr": "86cc0b65-79eb-4b6d-9a30-616aea222aae",
+            "stackCapacity": 99,
+            "img": "Apparel_SafetyGlasses.png"
+        },
+        {
+            "name": "Apparel_Apron",
+            "idStr": "685449d1-5052-4d52-a6da-30f7ed952ddd",
+            "stackCapacity": 99,
+            "img": "Apparel_Apron.png"
+        },
+        {
+            "name": "Apparel_BikerJacket",
+            "idStr": "ab1ab67f-9504-40f5-be76-07de1e99f2f3",
+            "stackCapacity": 99,
+            "img": "Apparel_BikerJacket.png"
+        },
+        {
+            "name": "Apparel_DenimJacket01",
+            "idStr": "e096495c-4909-4073-b4ef-3c12a8f9fbe3",
+            "stackCapacity": 99,
+            "img": "Apparel_DenimJacket01.png"
+        },
+        {
+            "name": "Apparel_TankTop",
+            "idStr": "43e9fd6d-f8c6-4311-a661-dcd136af6bb2",
+            "stackCapacity": 99,
+            "img": "Apparel_TankTop.png"
+        },
+        {
+            "name": "Apparel_PulloverHoodie",
+            "idStr": "a47e8195-7e19-461a-b5d5-0d25ff0f3dbd",
+            "stackCapacity": 99,
+            "img": "Apparel_PulloverHoodie.png"
+        },
+        {
+            "name": "Apparel_PoliceShirt",
+            "idStr": "8e9ce5d6-f87b-418b-8d7c-d578e05bc60a",
+            "stackCapacity": 99,
+            "img": "Apparel_PoliceShirt.png"
+        },
+        {
+            "name": "Apparel_PoliceShirtShort",
+            "idStr": "089ec139-8a6b-4efd-b5d7-822f94297e8d",
+            "stackCapacity": 99,
+            "img": "Apparel_PoliceShirtShort.png"
+        },
+        {
+            "name": "Apparel_CampShirt",
+            "idStr": "07cb8e63-a003-4014-910e-f4f986fc6ca0",
+            "stackCapacity": 99,
+            "img": "Apparel_CampShirt.png"
+        },
+        {
+            "name": "Apparel_OversizedShirt",
+            "idStr": "de65e7b5-f172-4b1f-be8b-3f9e54a11941",
+            "stackCapacity": 99,
+            "img": "Apparel_OversizedShirt.png"
+        },
+        {
+            "name": "Apparel_TracksuitTop",
+            "idStr": "9e074d10-93c2-4283-8c77-4326ede3c9ba",
+            "stackCapacity": 99,
+            "img": "Apparel_TracksuitTop.png"
+        },
+        {
+            "name": "Apparel_SweaterVest",
+            "idStr": "c61a9dc2-4f5a-4c6d-802c-b9c191d76167",
+            "stackCapacity": 99,
+            "img": "Apparel_SweaterVest.png"
+        },
+        {
+            "name": "Apparel_Waistcoat",
+            "idStr": "d5cb81fb-421d-465e-8dc7-e3a11f892fe7",
+            "stackCapacity": 99,
+            "img": "Apparel_Waistcoat.png"
+        },
+        {
+            "name": "Apparel_WaistcoatTie",
+            "idStr": "cd85e912-1284-4fb4-a43a-b23ef090667c",
+            "stackCapacity": 99,
+            "img": "Apparel_WaistcoatTie.png"
+        },
+        {
+            "name": "Apparel_Overalls",
+            "idStr": "ebe4f5cc-0ad0-4374-82c8-91700fe5566d",
+            "stackCapacity": 99,
+            "img": "Apparel_Overalls.png"
+        },
+        {
+            "name": "Apparel_OverallsSafetyVest",
+            "idStr": "62956b00-3c97-4f6a-86b1-1a90cccb12bb",
+            "stackCapacity": 99,
+            "img": "Apparel_OverallsSafetyVest.png"
+        },
+        {
+            "name": "Apparel_PoliceTrousers",
+            "idStr": "152d6c4a-f249-44b2-879c-884717c45ceb",
+            "stackCapacity": 99,
+            "img": "Apparel_PoliceTrousers.png"
+        },
+        {
+            "name": "Apparel_RunningTights",
+            "idStr": "e87533a0-6500-4fd8-b47a-b5ffdfe2e983",
+            "stackCapacity": 99,
+            "img": "Apparel_RunningTights.png"
+        },
+        {
+            "name": "Apparel_Sweatpants",
+            "idStr": "8f4faeca-8577-4207-8441-1465552a146f",
+            "stackCapacity": 99,
+            "img": "Apparel_Sweatpants.png"
+        },
+        {
+            "name": "Apparel_PoliceCap",
+            "idStr": "71f705f1-81e8-46dd-a495-10ddce8f66b5",
+            "stackCapacity": 99,
+            "img": "Apparel_PoliceCap.png"
+        },
+        {
+            "name": "Apparel_SkiGoggles",
+            "idStr": "534bc7f7-9ec0-4835-9219-de3efd54badb",
+            "stackCapacity": 99,
+            "img": "Apparel_SkiGoggles.png"
+        },
+        {
+            "name": "Apparel_ScubaMask",
+            "idStr": "a84661fc-0ea5-4582-91a6-eccfd99d1a8a",
+            "stackCapacity": 99,
+            "img": "Apparel_ScubaMask.png"
+        },
+        {
+            "name": "Apparel_Cardigan",
+            "idStr": "7d5b82f3-5669-4af4-ba16-f2a95f828a38",
+            "stackCapacity": 99,
+            "img": "Apparel_Cardigan.png"
+        },
+        {
+            "name": "Apparel_LabCoat",
+            "idStr": "1d7b168a-1d29-425c-b316-f4220c1e0622",
+            "stackCapacity": 99,
+            "img": "Apparel_LabCoat.png"
+        },
+        {
+            "name": "Apparel_ScrubsTop",
+            "idStr": "a339be94-83d5-4001-aac1-f85b3cbe92b8",
+            "stackCapacity": 99,
+            "img": "Apparel_ScrubsTop.png"
+        },
+        {
+            "name": "Apparel_PufferJacket",
+            "idStr": "cc7db752-34c6-484a-abb7-0e2cfc8c060f",
+            "stackCapacity": 99,
+            "img": "Apparel_PufferJacket.png"
+        },
+        {
+            "name": "Apparel_PyjamaTop",
+            "idStr": "8ea6cfc1-a9b5-4e92-9e33-2073f6165e48",
+            "stackCapacity": 99,
+            "img": "Apparel_PyjamaTop.png"
+        },
+        {
+            "name": "Apparel_RaglanShirt",
+            "idStr": "39e0adac-bf7a-4d39-a798-86bbd79958da",
+            "stackCapacity": 99,
+            "img": "Apparel_RaglanShirt.png"
+        },
+        {
+            "name": "Apparel_HalfZipSweater",
+            "idStr": "ff55ac2e-48b4-4024-971b-3fab1288195e",
+            "stackCapacity": 99,
+            "img": "Apparel_HalfZipSweater.png"
+        },
+        {
+            "name": "Apparel_WinterJacket",
+            "idStr": "c7abf16e-55c8-4270-829b-4cf18e21bc10",
+            "stackCapacity": 99,
+            "img": "Apparel_WinterJacket.png"
+        },
+        {
+            "name": "Apparel_ShortSleeveShirt",
+            "idStr": "399076b4-7278-410e-9f18-109e087ea754",
+            "stackCapacity": 99,
+            "img": "Apparel_ShortSleeveShirt.png"
+        },
+        {
+            "name": "Apparel_SportsJersey",
+            "idStr": "8514dbfe-e930-46a1-bdda-3b63240ddb1b",
+            "stackCapacity": 99,
+            "img": "Apparel_SportsJersey.png"
+        },
+        {
+            "name": "Apparel_SuitJacketTie",
+            "idStr": "386ff469-b8e1-47fd-924e-6525fecad056",
+            "stackCapacity": 99,
+            "img": "Apparel_SuitJacketTie.png"
+        },
+        {
+            "name": "Apparel_Sweatshirt",
+            "idStr": "4add5bc1-c594-43de-9e00-df8e8d86f415",
+            "stackCapacity": 99,
+            "img": "Apparel_Sweatshirt.png"
+        },
+        {
+            "name": "Apparel_LongSleeveTShirt",
+            "idStr": "b788a73f-8f54-44da-b29a-31daf9d25ae5",
+            "stackCapacity": 99,
+            "img": "Apparel_LongSleeveTShirt.png"
+        },
+        {
+            "name": "Apparel_OversizedTShirt",
+            "idStr": "54db7d0d-6668-4088-9009-0e4a57d81aec",
+            "stackCapacity": 99,
+            "img": "Apparel_OversizedTShirt.png"
+        },
+        {
+            "name": "Apparel_ArmyTrainers_Female",
+            "idStr": "14b56353-b340-42c6-a165-68048e18ac2a",
+            "stackCapacity": 99,
+            "img": "Apparel_ArmyTrainers_Female.png"
+        },
+        {
+            "name": "Apparel_BalletFlats_Female",
+            "idStr": "8c1b2b12-79be-4f46-83ae-f45facc7c673",
+            "stackCapacity": 99,
+            "img": "Apparel_BalletFlats_Female.png"
+        },
+        {
+            "name": "Apparel_ChelseaBoots_Female",
+            "idStr": "ab011938-202e-4447-bd87-c749308f1602",
+            "stackCapacity": 99,
+            "img": "Apparel_ChelseaBoots_Female.png"
+        },
+        {
+            "name": "Apparel_CombatBoots_Female",
+            "idStr": "4fb919cc-8de6-4bf4-95ad-92b0fc0bbc58",
+            "stackCapacity": 99,
+            "img": "Apparel_CombatBoots_Female.png"
+        },
+        {
+            "name": "Apparel_FlipFlops_Female",
+            "idStr": "ee363f05-da37-4250-adaa-436e3b86b030",
+            "stackCapacity": 99,
+            "img": "Apparel_FlipFlops_Female.png"
+        },
+        {
+            "name": "Apparel_Flippers_Female",
+            "idStr": "1d6d16ef-3fa5-482b-93de-ee2b8afcec35",
+            "stackCapacity": 99,
+            "img": "Apparel_Flippers_Female.png"
+        },
+        {
+            "name": "Apparel_Loafers_Female",
+            "idStr": "64760d53-6374-4e5f-ae83-7e5ba5017cfe",
+            "stackCapacity": 99,
+            "img": "Apparel_Loafers_Female.png"
+        },
+        {
+            "name": "Apparel_Trainers_Female",
+            "idStr": "ea631973-4227-48de-a367-547c0a437ff8",
+            "stackCapacity": 99,
+            "img": "Apparel_Trainers_Female.png"
+        },
+        {
+            "name": "Apparel_Sliders_Female",
+            "idStr": "60939656-8aed-435d-8b67-6b0ff718f7ce",
+            "stackCapacity": 99,
+            "img": "Apparel_Sliders_Female.png"
+        },
+        {
+            "name": "Apparel_AgentSunglasses_Female",
+            "idStr": "0706366a-092b-4f7a-9a06-bf8776298a4d",
+            "stackCapacity": 99,
+            "img": "Apparel_AgentSunglasses_Female.png"
+        },
+        {
+            "name": "Apparel_CatEyeGlasses_Female",
+            "idStr": "3f265764-8fb5-426c-aa38-6412d2126823",
+            "stackCapacity": 99,
+            "img": "Apparel_CatEyeGlasses_Female.png"
+        },
+        {
+            "name": "Apparel_SafetyGlasses_Female",
+            "idStr": "8ae705fd-abf4-4b5f-8e16-f1e0099b3c54",
+            "stackCapacity": 99,
+            "img": "Apparel_SafetyGlasses_Female.png"
+        },
+        {
+            "name": "Apparel_SkiGoggles_Female",
+            "idStr": "b3fcd158-1060-415b-a423-586b0c2398ae",
+            "stackCapacity": 99,
+            "img": "Apparel_SkiGoggles_Female.png"
+        },
+        {
+            "name": "Apparel_ScubaMask_Female",
+            "idStr": "6bbe95ad-2767-47c9-aeb4-3bbb9f0f1467",
+            "stackCapacity": 99,
+            "img": "Apparel_ScubaMask_Female.png"
+        },
+        {
+            "name": "Apparel_DenimShorts_Female",
+            "idStr": "1953d4e9-409e-4301-a906-c97198088afe",
+            "stackCapacity": 99,
+            "img": "Apparel_DenimShorts_Female.png"
+        },
+        {
+            "name": "Apparel_BootcutJeans_Female",
+            "idStr": "fca362e2-1a5c-48fb-9046-1db5b3111876",
+            "stackCapacity": 99,
+            "img": "Apparel_BootcutJeans_Female.png"
+        },
+        {
+            "name": "Apparel_LeatherSkirt_Female",
+            "idStr": "44012f98-afa3-4c0f-a4c5-136a210ee76e",
+            "stackCapacity": 99,
+            "img": "Apparel_LeatherSkirt_Female.png"
+        },
+        {
+            "name": "Apparel_PleatedSkirt_Female",
+            "idStr": "d22c0a10-da85-4e48-a299-846c8aa7fde4",
+            "stackCapacity": 99,
+            "img": "Apparel_PleatedSkirt_Female.png"
+        },
+        {
+            "name": "Apparel_PoliceTrousers_Female",
+            "idStr": "ba87d5f7-a4cc-459f-955c-54efd43a90a0",
+            "stackCapacity": 99,
+            "img": "Apparel_PoliceTrousers_Female.png"
+        },
+        {
+            "name": "Apparel_RunningTights_Female",
+            "idStr": "eed731b7-a62b-4d90-afa9-5facf20b39db",
+            "stackCapacity": 99,
+            "img": "Apparel_RunningTights_Female.png"
+        },
+        {
+            "name": "Apparel_SkinnyJeans_Female",
+            "idStr": "f7fdbe98-fb32-46bc-bf2e-997bfa073a91",
+            "stackCapacity": 99,
+            "img": "Apparel_SkinnyJeans_Female.png"
+        },
+        {
+            "name": "Apparel_PencilSkirt_Female",
+            "idStr": "6fd35627-ba03-4765-b0d5-d67d1fcfd1eb",
+            "stackCapacity": 99,
+            "img": "Apparel_PencilSkirt_Female.png"
+        },
+        {
+            "name": "Apparel_Slacks_Female",
+            "idStr": "909114f9-c24f-4cbb-8405-38efef96c787",
+            "stackCapacity": 99,
+            "img": "Apparel_Slacks_Female.png"
+        },
+        {
+            "name": "Apparel_Sweatpants_Female",
+            "idStr": "ef013198-20e4-4c57-9330-3184e7454e65",
+            "stackCapacity": 99,
+            "img": "Apparel_Sweatpants_Female.png"
+        },
+        {
+            "name": "Apparel_TracksuitPants_Female",
+            "idStr": "279165a0-8f2d-41ca-a1b3-61f36d6d0b77",
+            "stackCapacity": 99,
+            "img": "Apparel_TracksuitPants_Female.png"
+        },
+        {
+            "name": "Apparel_TrainingShorts_Female",
+            "idStr": "45b0d47a-1255-4e53-bd34-8fa5622572f3",
+            "stackCapacity": 99,
+            "img": "Apparel_TrainingShorts_Female.png"
+        },
+        {
+            "name": "Apparel_YogaPants_Female",
+            "idStr": "87afc750-002a-48d5-91b5-0e83cf36d2b8",
+            "stackCapacity": 99,
+            "img": "Apparel_YogaPants_Female.png"
+        },
+        {
+            "name": "Apparel_Apron_Female",
+            "idStr": "ed419165-e1ff-41ad-904b-6576c4fe684f",
+            "stackCapacity": 99,
+            "img": "Apparel_Apron_Female.png"
+        },
+        {
+            "name": "Apparel_BlazerShirt_Female",
+            "idStr": "dad7f882-2f9c-40c5-8166-77db7f47ae66",
+            "stackCapacity": 99,
+            "img": "Apparel_BlazerShirt_Female.png"
+        },
+        {
+            "name": "Apparel_BlazerTurtleneck_Female",
+            "idStr": "fe671470-045a-4114-8422-1e4070d97c68",
+            "stackCapacity": 99,
+            "img": "Apparel_BlazerTurtleneck_Female.png"
+        },
+        {
+            "name": "Apparel_Cardigan_Female",
+            "idStr": "a0350416-9a3c-472a-825e-3207614445fa",
+            "stackCapacity": 99,
+            "img": "Apparel_Cardigan_Female.png"
+        },
+        {
+            "name": "Apparel_PulloverHoodie_Female",
+            "idStr": "09d8ea51-ca47-4dc0-b91c-4bb6f4d823b3",
+            "stackCapacity": 99,
+            "img": "Apparel_PulloverHoodie_Female.png"
+        },
+        {
+            "name": "Apparel_LabCoat_Female",
+            "idStr": "8be2e49b-3d56-4cdd-9af4-609af4808286",
+            "stackCapacity": 99,
+            "img": "Apparel_LabCoat_Female.png"
+        },
+        {
+            "name": "Apparel_LayeredTShirt_Female",
+            "idStr": "c848eb22-242a-4b69-a2ff-2569212cffcd",
+            "stackCapacity": 99,
+            "img": "Apparel_LayeredTShirt_Female.png"
+        },
+        {
+            "name": "Apparel_ScrubsTop_Female",
+            "idStr": "7516874a-4061-4d94-974a-190360b2cba3",
+            "stackCapacity": 99,
+            "img": "Apparel_ScrubsTop_Female.png"
+        },
+        {
+            "name": "Apparel_PoliceShirt_Female",
+            "idStr": "46f4ceda-5613-47cf-95f8-b34e9c62ba16",
+            "stackCapacity": 99,
+            "img": "Apparel_PoliceShirt_Female.png"
+        },
+        {
+            "name": "Apparel_PoliceShirtShort_Female",
+            "idStr": "91226d0a-3cec-42ec-aaf1-61957ef2113f",
+            "stackCapacity": 99,
+            "img": "Apparel_PoliceShirtShort_Female.png"
+        },
+        {
+            "name": "Apparel_PufferJacket_Female",
+            "idStr": "3044e846-7d81-4d0f-a84f-e64f4fe49b4d",
+            "stackCapacity": 99,
+            "img": "Apparel_PufferJacket_Female.png"
+        },
+        {
+            "name": "Apparel_Pullover_Female",
+            "idStr": "231f4f6b-5ab0-44c8-a83c-d7ec601a435f",
+            "stackCapacity": 99,
+            "img": "Apparel_Pullover_Female.png"
+        },
+        {
+            "name": "Apparel_PyjamaTop_Female",
+            "idStr": "3992e3ab-c8d3-4973-81e8-b2d06d959161",
+            "stackCapacity": 99,
+            "img": "Apparel_PyjamaTop_Female.png"
+        },
+        {
+            "name": "Apparel_BowShirt_Female",
+            "idStr": "3c85d27d-aa15-457f-b7b6-13f03b2b66ef",
+            "stackCapacity": 99,
+            "img": "Apparel_BowShirt_Female.png"
+        },
+        {
+            "name": "Apparel_SportsBra_Female",
+            "idStr": "36df0209-372d-4aae-a06a-43d87e6a49e9",
+            "stackCapacity": 99,
+            "img": "Apparel_SportsBra_Female.png"
+        },
+        {
+            "name": "Apparel_SportsJersey_Female",
+            "idStr": "8c5a9f89-572f-4792-9950-d2a53ead1e66",
+            "stackCapacity": 99,
+            "img": "Apparel_SportsJersey_Female.png"
+        },
+        {
+            "name": "Apparel_Sweatshirt_Female",
+            "idStr": "78ae85b0-d78d-498f-b4f9-7844645a3ca3",
+            "stackCapacity": 99,
+            "img": "Apparel_Sweatshirt_Female.png"
+        },
+        {
+            "name": "Apparel_FittedTShirt_Female",
+            "idStr": "baf0d13c-0948-4279-a372-7bd14aff5ea5",
+            "stackCapacity": 99,
+            "img": "Apparel_FittedTShirt_Female.png"
+        },
+        {
+            "name": "Apparel_TracksuitTop_Female",
+            "idStr": "8f34ea1c-491f-4ace-bb8b-21809563e81e",
+            "stackCapacity": 99,
+            "img": "Apparel_TracksuitTop_Female.png"
+        },
+        {
+            "name": "Apparel_Turtleneck_Female",
+            "idStr": "89694957-53a6-4999-9488-573783575135",
+            "stackCapacity": 99,
+            "img": "Apparel_Turtleneck_Female.png"
+        },
+        {
+            "name": "Apparel_WinterJacket_Female",
+            "idStr": "46e29bcf-770b-481b-8778-274830b29b40",
+            "stackCapacity": 99,
+            "img": "Apparel_WinterJacket_Female.png"
+        },
+        {
+            "name": "Apparel_SmileyMask",
+            "idStr": "a51b7092-8fab-47d9-865a-e0f8250bee88",
+            "stackCapacity": 99,
+            "img": "Apparel_SmileyMask.png"
+        },
+        {
+            "name": "Apparel_NoShirt",
+            "idStr": "b3a4fb42-5ec4-42b4-b2d4-ba2b4d75543d",
+            "stackCapacity": 99,
+            "img": "Apparel_NoShirt.png"
+        },
+        {
+            "name": "Apparel_Headset",
+            "idStr": "052a11a4-6f1f-41ba-ae3c-ef47f25f4a29",
+            "stackCapacity": 99,
+            "img": "Apparel_Headset.png"
+        },
+        {
+            "name": "Apparel_BeanieHeadset",
+            "idStr": "555ac5e3-3979-4b21-8b30-a4ec1502e004",
+            "stackCapacity": 99,
+            "img": "Apparel_BeanieHeadset.png"
+        },
+        {
+            "name": "Apparel_Headset_02",
+            "idStr": "dc1289b7-a785-4db9-b4ab-639ac341c6a5",
+            "stackCapacity": 99,
+            "img": "Apparel_Headset_02.png"
+        },
+        {
+            "name": "Apparel_BeanieHeadset_02",
+            "idStr": "e050f0a7-ea6a-4f64-bca8-28d437080fe5",
+            "stackCapacity": 99,
+            "img": "Apparel_BeanieHeadset_02.png"
+        },
+        {
+            "name": "Apparel_CapHeadset",
+            "idStr": "03d1d4e4-8e46-40db-96ab-6463620356e0",
+            "stackCapacity": 99,
+            "img": "Apparel_CapHeadset.png"
+        },
+        {
+            "name": "Apparel_CapHeadset_02",
+            "idStr": "e1e9458f-0a01-43df-9483-fc986a0f32a3",
+            "stackCapacity": 99,
+            "img": "Apparel_CapHeadset_02.png"
+        }
+    ],
+    "Collectables": [
+        {
+            "name": "NecroEgg",
+            "idStr": "b351c514-b7d0-443b-aafd-854a9e1e1559",
+            "stackCapacity": 99,
+            "img": "NecroEgg.png"
+        },
+        {
+            "name": "GlassMarbles",
+            "idStr": "561a0f88-1697-4f36-b9f7-7e84d0dbc534",
+            "stackCapacity": 99,
+            "img": "GlassMarbles.png"
+        },
+        {
+            "name": "Walkie Talkie",
+            "idStr": "0c966aae-7eee-4d32-b854-c8f891923651",
+            "stackCapacity": 99,
+            "img": "Walkie Talkie.png"
+        }
+    ]
+}

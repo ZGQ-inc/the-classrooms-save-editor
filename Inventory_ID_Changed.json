@@ -1,0 +1,16 @@
+{
+    "Keys": [],
+    "Codex": [],
+    "Keycards": [],
+    "Tapes": [],
+    "Apparels": [],
+    "Collectables": [
+        {
+            "name": "Last Item",
+            "idStr": "22828de4-2ff8-4ef4-b4f1-d86c00da36d8",
+            "stackCapacity": 99,
+            "img": "Last Item.png",
+            "old_idStr": "c82e0007-4933-447b-8051-d268b4ec1d27"
+        }
+    ]
+}

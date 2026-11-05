@@ -244,7 +244,9 @@
             transition: all 0.2s;
             text-transform: uppercase;
             letter-spacing: 0.5px;
-        }
+                    justify-content: center;
+            text-align: center;
+}
 
         .btn:hover {
             border-color: var(--accent);
@@ -972,6 +974,433 @@
                 margin-top: 10px;
             }
         }
+
+        /* Wardrobe Tab & Badges Styles */
+        .badge-auto { background: #1e7e34; color: #fff; }
+        .badge-endless { background: #17a2b8; color: #fff; }
+        .badge-custom { background: #e0a800; color: #000; font-weight: 700; }
+        .badge-presets { background: #6f42c1; color: #fff; }
+        .badge-profile { background: #fd7e14; color: #fff; }
+
+        .wardrobe-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .wardrobe-toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 12px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+
+        .preset-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .wardrobe-main-grid {
+            display: grid;
+            grid-template-columns: minmax(360px, 1.3fr) minmax(280px, 0.9fr);
+            gap: 18px;
+        }
+
+        @media (max-width: 960px) {
+            .wardrobe-main-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .dressing-panel {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .dressing-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 10px;
+        }
+
+        .dressing-header h3 {
+            margin: 0;
+            font-size: 16px;
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .slots-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .slots-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .slot-card {
+            background: #151515;
+            border: 1px solid #333;
+            border-radius: 6px;
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            transition: 0.2s;
+        }
+
+        .slot-card:hover {
+            border-color: var(--accent);
+            box-shadow: 0 0 10px rgba(0, 229, 255, 0.15);
+        }
+
+        .slot-card-header {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            font-size: 11px;
+            color: var(--text-dim);
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        .slot-card-header img {
+            width: 16px;
+            height: 16px;
+            object-fit: contain;
+        }
+
+        .slot-card-preview {
+            width: 72px;
+            height: 72px;
+            background: #0d0d0d;
+            border: 1px solid #222;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 6px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slot-card-preview img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.8));
+        }
+
+        .slot-card-preview.empty img {
+            opacity: 0.25;
+            filter: grayscale(1);
+        }
+
+        .slot-card-name {
+            font-size: 11px;
+            color: #eee;
+            font-weight: 500;
+            min-height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 6px;
+            line-height: 1.2;
+            word-break: break-word;
+            text-align: center;
+        }
+
+        .slot-card-actions {
+            display: flex;
+            gap: 5px;
+            width: 100%;
+        }
+
+        .slot-card-actions button {
+            flex: 1;
+            padding: 4px 0;
+            font-size: 11px;
+            border-radius: 4px;
+                    display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+}
+
+        /* In-Run Section */
+        .inrun-panel {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .inrun-side-card {
+            background: #151515;
+            border: 1px solid #2a2a2a;
+            border-radius: 6px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .inrun-side-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .inrun-items-row {
+            display: flex;
+            gap: 8px;
+        }
+
+        .inrun-item-badge {
+            flex: 1;
+            background: #1c1c1c;
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 6px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            font-size: 11px;
+            min-height: 70px;
+        }
+
+        .inrun-item-badge img {
+            width: 38px;
+            height: 38px;
+            object-fit: contain;
+            margin-bottom: 4px;
+        }
+
+        .inrun-item-badge span {
+            color: #bbb;
+            line-height: 1.1;
+            word-break: break-word;
+        }
+
+        /* Catalog Browser */
+        .catalog-panel {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .catalog-filters {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 12px;
+        }
+
+        .filter-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .filter-pill {
+            padding: 4px 10px;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 14px;
+            font-size: 12px;
+            color: #888;
+            cursor: pointer;
+            transition: 0.2s;
+            user-select: none;
+        }
+
+        .filter-pill:hover {
+            color: #ccc;
+            background: #252525;
+        }
+
+        .filter-pill.active {
+            background: var(--accent-glow);
+            border-color: var(--accent);
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .catalog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 10px;
+            max-height: 520px;
+            overflow-y: auto;
+            padding-right: 5px;
+        }
+
+        .catalog-card {
+            background: #151515;
+            border: 1px solid #2a2a2a;
+            border-radius: 6px;
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: 0.2s;
+            position: relative;
+        }
+
+        .catalog-card:hover {
+            border-color: var(--accent);
+            background: #1c1c1c;
+            transform: translateY(-2px);
+        }
+
+        .catalog-card-img {
+            width: 56px;
+            height: 56px;
+            object-fit: contain;
+            margin-bottom: 6px;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.8));
+        }
+
+        .catalog-card-name {
+            font-size: 11px;
+            color: #ddd;
+            line-height: 1.2;
+            height: 28px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            margin-bottom: 4px;
+        }
+
+        .catalog-card-badge {
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 10px;
+            background: rgba(0, 229, 255, 0.15);
+            color: var(--accent);
+            margin-bottom: 6px;
+        }
+
+        .catalog-card-btns {
+            display: flex;
+            gap: 4px;
+            width: 100%;
+        }
+
+        .catalog-card-btns button {
+            flex: 1;
+            padding: 3px 0;
+            font-size: 10px;
+            border-radius: 3px;
+                    display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+}
+
+    
+        /* Steam Store / Paid Apparel */
+        .badge-paid {
+            background: rgba(255, 179, 0, 0.18);
+            color: #ffd54f;
+            border: 1px solid rgba(255, 179, 0, 0.5);
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+        }
+
+        .slot-card-paid-warn {
+            font-size: 10px;
+            color: #ffd54f;
+            background: rgba(255, 179, 0, 0.15);
+            border: 1px solid rgba(255, 179, 0, 0.35);
+            padding: 2px 6px;
+            border-radius: 3px;
+            margin-bottom: 5px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            width: 100%;
+            cursor: help;
+        }
+
+        .mode-switcher {
+            display: inline-flex;
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 2px;
+            gap: 2px;
+        }
+
+        .mode-btn {
+            background: transparent;
+            border: none;
+            color: #888;
+            padding: 2px 8px;
+            font-size: 11px;
+            font-weight: 600;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .mode-btn.active {
+            background: var(--accent);
+            color: #000;
+        }
+
+        .mode-btn:hover:not(.active) {
+            color: #fff;
+            background: #222;
+        }
+    
     </style>
 </head>
 
@@ -995,6 +1424,41 @@
                 <span style="font-size:12px; color:#666;" data-i18n="maxStackInfo">(Max determined by item)</span>
             </div>
             <div class="modal-content" id="modalBody"></div>
+        </div>
+    </div>
+
+
+    <div class="modal-overlay" id="apparelModal">
+        <div class="modal" style="max-width: 800px; max-height: 85vh;">
+            <div class="modal-header">
+                <h3 id="apparelModalTitle">Select Apparel</h3>
+                <button class="btn btn-danger" style="padding:4px 10px" onclick="closeApparelModal()">×</button>
+            </div>
+            <div style="padding: 12px 20px 0; display:flex; gap:10px; align-items:center;">
+                <input type="text" id="apparelModalSearch" placeholder="Search..." style="flex:1; padding:8px 12px; background:#111; border:1px solid #444; color:white; border-radius:4px;" oninput="onApparelModalSearch(this.value)">
+                <button class="btn btn-danger" style="padding:8px 16px;" onclick="equipApparelToSlot(APP.currentEditSlot, 'None')" data-i18n="clearSlot">❌ Clear / None</button>
+            </div>
+            <div class="modal-content" id="apparelModalBody" style="padding:15px;"></div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="presetModal">
+        <div class="modal" style="max-width: 450px;">
+            <div class="modal-header">
+                <h3 data-i18n="newPreset">Create New Preset</h3>
+                <button class="btn btn-danger" style="padding:4px 10px" onclick="closePresetModal()">×</button>
+            </div>
+            <div class="modal-content" style="padding:20px; display:flex; flex-direction:column; gap:15px;">
+                <div>
+                    <label style="display:block; font-size:13px; color:#aaa; margin-bottom:5px;" data-i18n="presetNamePrompt">Preset Name:</label>
+                    <input type="text" id="newPresetName" class="styled-input" style="width:100%; text-align:left;" value="Custom Outfit" maxlength="24">
+                </div>
+                <div>
+                    <label style="display:block; font-size:13px; color:#aaa; margin-bottom:5px;" data-i18n="presetTemplatePrompt">Base Template:</label>
+                    <select id="newPresetTemplate" class="styled-select" style="width:100%;"></select>
+                </div>
+                <button class="btn btn-primary" style="justify-content:center; margin-top:10px; padding:10px;" onclick="confirmCreatePreset()" data-i18n="createPreset">Create Preset</button>
+            </div>
         </div>
     </div>
 
@@ -1039,8 +1503,7 @@
                 <h1>
                     <span data-i18n="headerTitle">The Classrooms Save Editor</span>
                     <span
-                        style="font-size:14px; color:var(--accent); vertical-align:middle; margin-left:8px; opacity:0.8; font-weight:normal;">for
-                        v0.9</span>
+                        style="font-size:14px; color:var(--accent); vertical-align:middle; margin-left:8px; opacity:0.8; font-weight:normal;">for v0.10.1</span>
                 </h1>
                 <div class="header-meta">
                     <span style="font-size:14px; border:1px solid #444; padding:2px 4px; border-radius:3px;"
@@ -1087,8 +1550,13 @@
             </button>
 
             <div class="status-area">
-                <span id="badgeJson" class="badge badge-json">JSON</span>
+                                <span id="badgeJson" class="badge badge-json">JSON</span>
                 <span id="badgeReg" class="badge badge-reg">REG</span>
+                <span id="badgeAuto" class="badge badge-auto" style="display:none;">Story</span>
+                <span id="badgeEndless" class="badge badge-endless" style="display:none;">Endless</span>
+                <span id="badgeCustom" class="badge badge-custom" style="display:none;">CUSTOM</span>
+                <span id="badgePresets" class="badge badge-presets" style="display:none;">Presets</span>
+                <span id="badgeProfile" class="badge badge-profile" style="display:none;">Profile</span>
                 <span id="statusText"></span>
             </div>
         </div>
@@ -1104,6 +1572,9 @@
                 <div class="tab-btn" onclick="switchTab('inventory')">
                     <img src="img/Inventory/Tabs/Backpack.png"> <span data-i18n="tabInventory">Inventory</span>
                 </div>
+                <div class="tab-btn" onclick="switchTab('wardrobe')">
+                    <img src="img/Inventory/Tabs/Apparel.png"> <span data-i18n="tabWardrobe">Wardrobe</span>
+                </div>
             </div>
 
             <div id="stats" class="tab-content active">
@@ -1113,7 +1584,13 @@
                         <div class="panel-body" id="body_left_stats"></div>
                     </div>
                     <div class="split-col inactive" id="col_right_stats">
-                        <div class="col-header" data-i18n="nonLinear">Endless Mode</div>
+                        <div class="col-header" style="display:flex; justify-content:space-between; align-items:center; padding:10px 14px;">
+                            <span class="col-header-right-title">NON LINEAR</span>
+                            <div class="right-mode-switcher mode-switcher" style="display:none;">
+                                <button type="button" class="mode-btn active" data-mode="right" data-i18n="modeStd" onclick="switchRightMode('right')">标准</button>
+                                <button type="button" class="mode-btn" data-mode="custom" data-i18n="modeCustom" onclick="switchRightMode('custom')">自定义</button>
+                            </div>
+                        </div>
                         <div class="panel-body" id="body_right_stats"></div>
                     </div>
                 </div>
@@ -1126,7 +1603,13 @@
                         <div class="panel-body" id="body_left_levels"></div>
                     </div>
                     <div class="split-col inactive" id="col_right_levels">
-                        <div class="col-header" data-i18n="nonLinear">Endless Mode</div>
+                        <div class="col-header" style="display:flex; justify-content:space-between; align-items:center; padding:10px 14px;">
+                            <span class="col-header-right-title">NON LINEAR</span>
+                            <div class="right-mode-switcher mode-switcher" style="display:none;">
+                                <button type="button" class="mode-btn active" data-mode="right" data-i18n="modeStd" onclick="switchRightMode('right')">标准</button>
+                                <button type="button" class="mode-btn" data-mode="custom" data-i18n="modeCustom" onclick="switchRightMode('custom')">自定义</button>
+                            </div>
+                        </div>
                         <div class="panel-body" id="body_right_levels"></div>
                     </div>
                 </div>
@@ -1155,7 +1638,7 @@
                         <span data-i18n="catTapes">Tapes</span>
                     </div>
                     <div class="cat-btn" onclick="setInvCategory('Apparel')">
-                        <div style="width:32px; height:28px;"></div>
+                        <img src="img/Inventory/Tabs/Apparel.png">
                         <span data-i18n="catApparels">Apparels</span>
                     </div>
                 </div>
@@ -1166,11 +1649,82 @@
                         <div class="panel-body" id="body_left_inv"></div>
                     </div>
                     <div class="split-col inactive" id="col_right_inv">
-                        <div class="col-header" data-i18n="nonLinear">Endless Mode</div>
+                        <div class="col-header" style="display:flex; justify-content:space-between; align-items:center; padding:10px 14px;">
+                            <span class="col-header-right-title">NON LINEAR</span>
+                            <div class="right-mode-switcher mode-switcher" style="display:none;">
+                                <button type="button" class="mode-btn active" data-mode="right" data-i18n="modeStd" onclick="switchRightMode('right')">标准</button>
+                                <button type="button" class="mode-btn" data-mode="custom" data-i18n="modeCustom" onclick="switchRightMode('custom')">自定义</button>
+                            </div>
+                        </div>
                         <div class="panel-body" id="body_right_inv"></div>
                     </div>
                 </div>
             </div>
+
+            <div id="wardrobe" class="tab-content">
+                <div class="wardrobe-container">
+                    <!-- Wardrobe Toolbar -->
+                    <div class="wardrobe-toolbar">
+                        <div class="preset-group">
+                            <span style="font-size:14px; font-weight:600; color:var(--text-dim);" data-i18n="preset">Preset:</span>
+                            <select id="presetSelect" class="styled-select" style="min-width:180px;" onchange="onSelectPreset(this.value)"></select>
+                            <button class="btn" style="padding:6px 12px;" onclick="openNewPresetModal()" data-i18n="newPreset">➕ New</button>
+                            <button class="btn" style="padding:6px 12px;" onclick="renameCurrentPreset()" data-i18n="renamePreset">✏️ Rename</button>
+                            <button class="btn btn-danger" style="padding:6px 12px;" onclick="deleteCurrentPreset()" data-i18n="deletePreset">🗑️ Delete</button>
+                        </div>
+                        <div style="display:flex; align-items:center; gap:8px; margin-left:auto; flex-wrap:wrap;">
+                            <button class="btn" id="btnGenderToggle" style="padding:6px 14px;" onclick="toggleBodyGender()">
+                                <span id="txtGender">👨 Male</span>
+                            </button>
+                            <button class="btn" style="padding:6px 14px; border-color:#00ff88; color:#00ff88;" onclick="unlockCustomMode()" data-i18n="unlockCustomMode">
+                                🔓 Unlock Custom Mode
+                            </button>
+                            <button class="btn btn-primary" style="padding:6px 14px;" onclick="unlockAllApparelToBag()" data-i18n="unlockAllApparel">
+                                🎒 Unlock All to Bag
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Main Wardrobe Grid: Left is Dressing Room (8 slots), Right is In-Run Status -->
+                    <div class="wardrobe-main-grid">
+                        <!-- Dressing Room (8 Slots) -->
+                        <div class="dressing-panel">
+                            <div class="dressing-header">
+                                <h3 data-i18n="dressingRoom">👗 Character Dressing Room (8 Slots)</h3>
+                                <span id="currentPresetNameBadge" style="font-size:12px; color:var(--accent); font-family:var(--font-mono);"></span>
+                            </div>
+                            <div class="slots-grid" id="slotsGrid"></div>
+                        </div>
+
+                        <!-- In-Run Equipment Status -->
+                        <div class="inrun-panel">
+                            <div class="dressing-header">
+                                <h3 data-i18n="equippedInRun">⚡ In-Run Equipped (Dungeon)</h3>
+                                <button class="btn btn-primary" style="padding:4px 10px; font-size:12px;" onclick="syncPresetToInRun()" data-i18n="syncToInRun">
+                                    ⚡ Sync to In-Run
+                                </button>
+                            </div>
+                            <div id="inrunStatusContainer" style="display:flex; flex-direction:column; gap:12px;"></div>
+                        </div>
+                    </div>
+
+                    <!-- Full Catalog Browser (152 items) -->
+                    <div class="catalog-panel">
+                        <div class="catalog-filters">
+                            <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+                                <span style="font-weight:700; color:var(--accent); font-size:15px;" data-i18n="apparelCatalog">All Costumes (152 Items)</span>
+                                <div class="filter-pills" id="slotFilterPills"></div>
+                            </div>
+                            <div style="display:flex; align-items:center; gap:10px;">
+                                <div class="filter-pills" id="genderFilterPills"></div>
+                                <input type="text" id="catalogSearch" class="styled-input" style="width:180px; text-align:left;" placeholder="Search..." oninput="onCatalogSearch(this.value)">
+                            </div>
+                        </div>
+                        <div class="catalog-grid" id="catalogGrid"></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -1206,6 +1760,8 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.js"></script>
+    <script src="inventory_data.js"></script>
+    <script src="apparel_data.js"></script>
     <script>
         const DB_FILE = "Inventory_Database.json";
         const VERSION_FILE = "version.txt";
@@ -1231,6 +1787,17 @@
             "Grinner.png"
         ];
 
+        const APPAREL_SLOTS = [
+            { id: 0, key: 'Upper', icon: 'Apparel_Slot_Upper.png', i18n: 'slotUpper' },
+            { id: 1, key: 'Lower', icon: 'Apparel_Slot_Lower.png', i18n: 'slotLower' },
+            { id: 2, key: 'Shoes', icon: 'Apparel_Slot_Shoes.png', i18n: 'slotShoes' },
+            { id: 3, key: 'Hat', icon: 'Apparel_Slot_Hat.png', i18n: 'slotHat' },
+            { id: 4, key: 'FullBody', icon: 'Apparel_Slot_FullBody.png', i18n: 'slotFullBody' },
+            { id: 5, key: 'Face', icon: 'Apparel_Slot_Face.png', i18n: 'slotFace' },
+            { id: 6, key: 'Wrist', icon: 'Apparel_Slot_Wrist.png', i18n: 'slotWrist' },
+            { id: 7, key: 'Waist', icon: 'Apparel_Slot_Waist.png', i18n: 'slotWaist' }
+        ];
+
         const I18N = {
             zh: {
                 loadFiles: "🧷 选择存档文件（多选）",
@@ -1239,6 +1806,7 @@
                 tabStats: "基础属性",
                 tabTapes: "关卡磁带",
                 tabInventory: "物品栏",
+                tabWardrobe: "换装系统",
                 autoSave: "Auto Save",
                 nonLinear: "Non Linear",
                 catGeneral: "可收集",
@@ -1290,7 +1858,64 @@
                 ccSuffix: "进行许可。",
                 parseError: "解析失败：",
                 regHeaderError: "无法识别 Reg 文件头，可能是编码问题",
-                jsonError: "Reg 数据转换 JSON 失败"
+                jsonError: "Reg 数据转换 JSON 失败",
+
+                // Wardrobe
+                preset: "角色预设：",
+                newPreset: "➕ 新建",
+                deletePreset: "🗑️ 删除",
+                renamePreset: "✏️ 重命名",
+                bodyType: "体型/性别",
+                male: "👨 男性 (Male)",
+                female: "👩 女性 (Female)",
+                unlockCustomMode: "🔓 解锁自定义模式",
+                unlockAllApparel: "🎒 全服饰一键入包",
+                syncToInRun: "⚡ 同步至局内穿着",
+                dressingRoom: "👗 角色更衣室 (8个部位)",
+                equippedInRun: "⚡ 局内实际穿着 (In-Run)",
+                apparelCatalog: "服装全图鉴 (共152件)",
+                slotUpper: "上装",
+                slotLower: "下装",
+                slotShoes: "鞋子",
+                slotHat: "帽子",
+                slotFullBody: "全身/套装",
+                slotFace: "面部饰品",
+                slotWrist: "手腕饰品",
+                slotWaist: "腰带",
+                none: "未装备",
+                change: "更换",
+                remove: "脱下",
+                equip: "穿上",
+                addToBag: "入包",
+                allSlots: "全部部位",
+                filterAll: "全部",
+                filterMale: "男款",
+                filterFemale: "女款",
+                presetNamePrompt: "预设名称：",
+                presetTemplatePrompt: "基础模板：",
+                createPreset: "确认创建",
+                presetDeleted: "预设已删除",
+                presetCreated: "预设已创建",
+                outfitsAddedToBag: "✅ 已将全套150件服饰加入背包！",
+                syncedInRunSuccess: "✅ 已将预设服装同步至局内穿着！",
+                customModeUnlockedSuccess: "✅ 已解锁自定义模式 (Custom Mode)！",
+                clearSlot: "❌ 脱下 / 不装备",
+                confirmDeletePreset: "确定要删除此预设吗？",
+                cannotDeleteOnlyPreset: "无法删除最后一个预设",
+                promptRenamePreset: "请输入新的预设名称：",
+                                selectApparelTitle: "选择服饰",
+                steamStoreBadge: "🛒 Steam内购",
+                steamStoreWarn: "⚠️ 此服饰为 Steam 商店内购物品（{0}），未在 Steam 购买时游戏内无法正常显示",
+                steamStoreWarnShort: "⚠️ 此服饰为 Steam 商店内购物品，未在 Steam 购买时游戏内无法正常显示",
+                inRunSteamWarn: "⚠️ 包含 Steam 商店内购服饰，未购买在进入局内时将隐藏显示",
+                itemAlreadyInBag: "⚠️【{0}】已在背包中，无需重复入包",
+                itemAddedToBag: "🎒 已将【{0}】放入背包",
+                cannotAddToBag: "该物品无法放入背包",
+                loadSaveFirst: "请先加载存档文件",
+                modeStd: "🎮 标准",
+                modeCustom: "⚙️ 自定义",
+                noMatchingItems: "未找到匹配物品",
+                noMatchingCostumes: "未找到匹配服饰"
             },
             en: {
                 loadFiles: "🧷 Select Save Files",
@@ -1299,6 +1924,7 @@
                 tabStats: "Stats",
                 tabTapes: "TAPES",
                 tabInventory: "Inventory",
+                tabWardrobe: "Wardrobe",
                 autoSave: "Auto Save",
                 nonLinear: "Non Linear",
                 catGeneral: "Collectables",
@@ -1350,7 +1976,64 @@
                 ccSuffix: ".",
                 parseError: "Parse Error: ",
                 regHeaderError: "Cannot recognize Reg header, possible encoding issue",
-                jsonError: "Failed to parse JSON from Reg data"
+                jsonError: "Failed to parse JSON from Reg data",
+
+                // Wardrobe
+                preset: "Preset:",
+                newPreset: "➕ New",
+                deletePreset: "🗑️ Delete",
+                renamePreset: "✏️ Rename",
+                bodyType: "Body Type",
+                male: "👨 Male",
+                female: "👩 Female",
+                unlockCustomMode: "🔓 Unlock Custom Mode",
+                unlockAllApparel: "🎒 Unlock All to Bag",
+                syncToInRun: "⚡ Sync to In-Run",
+                dressingRoom: "👗 Dressing Room (8 Slots)",
+                equippedInRun: "⚡ In-Run Equipped (Dungeon)",
+                apparelCatalog: "All Costumes (152 Items)",
+                slotUpper: "Upper",
+                slotLower: "Lower",
+                slotShoes: "Shoes",
+                slotHat: "Hat",
+                slotFullBody: "Full Body",
+                slotFace: "Face",
+                slotWrist: "Wrist",
+                slotWaist: "Waist",
+                none: "None",
+                change: "Change",
+                remove: "Remove",
+                equip: "Equip",
+                addToBag: "To Bag",
+                allSlots: "All Slots",
+                filterAll: "All",
+                filterMale: "Male",
+                filterFemale: "Female",
+                presetNamePrompt: "Preset Name:",
+                presetTemplatePrompt: "Base Template:",
+                createPreset: "Create Preset",
+                presetDeleted: "Preset deleted",
+                presetCreated: "Preset created",
+                outfitsAddedToBag: "✅ All 150 outfits added to bag!",
+                syncedInRunSuccess: "✅ Synced to in-run equipped!",
+                customModeUnlockedSuccess: "✅ Custom Mode Unlocked!",
+                clearSlot: "❌ Clear / None",
+                confirmDeletePreset: "Are you sure you want to delete this preset?",
+                cannotDeleteOnlyPreset: "Cannot delete the only preset",
+                promptRenamePreset: "Enter new preset name:",
+                                selectApparelTitle: "Select Apparel",
+                steamStoreBadge: "🛒 Steam Store",
+                steamStoreWarn: "⚠️ Requires Steam purchase ({0}) to display in-game",
+                steamStoreWarnShort: "⚠️ Requires Steam purchase to display in-game",
+                inRunSteamWarn: "⚠️ Includes Steam Store items; will be hidden in-game if not purchased",
+                itemAlreadyInBag: "⚠️ [{0}] already in bag, duplicate skipped",
+                itemAddedToBag: "🎒 Added [{0}] to bag",
+                cannotAddToBag: "This item cannot be collected in bag",
+                loadSaveFirst: "Please load a save file first",
+                modeStd: "🎮 Standard",
+                modeCustom: "⚙️ Custom",
+                noMatchingItems: "No matching items found",
+                noMatchingCostumes: "No matching costumes found"
             }
         };
 
@@ -1382,14 +2065,42 @@
             gameVer: '',
             db: { all: {}, cats: {} },
             editors: {
-                left: { active: false, data: {}, nested: {}, name: "Auto Save", regKey: null, isInstantClear: false },
-                right: { active: false, data: {}, nested: {}, name: "Non Linear", regKey: null, isInstantClear: false }
+                left: { active: false, data: {}, nested: {}, name: "Auto Save", regKey: null, isInstantClear: false, equippedApparel: { ApparelNames: [] } },
+                right: { active: false, data: {}, nested: {}, name: "Non Linear", regKey: null, isInstantClear: false, equippedApparel: { ApparelNames: [] } },
+                custom: { active: false, data: {}, nested: {}, name: "Non Linear Custom", regKey: null, isInstantClear: false, equippedApparel: { ApparelNames: [] } }
             },
-            ui: { invCat: 'Collectables', globalFormat: 'json' },
+            // Presets and Profile state
+            hasPresets: false,
+            hasProfile: false,
+            presetsChanged: false,
+            profileChanged: false,
+            presetsSave: null,
+            profileSave: null,
+            presetsIndex: { Presets: [], Selected: "" },
+            looks: {},
+            profileLook: null,
+            selectedPresetId: "",
+            customModeUnlocked: false,
+
+            // Catalog & Templates
+            apparelCatalog: [],
+            defaultPresets: [],
+
+            // Wardrobe UI state
+            wardrobeFilterSlot: 'All',
+            wardrobeFilterGender: 'All',
+            wardrobeSearchTerm: '',
+            currentEditSlot: -1,
+
+            ui: { invCat: 'Collectables', globalFormat: 'json', activeRightSide: 'right' },
             state: { pendingSide: '', pendingSlot: -1, isReplacing: false }
         };
 
         window.onload = async () => {
+            if (window.INVENTORY_DATABASE) parseDB(window.INVENTORY_DATABASE);
+            if (window.APPAREL_CATALOG || window.APPAREL_CATALOG_DATA) APP.apparelCatalog = window.APPAREL_CATALOG || window.APPAREL_CATALOG_DATA;
+            if (window.DEFAULT_PRESETS || window.DEFAULT_PRESETS_DATA) APP.defaultPresets = window.DEFAULT_PRESETS || window.DEFAULT_PRESETS_DATA;
+
             try {
                 const r = await fetch(VERSION_FILE);
                 if (r.ok) APP.gameVer = (await r.text()).trim();
@@ -1399,6 +2110,18 @@
                 const r = await fetch(DB_FILE);
                 if (r.ok) parseDB(await r.json());
             } catch (e) { }
+
+            try {
+                const r = await fetch('Apparel_Catalog.json');
+                if (r.ok) APP.apparelCatalog = await r.json();
+            } catch (e) { }
+
+            try {
+                const r = await fetch('Default_Presets.json');
+                if (r.ok) APP.defaultPresets = await r.json();
+            } catch (e) { }
+
+            initDefaultWardrobeState();
 
             const browserLang = navigator.language || navigator.userLanguage;
             APP.lang = browserLang.toLowerCase().startsWith('zh') ? 'zh' : 'en';
@@ -1417,13 +2140,40 @@
             window.onclick = function (event) {
                 const generalModal = document.getElementById('generalModal');
                 const modifyModal = document.getElementById('modifyModal');
+                const apparelModal = document.getElementById('apparelModal');
+                const presetModal = document.getElementById('presetModal');
                 if (event.target === generalModal) closeGeneralModal();
                 if (event.target === modifyModal) closeModifyModal();
-            }
+                if (event.target === apparelModal) closeApparelModal();
+                if (event.target === presetModal) closePresetModal();
+            };
 
             updateLabels();
             initImgViewer();
+            initWardrobeUI();
         };
+
+        function initDefaultWardrobeState() {
+            if (APP.hasPresets) return;
+            if (!APP.defaultPresets || !APP.defaultPresets.length) return;
+
+            APP.presetsIndex = { Presets: [], Selected: "" };
+            APP.looks = {};
+
+            const defaultNames = ["Robert Chen", "Caleb", "Grace Chen", "Sibwom"];
+            defaultNames.forEach((name, idx) => {
+                const tpl = APP.defaultPresets.find(p => p.CharacterName === name) || APP.defaultPresets[idx % APP.defaultPresets.length];
+                const id = "default_preset_" + (idx + 1);
+                APP.presetsIndex.Presets.push({
+                    Id: id,
+                    Name: name,
+                    Template: "template:" + name
+                });
+                APP.looks[id] = JSON.parse(JSON.stringify(tpl));
+            });
+            APP.presetsIndex.Selected = APP.presetsIndex.Presets[0].Id;
+            APP.selectedPresetId = APP.presetsIndex.Selected;
+        }
 
         function parseDB(json) {
             if (json.Tapes) json.VHS = json.Tapes;
@@ -1439,16 +2189,27 @@
 
         function t(k) { return I18N[APP.lang][k] || k; }
 
+        function getApparelBundleName(item) {
+            if (!item) return '';
+            return (APP.lang === 'zh') ? (item.bundleNameHans || 'Steam 商店') : (item.bundleNameEn || 'Steam Store');
+        }
+
         function setLanguage(l) {
             APP.lang = l;
             updateLabels();
+            initFilterPills();
             refreshUI();
+            renderWardrobe();
         }
 
         function updateLabels() {
             document.querySelectorAll('[data-i18n]').forEach(el => el.innerText = t(el.getAttribute('data-i18n')));
             const searchInput = document.getElementById('modalSearch');
             if (searchInput) searchInput.placeholder = t('search');
+            const catSearch = document.getElementById('catalogSearch');
+            if (catSearch) catSearch.placeholder = t('search');
+            const appSearch = document.getElementById('apparelModalSearch');
+            if (appSearch) appSearch.placeholder = t('search');
         }
 
         function showToast(msg, type = '') {
@@ -1470,16 +2231,6 @@
             const files = Array.from(e.target.files);
             if (!files.length) return;
 
-            APP.editors.left.active = false;
-            APP.editors.right.active = false;
-            APP.editors.left.data = {};
-            APP.editors.right.data = {};
-            APP.editors.left.nested = {};
-            APP.editors.right.nested = {};
-            APP.editors.left.regKey = null;
-            APP.editors.right.regKey = null;
-            document.querySelectorAll('.split-col').forEach(el => el.classList.add('inactive'));
-
             let loaded = 0;
             for (const f of files) {
                 let txt = "";
@@ -1500,17 +2251,37 @@
                     const count = parseRegRobust(txt);
                     if (count > 0) loaded++;
                 }
-                else if (!f.name.includes("Inventory_Database") && f.name !== 'version.txt') {
+                else if (!f.name.includes("Inventory_Database") && !f.name.includes("Apparel_Catalog") && !f.name.includes("Default_Presets") && f.name !== 'version.txt') {
                     APP.ui.globalFormat = 'json';
                     try {
                         const idx = txt.indexOf('{');
                         if (idx > -1) {
                             const data = JSON.parse(txt.substring(idx));
-                            const side = (f.name.includes("Non Linear") || data["Non-Linear Classrooms"] !== undefined) ? 'right' : 'left';
-                            loadSide(side, data, f.name);
-                            loaded++;
+                            // Detect Character Presets
+                            if (f.name === "Character Presets" || (data["Index"] && (typeof data["Index"] === "string" || data["Index"].Presets))) {
+                                loadPresetsSave(data, f.name);
+                                loaded++;
+                            }
+                            // Detect Player Profile
+                            else if (f.name === "Player Profile" || data["CustomCharacter"] !== undefined || data["Custom Mode Unlock"] !== undefined) {
+                                loadProfileSave(data, f.name);
+                                loaded++;
+                            }
+                            // Auto Save, Non Linear, or Non Linear Custom
+                            else {
+                                let side = 'left';
+                                if (f.name.includes("Non Linear Custom") || (f.name.includes("Custom") && data["Non-Linear Classrooms"] !== undefined)) {
+                                    side = 'custom';
+                                } else if (f.name.includes("Non Linear") || data["Non-Linear Classrooms"] !== undefined) {
+                                    side = 'right';
+                                } else {
+                                    side = 'left';
+                                }
+                                loadSide(side, data, f.name);
+                                loaded++;
+                            }
                         }
-                    } catch (err) { console.warn("Parse error", f.name); }
+                    } catch (err) { console.warn("Parse error", f.name, err); }
                 }
             }
 
@@ -1519,8 +2290,45 @@
                 document.getElementById('statusText').innerText = t('fileLoaded').replace('{0}', loaded);
                 updateBadges();
                 refreshUI();
+                renderWardrobe();
             } else {
                 showToast("未找到有效数据，请检查文件编码或内容", 'error');
+            }
+        }
+
+        function loadPresetsSave(data, name) {
+            APP.hasPresets = true;
+            APP.presetsSave = { data: data, name: name };
+            try {
+                APP.presetsIndex = typeof data["Index"] === 'string' ? JSON.parse(data["Index"]) : data["Index"];
+            } catch (e) {
+                APP.presetsIndex = { Presets: [], Selected: "" };
+            }
+            APP.looks = {};
+            for (let k in data) {
+                if (k.startsWith("Look/")) {
+                    const id = k.substring(5);
+                    try {
+                        APP.looks[id] = typeof data[k] === 'string' ? JSON.parse(data[k]) : data[k];
+                    } catch (e) { }
+                }
+            }
+            if (APP.presetsIndex.Selected && APP.looks[APP.presetsIndex.Selected]) {
+                APP.selectedPresetId = APP.presetsIndex.Selected;
+            } else if (APP.presetsIndex.Presets && APP.presetsIndex.Presets.length > 0) {
+                APP.selectedPresetId = APP.presetsIndex.Presets[0].Id;
+                APP.presetsIndex.Selected = APP.selectedPresetId;
+            }
+        }
+
+        function loadProfileSave(data, name) {
+            APP.hasProfile = true;
+            APP.profileSave = { data: data, name: name };
+            APP.customModeUnlocked = (data["Custom Mode Unlock"] === 1);
+            if (data["CustomCharacter"]) {
+                try {
+                    APP.profileLook = typeof data["CustomCharacter"] === 'string' ? JSON.parse(data["CustomCharacter"]) : data["CustomCharacter"];
+                } catch (e) { }
             }
         }
 
@@ -1534,8 +2342,18 @@
         }
 
         function loadSide(side, data, name) {
-            if (data["Version"] && APP.gameVer && data["Version"].trim() !== APP.gameVer.trim()) {
-                showToast(t('versionWarn'), 'error');
+            if (data["Version"] && APP.gameVer) {
+                const fileVer = data["Version"].trim();
+                const appVer = APP.gameVer.trim();
+                if (fileVer !== appVer) {
+                    if (side === 'custom' || name.includes('Custom')) {
+                        // Non Linear Custom from v0.9 (0090000763) -> smoothly upgrade to current version
+                        data["Version"] = appVer;
+                        console.log(`[SaveEditor] Upgraded ${name} version from ${fileVer} to ${appVer}`);
+                    } else {
+                        showToast(t('versionWarn'), 'error');
+                    }
+                }
             }
             APP.editors[side].data = data;
             APP.editors[side].name = name;
@@ -1549,6 +2367,13 @@
                 } catch (e) { nest[k] = { i: [], s: [] }; }
             });
             APP.editors[side].nested = nest;
+
+            // Parse in-run EquippedApparel
+            try {
+                APP.editors[side].equippedApparel = data["EquippedApparel"] ? (typeof data["EquippedApparel"] === 'string' ? JSON.parse(data["EquippedApparel"]) : data["EquippedApparel"]) : { ApparelNames: [] };
+            } catch (e) {
+                APP.editors[side].equippedApparel = { ApparelNames: [] };
+            }
         }
 
         function parseRegRobust(txt) {
@@ -1598,7 +2423,14 @@
                 if (!jsonStr || jsonStr.trim().length === 0) return;
 
                 const data = JSON.parse(jsonStr);
-                const side = keyName.includes("Non Linear") ? 'right' : 'left';
+                let side = 'left';
+                if (keyName.includes("Non Linear Custom") || keyName.includes("Custom")) {
+                    side = 'custom';
+                } else if (keyName.includes("Non Linear")) {
+                    side = 'right';
+                } else {
+                    side = 'left';
+                }
 
                 APP.editors[side].regKey = keyName;
                 loadSide(side, data, keyName);
@@ -1620,32 +2452,110 @@
         function updateBadges() {
             document.getElementById('badgeJson').classList.toggle('show', APP.ui.globalFormat === 'json');
             document.getElementById('badgeReg').classList.toggle('show', APP.ui.globalFormat === 'reg');
-            ['stats', 'levels', 'inv'].forEach(tab => {
-                if (APP.editors.left.active) document.getElementById(`col_left_${tab}`).classList.remove('inactive');
-                if (APP.editors.right.active) document.getElementById(`col_right_${tab}`).classList.remove('inactive');
-            });
+
+            const bAuto = document.getElementById('badgeAuto');
+            const bEndless = document.getElementById('badgeEndless');
+            const bCustom = document.getElementById('badgeCustom');
+            const bPresets = document.getElementById('badgePresets');
+            const bProfile = document.getElementById('badgeProfile');
+            if (bAuto) bAuto.style.display = APP.editors.left.active ? 'inline-block' : 'none';
+            if (bEndless) bEndless.style.display = APP.editors.right.active ? 'inline-block' : 'none';
+            if (bCustom) bCustom.style.display = APP.editors.custom.active ? 'inline-block' : 'none';
+            if (bPresets) bPresets.style.display = APP.hasPresets ? 'inline-block' : 'none';
+            if (bProfile) bProfile.style.display = APP.hasProfile ? 'inline-block' : 'none';
         }
 
+        function getActiveSide(side) {
+            if (side !== 'right') return side;
+            if (APP.ui.activeRightSide === 'custom' && APP.editors.custom.active) {
+                return 'custom';
+            }
+            if (!APP.editors.right.active && APP.editors.custom.active) {
+                return 'custom';
+            }
+            return 'right';
+        }
+
+        function switchRightMode(mode) {
+            APP.ui.activeRightSide = mode;
+            refreshUI();
+            renderInRunEquipped();
+        }
+
+        function refreshRightColumnHeader() {
+            const hasRight = APP.editors.right.active;
+            const hasCustom = APP.editors.custom.active;
+            const isRightActive = hasRight || hasCustom;
+
+            if (!hasRight && hasCustom) {
+                APP.ui.activeRightSide = 'custom';
+            } else if (hasRight && !hasCustom) {
+                APP.ui.activeRightSide = 'right';
+            }
+
+            const currentMode = APP.ui.activeRightSide || 'right';
+
+            document.querySelectorAll('.col-header-right-title').forEach(el => {
+                if (hasRight && hasCustom) {
+                    el.innerText = (currentMode === 'custom') ? 'NON LINEAR (CUSTOM)' : 'NON LINEAR (STANDARD)';
+                } else if (hasCustom) {
+                    el.innerText = 'NON LINEAR (CUSTOM)';
+                } else {
+                    el.innerText = 'NON LINEAR';
+                }
+            });
+
+            document.querySelectorAll('.right-mode-switcher').forEach(switcher => {
+                switcher.style.display = (hasRight && hasCustom) ? 'flex' : 'none';
+                switcher.querySelectorAll('.mode-btn').forEach(btn => {
+                    const btnMode = btn.getAttribute('data-mode');
+                    btn.classList.toggle('active', btnMode === currentMode);
+                    if (btnMode === 'right') btn.innerText = t('modeStd');
+                    if (btnMode === 'custom') btn.innerText = t('modeCustom');
+                });
+            });
+
+            ['stats', 'levels', 'inv'].forEach(tab => {
+                const colLeft = document.getElementById(`col_left_${tab}`);
+                const colRight = document.getElementById(`col_right_${tab}`);
+                if (colLeft) colLeft.classList.toggle('inactive', !APP.editors.left.active);
+                if (colRight) colRight.classList.toggle('inactive', !isRightActive);
+            });
+        }
+    
         function switchTab(id) {
             document.querySelectorAll('.tab-content').forEach(e => e.classList.remove('active'));
             document.querySelectorAll('.tab-btn').forEach(e => e.classList.remove('active'));
             document.getElementById(id).classList.add('active');
-            const map = { stats: 0, levels: 1, inventory: 2 };
-            document.querySelectorAll('.tab-btn')[map[id]].classList.add('active');
+            const map = { stats: 0, levels: 1, inventory: 2, wardrobe: 3 };
+            if (map[id] !== undefined) {
+                document.querySelectorAll('.tab-btn')[map[id]].classList.add('active');
+            }
+            if (id === 'wardrobe') renderWardrobe();
         }
 
         function refreshUI() {
-            ['left', 'right'].forEach(side => {
-                if (!APP.editors[side].active) return;
-                renderStats(side);
-                renderLevels(side);
-                renderInv(side);
-            });
+            updateBadges();
+            refreshRightColumnHeader();
+
+            if (APP.editors.left.active) {
+                renderStats('left');
+                renderLevels('left');
+                renderInv('left');
+            }
+
+            const activeRight = getActiveSide('right');
+            if (APP.editors[activeRight] && APP.editors[activeRight].active) {
+                renderStats('right');
+                renderLevels('right');
+                renderInv('right');
+            }
         }
 
         function renderStats(side) {
-            const d = APP.editors[side].data;
-            const n = APP.editors[side].nested;
+            const s = getActiveSide(side);
+            const d = APP.editors[s].data;
+            const n = APP.editors[s].nested;
             const fList = n.Flashlight.i;
             const fVal = fList.length ? (fList[0].q || 0) : 0;
             const bp = n.Upgrades.i.find(x => x.i === BACKPACK_UUID);
@@ -1659,7 +2569,7 @@
             let html = `
                 <div class="form-row">
                     <div class="form-label"><img src="img/UI/Icons/purple-pink-ticket-isolated-white.png" class="form-icon"> ${t('tickets')}</div>
-                    <input type="number" min="0" max="2147400000" value="${d['Tickets Counted'] || 0}" onchange="let v = parseInt(this.value) || 0; if(v > 2147400000) v = 2147400000; this.value = v; setData('${side}', 'Tickets Counted', v)" class="styled-input no-negative">
+                    <input type="number" min="0" max="2147400000" value="${d['Tickets Counted'] || 0}" onchange="let v = parseInt(this.value) || 0; if(v > 2147400000) v = 2147400000; this.value = v; setData('${s}', 'Tickets Counted', v)" class="styled-input no-negative">
                 </div>
                 <div class="form-row">
                     <div class="form-label">
@@ -1673,7 +2583,7 @@
                 </div>
                 <div class="form-row">
                     <div class="form-label"><img src="img/UI/Icons/Backpack_upgrades.png" class="form-icon"> ${t('backpack')}</div>
-                    <select onchange="setBackpack('${side}', this.value)" class="styled-select">
+                    <select onchange="setBackpack('${s}', this.value)" class="styled-select">
                         <option value="1" ${bpVal <= 1 ? 'selected' : ''}>Level 1</option>
                         <option value="2" ${bpVal == 2 ? 'selected' : ''}>Level 2</option>
                         <option value="3" ${bpVal == 3 ? 'selected' : ''}>Level 3</option>
@@ -1686,19 +2596,19 @@
                     <div style="border-top:1px solid #333; margin-top:15px; padding-top:15px;">
                         <div class="form-row">
                             <div class="form-label">${t('lives')}</div>
-                            <input type="number" min="0" value="${d["Non Linear Lives"] || 0}" onchange="setData('${side}', 'Non Linear Lives', this.value)" class="styled-input no-negative">
+                            <input type="number" min="0" value="${d["Non Linear Lives"] || 0}" onchange="setData('${s}', 'Non Linear Lives', this.value)" class="styled-input no-negative">
                         </div>
                         <div class="form-row">
                             <div class="form-label">${t('infLives')}</div>
-                            <label class="switch"><input type="checkbox" ${d["Infinite Lives"] ? 'checked' : ''} onchange="setData('${side}', 'Infinite Lives', this.checked)"><span class="slider"></span></label>
+                            <label class="switch"><input type="checkbox" ${d["Infinite Lives"] ? 'checked' : ''} onchange="setData('${s}', 'Infinite Lives', this.checked)"><span class="slider"></span></label>
                         </div>
                         <div class="form-row">
                             <div class="form-label">${t('canGetLives')}</div>
-                            <label class="switch"><input type="checkbox" ${d["Can Get Lives"] ? 'checked' : ''} onchange="setData('${side}', 'Can Get Lives', this.checked)"><span class="slider"></span></label>
+                            <label class="switch"><input type="checkbox" ${d["Can Get Lives"] ? 'checked' : ''} onchange="setData('${s}', 'Can Get Lives', this.checked)"><span class="slider"></span></label>
                         </div>
                         <div class="form-row">
                             <div class="form-label">${t('depth')}</div>
-                            <input type="number" min="0" value="${d.Depth || 0}" onchange="setData('${side}', 'Depth', this.value)" class="styled-input no-negative">
+                            <input type="number" min="0" value="${d.Depth || 0}" onchange="setData('${s}', 'Depth', this.value)" class="styled-input no-negative">
                         </div>
                     </div>
                 `;
@@ -1707,7 +2617,8 @@
         }
 
         function renderLevels(side) {
-            const isInstant = APP.editors[side].isInstantClear;
+            const s = getActiveSide(side);
+            const isInstant = APP.editors[s].isInstantClear;
             let html = '';
 
             if (side === 'left') {
@@ -1737,14 +2648,14 @@
             } else {
                 html += '<div style="display:flex; flex-direction:column; gap:8px;">';
                 ENDLESS_ROOMS.forEach(r => {
-                    const val = APP.editors[side].data[r.k] || 0;
+                    const val = APP.editors[s].data[r.k] || 0;
                     html += `
                         <div class="form-row">
                             <div class="form-label">
                                 <img src="img/Inventory/Keycards/${r.i}" width="28" style="object-fit:contain">
                                 ${r.n}
                             </div>
-                            <input type="number" min="0" value="${val}" onchange="setData('${side}', '${r.k}', this.value)" class="styled-input no-negative">
+                            <input type="number" min="0" value="${val}" onchange="setData('${s}', '${r.k}', this.value)" class="styled-input no-negative">
                         </div>
                     `;
                 });
@@ -1762,16 +2673,18 @@
         }
 
         function renderInv(side) {
+            const s = getActiveSide(side);
+            const colSide = (side === 'left') ? 'left' : 'right';
             const cat = APP.ui.invCat;
-            const n = APP.editors[side].nested;
+            const n = APP.editors[s].nested;
             const list = n[cat] ? ((cat === 'Codex' || cat === 'VHS') ? n[cat].i : n[cat].s) : [];
-            const con = document.getElementById(`body_${side}_inv`);
+            const con = document.getElementById(`body_${colSide}_inv`);
 
             if (cat === 'Codex') {
                 let html = `
                     <div style="display:flex; gap:10px; margin-bottom:10px;">
                         <button class="btn btn-primary" style="flex:1" onclick="showEntityViewer()">📃 ${t('entities')}</button>
-                        <button class="btn" style="flex:1" onclick="unlockAllCodex('${side}')">🔓 ${t('unlockAllCodex')}</button>
+                        <button class="btn" style="flex:1" onclick="unlockAllCodex('${s}')">🔓 ${t('unlockAllCodex')}</button>
                     </div>
                     <div class="codex-list">
                 `;
@@ -1782,7 +2695,7 @@
                         <div class="codex-row" onclick="viewImage('${imgPath}')">
                             <span style="font-size:16px;">📄</span>
                             <span style="flex:1; font-size:18px;">${db.name}</span>
-                            <button class="btn btn-danger" style="padding:2px 8px;" onclick="event.stopPropagation(); delItem('${side}', ${idx}, true)">×</button>
+                            <button class="btn btn-danger" style="padding:2px 8px;" onclick="event.stopPropagation(); delItem('${s}', ${idx}, true)">×</button>
                         </div>
                     `;
                 });
@@ -1790,7 +2703,7 @@
             } else if (cat === 'VHS') {
                 let html = `
                     <div style="display:flex; gap:10px; margin-bottom:10px;">
-                        <button class="btn btn-primary" style="flex:1" onclick="unlockAllTapes('${side}')">🔓 ${t('unlockAllTapes')}</button>
+                        <button class="btn btn-primary" style="flex:1" onclick="unlockAllTapes('${s}')">🔓 ${t('unlockAllTapes')}</button>
                     </div>
                     <div class="codex-list">
                 `;
@@ -1800,16 +2713,35 @@
                         <div class="codex-row" style="cursor: default;">
                             <span style="font-size:16px;">📼</span>
                             <span style="flex:1; font-size:18px;">${db.name}</span>
-                            <button class="btn btn-danger" style="padding:2px 8px;" onclick="event.stopPropagation(); delItem('${side}', ${idx}, true)">×</button>
+                            <button class="btn btn-danger" style="padding:2px 8px;" onclick="event.stopPropagation(); delItem('${s}', ${idx}, true)">×</button>
                         </div>
                     `;
                 });
                 con.innerHTML = html + '</div>';
             } else {
                 const isKeycard = (cat === 'Keycards');
-                const slotCount = isKeycard ? 24 : 15;
-                const gridCols = isKeycard ? 4 : 3;
-                const maxWidth = isKeycard ? '370px' : '275px';
+                const isApparel = (cat === 'Apparel');
+
+                let slotCount = 15;
+                let gridCols = 3;
+                let maxWidth = '275px';
+
+                if (isKeycard) {
+                    slotCount = 24;
+                    gridCols = 4;
+                    maxWidth = '370px';
+                } else if (isApparel) {
+                    const maxS = list.reduce((m, item) => Math.max(m, item.s !== undefined ? item.s : -1), -1);
+                    // Dynamic rows of 4, minimum 24 slots (6 rows), plus extra empty row
+                    const neededRows = Math.max(6, Math.ceil((maxS + 2) / 4) + 1);
+                    slotCount = neededRows * 4;
+                    gridCols = 4;
+                    maxWidth = '380px';
+                } else {
+                    const maxS = list.reduce((m, item) => Math.max(m, item.s !== undefined ? item.s : -1), -1);
+                    const neededRows = Math.max(5, Math.ceil((maxS + 2) / 3));
+                    slotCount = neededRows * 3;
+                }
 
                 let html = `<div class="inv-grid" style="grid-template-columns: repeat(${gridCols}, 1fr); max-width: ${maxWidth};">`;
                 for (let i = 0; i < slotCount; i++) {
@@ -1818,15 +2750,34 @@
                         const db = APP.db.all[item.i] || { name: item.i, img: 'blank.png' };
                         const imgDir = (cat === 'Apparel') ? 'Apparels' : cat;
                         const imgPath = `img/Inventory/${imgDir}/${db.img}`;
+
+                        let paidBadge = '';
+                        let displayName = db.name;
+                        let itemTooltip = db.name;
+                        if (cat === 'Apparel' && APP.apparelCatalog) {
+                            const catalogItem = APP.apparelCatalog.find(x => x.idStr === item.i || x.assetName === db.name);
+                            if (catalogItem) {
+                                displayName = (APP.lang === 'zh') ? (catalogItem.displayNameHans || catalogItem.displayName) : catalogItem.displayName;
+                                if (catalogItem.isPaid) {
+                                    const bName = getApparelBundleName(catalogItem);
+                                    itemTooltip = `${displayName} - ${t('steamStoreWarn').replace('{0}', bName)}`;
+                                    paidBadge = `<span class="badge-paid" style="position:absolute; top:2px; left:2px; font-size:9px; padding:1px 3px; z-index:2; cursor:pointer;" title="${itemTooltip}">${t('steamStoreBadge')}</span>`;
+                                } else {
+                                    itemTooltip = displayName;
+                                }
+                            }
+                        }
+
                         html += `
-                            <div class="inv-slot" title="${db.name}" onclick="initEditItem('${side}', ${i})">
+                            <div class="inv-slot" title="${itemTooltip}" onclick="initEditItem('${s}', ${i})" style="position:relative;">
+                                ${paidBadge}
                                 <img src="${imgPath}" onerror="this.src='img/Inventory/Collectables/blank.png'">
-                                <div class="inv-name">${db.name}</div>
+                                <div class="inv-name">${displayName}</div>
                                 <div class="inv-qty">${item.q}</div>
                             </div>
                         `;
                     } else {
-                        html += `<div class="inv-slot empty" onclick="initAddItem('${side}', ${i})"></div>`;
+                        html += `<div class="inv-slot empty" onclick="initAddItem('${s}', ${i})"></div>`;
                     }
                 }
                 con.innerHTML = html + '</div>';
@@ -1834,6 +2785,7 @@
         }
 
         function setData(side, k, v) {
+            side = getActiveSide(side);
             if (typeof v === 'boolean') {
                 APP.editors[side].data[k] = v;
             } else {
@@ -1845,19 +2797,24 @@
 
         function setFlashlight(side, v) {
             v = parseInt(v);
-            document.getElementById(`txt_flash_${side}`).innerText = v;
+            const colSide = (side === 'left') ? 'left' : 'right';
+            const s = getActiveSide(side);
+            const txt = document.getElementById(`txt_flash_${colSide}`);
+            if (txt) txt.innerText = v;
             let batt = 'Battery0.png';
             if (v > 180) batt = 'Battery3.png';
             else if (v > 120) batt = 'Battery2.png';
             else if (v > 60) batt = 'Battery1.png';
-            document.getElementById(`icon_flash_${side}`).src = `img/UI/Icons/${batt}`;
+            const icon = document.getElementById(`icon_flash_${colSide}`);
+            if (icon) icon.src = `img/UI/Icons/${batt}`;
 
-            const list = APP.editors[side].nested.Flashlight.i;
+            const list = APP.editors[s].nested.Flashlight.i;
             if (list.length) list[0].q = v;
-            else APP.editors[side].nested.Flashlight.i.push({ i: FLASHLIGHT_UUID, q: v });
+            else APP.editors[s].nested.Flashlight.i.push({ i: FLASHLIGHT_UUID, q: v });
         }
 
         function setBackpack(side, v) {
+            side = getActiveSide(side);
             const list = APP.editors[side].nested.Upgrades.i;
             const item = list.find(x => x.i === BACKPACK_UUID);
             if (item) item.q = parseInt(v);
@@ -1865,6 +2822,7 @@
         }
 
         function toggleInstantClear(side, val) {
+            side = getActiveSide(side);
             APP.editors[side].isInstantClear = val;
             if (val) {
                 for (let i = 1; i <= STORY_LEVELS.length; i++) APP.editors[side].data[`Section${i}`] = 1;
@@ -1873,6 +2831,7 @@
         }
 
         function clickTape(side, i) {
+            side = getActiveSide(side);
             if (APP.editors[side].isInstantClear) return;
             const current = APP.editors[side].data[`Section${i}`];
             const target = current === 1 ? 0 : 1;
@@ -1885,6 +2844,7 @@
         }
 
         function unlockAllCodex(side) {
+            side = getActiveSide(side);
             const n = APP.editors[side].nested;
             if (!n.Codex) n.Codex = { i: [], s: [] };
             const existing = new Set(n.Codex.i.map(x => x.i));
@@ -1901,6 +2861,7 @@
         }
 
         function unlockAllTapes(side) {
+            side = getActiveSide(side);
             const n = APP.editors[side].nested;
             if (!n.VHS) n.VHS = { i: [], s: [] };
             const existing = new Set(n.VHS.i.map(x => x.i));
@@ -1943,10 +2904,27 @@
             body.innerHTML = `<div class="item-picker-list">
                 ${list.map(item => {
                 const path = `img/Inventory/${imgDir}/${item.img}`;
+                let paidBadge = '';
+                let itemName = item.name;
+                let itemTooltip = item.name;
+                if (cat === 'Apparel' && APP.apparelCatalog) {
+                    const catalogItem = APP.apparelCatalog.find(x => x.idStr === item.idStr || x.assetName === item.name);
+                    if (catalogItem) {
+                        itemName = (APP.lang === 'zh') ? (catalogItem.displayNameHans || catalogItem.displayName) : catalogItem.displayName;
+                        if (catalogItem.isPaid) {
+                            const bName = getApparelBundleName(catalogItem);
+                            itemTooltip = `${itemName} - ${t('steamStoreWarn').replace('{0}', bName)}`;
+                            paidBadge = `<span class="badge-paid" style="margin-top:2px;" title="${itemTooltip}">${t('steamStoreBadge')}</span>`;
+                        } else {
+                            itemTooltip = itemName;
+                        }
+                    }
+                }
                 return `
-                        <div class="picker-item" onclick="confirmAddItem('${item.idStr}')">
+                        <div class="picker-item" onclick="confirmAddItem('${item.idStr}')" title="${itemTooltip}">
                             <img src="${path}" onerror="this.src='img/Inventory/Collectables/blank.png'">
-                            <span>${item.name}</span>
+                            <span>${itemName}</span>
+                            ${paidBadge}
                         </div>
                     `;
             }).join('')}
@@ -1970,10 +2948,11 @@
             const cat = APP.ui.invCat;
             const db = APP.db.all[uuid];
 
-            const finalQty = Math.min(qty, db.stackCapacity || 99);
+            const finalQty = Math.min(qty, (db ? db.stackCapacity : 99) || 99);
 
             if (!APP.editors[side].nested[cat]) APP.editors[side].nested[cat] = { i: [], s: [] };
             APP.editors[side].nested[cat].s.push({ i: uuid, q: finalQty, s: slot });
+            APP.editors[side].nested[cat].i.push({ i: uuid, q: finalQty });
 
             closeGeneralModal();
             refreshUI();
@@ -1987,7 +2966,23 @@
             const item = list.find(x => x.s === slot);
             const db = APP.db.all[item.i] || { name: item.i, stackCapacity: 99, img: 'blank.png' };
 
-            document.getElementById('modName').innerText = db.name;
+            let editDisplayName = db.name;
+            if (cat === 'Apparel' && APP.apparelCatalog) {
+                const catalogItem = APP.apparelCatalog.find(x => x.idStr === item.i || x.assetName === db.name);
+                if (catalogItem) {
+                    editDisplayName = (APP.lang === 'zh') ? (catalogItem.displayNameHans || catalogItem.displayName) : catalogItem.displayName;
+                    if (catalogItem.isPaid) {
+                        const bName = getApparelBundleName(catalogItem);
+                        document.getElementById('modName').innerHTML = `${editDisplayName} <span class="badge-paid" style="font-size:11px; margin-left:6px;" title="${t('steamStoreWarn').replace('{0}', bName)}">${t('steamStoreBadge')}</span>`;
+                    } else {
+                        document.getElementById('modName').innerText = editDisplayName;
+                    }
+                } else {
+                    document.getElementById('modName').innerText = editDisplayName;
+                }
+            } else {
+                document.getElementById('modName').innerText = editDisplayName;
+            }
             document.getElementById('modMax').innerText = t('maxStackPrefix') + (db.stackCapacity || 99);
             const imgDir = (cat === 'Apparel') ? 'Apparels' : cat;
             document.getElementById('modImg').src = `img/Inventory/${imgDir}/${db.img}`;
@@ -2010,6 +3005,9 @@
             if (newQty < 1) newQty = 1;
 
             item.q = newQty;
+            const itemI = APP.editors[side].nested[cat].i.find(x => x.i === item.i);
+            if (itemI) itemI.q = newQty;
+
             closeModifyModal();
             refreshUI();
             showToast(t('modified'), 'success');
@@ -2022,7 +3020,12 @@
             const list = APP.editors[side].nested[cat].s;
             const idx = list.findIndex(x => x.s === slot);
 
-            if (idx > -1) list.splice(idx, 1);
+            if (idx > -1) {
+                const item = list[idx];
+                list.splice(idx, 1);
+                const iIdx = APP.editors[side].nested[cat].i.findIndex(x => x.i === item.i);
+                if (iIdx > -1) APP.editors[side].nested[cat].i.splice(iIdx, 1);
+            }
 
             closeModifyModal();
             refreshUI();
@@ -2049,8 +3052,13 @@
             const list = APP.editors[side].nested[cat].s;
             const item = list.find(x => x.s === slot);
 
-            item.i = uuid;
-            item.q = 1;
+            if (item) {
+                const oldI = item.i;
+                item.i = uuid;
+                item.q = 1;
+                const itemI = APP.editors[side].nested[cat].i.find(x => x.i === oldI);
+                if (itemI) { itemI.i = uuid; itemI.q = 1; }
+            }
 
             APP.state.isReplacing = false;
             closeGeneralModal();
@@ -2059,6 +3067,7 @@
         }
 
         function delItem(side, idx, isListWithoutSlots) {
+            side = getActiveSide(side);
             const cat = APP.ui.invCat;
             const list = isListWithoutSlots ? APP.editors[side].nested[cat].i : APP.editors[side].nested[cat].s;
             list.splice(idx, 1);
@@ -2101,6 +3110,14 @@
             _animateClose('modifyModal');
         }
 
+        function closeApparelModal() {
+            _animateClose('apparelModal');
+        }
+
+        function closePresetModal() {
+            _animateClose('presetModal');
+        }
+
         function viewImage(src) {
             const image = new Image();
             image.src = src;
@@ -2121,12 +3138,592 @@
             viewer.show();
         }
 
+        // ================= WARDROBE SYSTEM LOGIC =================
+        function initWardrobeUI() {
+            initFilterPills();
+            renderWardrobe();
+        }
+
+        function initFilterPills() {
+            // Slot filters
+            const slotPills = document.getElementById('slotFilterPills');
+            if (slotPills) {
+                const slots = ['All', 'Upper', 'Lower', 'Shoes', 'Hat', 'FullBody', 'Face', 'Wrist', 'Waist'];
+                slotPills.innerHTML = slots.map(s => {
+                    const label = s === 'All' ? t('filterAll') : (t('slot' + s) || s);
+                    const active = (APP.wardrobeFilterSlot === s) ? 'active' : '';
+                    return `<div class="filter-pill ${active}" onclick="setWardrobeSlotFilter('${s}')">${label}</div>`;
+                }).join('');
+            }
+
+            // Gender filters
+            const genderPills = document.getElementById('genderFilterPills');
+            if (genderPills) {
+                const genders = ['All', 'Male', 'Female'];
+                genderPills.innerHTML = genders.map(g => {
+                    const label = g === 'All' ? t('filterAll') : (g === 'Male' ? t('filterMale') : t('filterFemale'));
+                    const active = (APP.wardrobeFilterGender === g) ? 'active' : '';
+                    return `<div class="filter-pill ${active}" onclick="setWardrobeGenderFilter('${g}')">${label}</div>`;
+                }).join('');
+            }
+        }
+
+        function setWardrobeSlotFilter(s) {
+            APP.wardrobeFilterSlot = s;
+            initFilterPills();
+            renderApparelCatalog();
+        }
+
+        function setWardrobeGenderFilter(g) {
+            APP.wardrobeFilterGender = g;
+            initFilterPills();
+            renderApparelCatalog();
+        }
+
+        function onCatalogSearch(val) {
+            APP.wardrobeSearchTerm = val.toLowerCase().trim();
+            renderApparelCatalog();
+        }
+
+        function getActiveLook() {
+            if (APP.selectedPresetId === '__profile__') return APP.profileLook;
+            return APP.looks[APP.selectedPresetId] || null;
+        }
+
+        function renderWardrobe() {
+            initFilterPills();
+            renderPresetDropdown();
+            renderGenderButton();
+            renderSlotCards();
+            renderInRunEquipped();
+            renderApparelCatalog();
+        }
+
+        function renderPresetDropdown() {
+            const sel = document.getElementById('presetSelect');
+            if (!sel) return;
+
+            let opts = '';
+            if (APP.presetsIndex && APP.presetsIndex.Presets) {
+                APP.presetsIndex.Presets.forEach(p => {
+                    const isSelected = (p.Id === APP.selectedPresetId) ? 'selected' : '';
+                    opts += `<option value="${p.Id}" ${isSelected}>${p.Name}</option>`;
+                });
+            }
+
+            if (APP.hasProfile && APP.profileLook) {
+                const isSelected = (APP.selectedPresetId === '__profile__') ? 'selected' : '';
+                opts += `<option value="__profile__" ${isSelected}>[Profile] CustomCharacter</option>`;
+            }
+
+            sel.innerHTML = opts;
+
+            const badge = document.getElementById('currentPresetNameBadge');
+            if (badge) {
+                let name = "";
+                if (APP.selectedPresetId === '__profile__') {
+                    name = "Player Profile (CustomCharacter)";
+                } else if (APP.presetsIndex && APP.presetsIndex.Presets) {
+                    const found = APP.presetsIndex.Presets.find(p => p.Id === APP.selectedPresetId);
+                    if (found) name = found.Name;
+                }
+                badge.innerText = name;
+            }
+        }
+
+        function onSelectPreset(presetId) {
+            APP.selectedPresetId = presetId;
+            if (APP.presetsIndex && presetId !== '__profile__') {
+                APP.presetsIndex.Selected = presetId;
+                APP.presetsChanged = true;
+            }
+            renderWardrobe();
+        }
+
+        function renderGenderButton() {
+            const btn = document.getElementById('btnGenderToggle');
+            const txt = document.getElementById('txtGender');
+            if (!btn || !txt) return;
+
+            const look = getActiveLook();
+            if (!look) return;
+
+            const isFemale = (look.CharacterName === 'Female' || (look.CharacterPrefab && look.CharacterPrefab.includes('Female')));
+            txt.innerText = isFemale ? t('female') : t('male');
+            btn.style.borderColor = isFemale ? '#ff66aa' : 'var(--accent)';
+            txt.style.color = isFemale ? '#ff66aa' : 'var(--accent)';
+        }
+
+        function toggleBodyGender() {
+            const look = getActiveLook();
+            if (!look) return;
+
+            const isFemale = (look.CharacterName === 'Female' || (look.CharacterPrefab && look.CharacterPrefab.includes('Female')));
+            if (isFemale) {
+                look.CharacterName = 'Male';
+                look.CharacterPrefab = 'Male_Combined_HP Variant';
+            } else {
+                look.CharacterName = 'Female';
+                look.CharacterPrefab = 'Female_Combined_HP Variant';
+            }
+
+            if (APP.selectedPresetId === '__profile__') {
+                APP.profileChanged = true;
+            } else {
+                APP.presetsChanged = true;
+            }
+
+            renderGenderButton();
+            showToast(t('modified'), 'success');
+        }
+
+        function openNewPresetModal() {
+            const selTpl = document.getElementById('newPresetTemplate');
+            if (selTpl && APP.defaultPresets) {
+                selTpl.innerHTML = APP.defaultPresets.map((tpl, i) => {
+                    const isF = (tpl.CharacterName === 'Female' || (tpl.CharacterPrefab && tpl.CharacterPrefab.includes('Female')));
+                    const gTag = isF ? '[Female]' : '[Male]';
+                    return `<option value="${i}">${tpl.CharacterName} ${gTag}</option>`;
+                }).join('');
+            }
+            const nameInput = document.getElementById('newPresetName');
+            if (nameInput) nameInput.value = `Custom ${APP.presetsIndex.Presets.length + 1}`;
+            document.getElementById('presetModal').style.display = 'flex';
+        }
+
+        function confirmCreatePreset() {
+            const nameInput = document.getElementById('newPresetName');
+            const name = (nameInput ? nameInput.value.trim() : '') || 'Custom Outfit';
+            const tplIdx = parseInt(document.getElementById('newPresetTemplate').value) || 0;
+            const tpl = APP.defaultPresets[tplIdx] || APP.defaultPresets[0];
+
+            // Generate 32-char hex ID
+            const newId = Array.from({length: 32}, () => Math.floor(Math.random() * 16).toString(16)).join('');
+            const cloneLook = JSON.parse(JSON.stringify(tpl));
+
+            APP.presetsIndex.Presets.push({
+                Id: newId,
+                Name: name,
+                Template: "template:" + tpl.CharacterName
+            });
+            APP.looks[newId] = cloneLook;
+            APP.selectedPresetId = newId;
+            APP.presetsIndex.Selected = newId;
+            APP.hasPresets = true;
+            APP.presetsChanged = true;
+
+            closePresetModal();
+            renderWardrobe();
+            showToast(t('presetCreated'), 'success');
+        }
+
+        function renameCurrentPreset() {
+            if (APP.selectedPresetId === '__profile__') return;
+            const preset = APP.presetsIndex.Presets.find(p => p.Id === APP.selectedPresetId);
+            if (!preset) return;
+
+            const newName = prompt(t('promptRenamePreset'), preset.Name);
+            if (newName && newName.trim()) {
+                preset.Name = newName.trim().substring(0, 24);
+                APP.presetsChanged = true;
+                renderWardrobe();
+                showToast(t('modified'), 'success');
+            }
+        }
+
+        function deleteCurrentPreset() {
+            if (APP.selectedPresetId === '__profile__') return;
+            if (APP.presetsIndex.Presets.length <= 1) {
+                showToast(t('cannotDeleteOnlyPreset'), 'error');
+                return;
+            }
+
+            if (!confirm(t('confirmDeletePreset'))) return;
+
+            const idx = APP.presetsIndex.Presets.findIndex(p => p.Id === APP.selectedPresetId);
+            if (idx > -1) {
+                const delId = APP.selectedPresetId;
+                APP.presetsIndex.Presets.splice(idx, 1);
+                delete APP.looks[delId];
+
+                const nextPreset = APP.presetsIndex.Presets[Math.max(0, idx - 1)];
+                APP.selectedPresetId = nextPreset.Id;
+                APP.presetsIndex.Selected = nextPreset.Id;
+                APP.presetsChanged = true;
+
+                renderWardrobe();
+                showToast(t('presetDeleted'), 'info');
+            }
+        }
+
+        function unlockCustomMode() {
+            APP.customModeUnlocked = true;
+            APP.profileChanged = true;
+            if (APP.profileSave && APP.profileSave.data) {
+                APP.profileSave.data["Custom Mode Unlock"] = 1;
+            }
+            showToast(t('customModeUnlockedSuccess'), 'success');
+        }
+
+        function unlockAllApparelToBag() {
+            if (!APP.apparelCatalog || !APP.apparelCatalog.length) return;
+            const validItems = APP.apparelCatalog.filter(c => c.idStr && c.idStr.length > 5);
+
+            ['left', 'right', 'custom'].forEach(side => {
+                if (!APP.editors[side].active) return;
+                const n = APP.editors[side].nested;
+                if (!n.Apparel) n.Apparel = { i: [], s: [] };
+
+                const existingGuids = new Set(n.Apparel.s.map(x => x.i));
+                let maxS = n.Apparel.s.reduce((m, x) => Math.max(m, x.s !== undefined ? x.s : -1), -1);
+
+                validItems.forEach(item => {
+                    if (!existingGuids.has(item.idStr)) {
+                        maxS++;
+                        n.Apparel.s.push({ i: item.idStr, q: 1, s: maxS });
+                        n.Apparel.i.push({ i: item.idStr, q: 1 });
+                        existingGuids.add(item.idStr);
+                    }
+                });
+            });
+
+            showToast(t('outfitsAddedToBag'), 'success');
+            refreshUI();
+        }
+
+        function renderSlotCards() {
+            const container = document.getElementById('slotsGrid');
+            if (!container) return;
+
+            const look = getActiveLook();
+            if (!look || !look.ApparelNames) {
+                container.innerHTML = '<div style="color:#888; padding:20px;">No preset selected</div>';
+                return;
+            }
+
+            container.innerHTML = APPAREL_SLOTS.map(slot => {
+                const apparelName = look.ApparelNames[slot.id] || 'None';
+                const isEquipped = (apparelName && apparelName !== 'None');
+
+                let displayName = t('none');
+                let imgPath = `img/UI/Apparel/Apparel_Silhouette.png`;
+                let isEmptyClass = 'empty';
+                let catalogItem = null;
+
+                if (isEquipped) {
+                    catalogItem = APP.apparelCatalog.find(x => x.apparelName === apparelName || x.assetName === apparelName);
+                    if (catalogItem) {
+                        displayName = (APP.lang === 'zh') ? (catalogItem.displayNameHans || catalogItem.displayName) : catalogItem.displayName;
+                        imgPath = `img/Inventory/Apparels/${catalogItem.img}`;
+                        isEmptyClass = '';
+                    } else {
+                        displayName = apparelName;
+                        isEmptyClass = '';
+                    }
+                }
+
+                const slotTitle = t(slot.i18n) || slot.key;
+
+                return `
+                    <div class="slot-card">
+                        <div class="slot-card-header">
+                            <img src="img/UI/Apparel/${slot.icon}">
+                            <span>${slotTitle}</span>
+                        </div>
+                        <div class="slot-card-preview ${isEmptyClass}">
+                            <img src="${imgPath}" onerror="this.src='img/UI/Apparel/Apparel_Silhouette.png'">
+                        </div>
+                        <div class="slot-card-name" title="${displayName}">${displayName}</div>
+                        ${(isEquipped && catalogItem && catalogItem.isPaid) ? `<div class="slot-card-paid-warn" title="${t('steamStoreWarn').replace('{0}', getApparelBundleName(catalogItem))}">${t('steamStoreBadge')}</div>` : ''}
+                        <div class="slot-card-actions">
+                            <button class="btn btn-primary" onclick="openApparelPickerForSlot(${slot.id})">${t('change')}</button>
+                            <button class="btn btn-danger" onclick="clearApparelSlot(${slot.id})" ${isEquipped ? '' : 'disabled'}>${t('remove')}</button>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function renderInRunEquipped() {
+            const con = document.getElementById('inrunStatusContainer');
+            if (!con) return;
+
+            const sides = [
+                { id: 'left', title: 'Story Mode (Auto Save)' },
+                { id: 'right', title: 'Endless Mode (Non Linear)' },
+                { id: 'custom', title: 'Endless Custom (Non Linear Custom)' }
+            ];
+
+            con.innerHTML = sides.map(s => {
+                const ed = APP.editors[s.id];
+                const isActive = ed && ed.active;
+                const eq = (ed && ed.equippedApparel && ed.equippedApparel.ApparelNames) ? ed.equippedApparel.ApparelNames : [];
+
+                const topName = eq[0] || 'Apparel_RobertsHoodie';
+                const botName = eq[1] || 'Apparel_RobertsJeans';
+                const shoeName = eq[2] || 'Apparel_RobertsKicks';
+
+                const topItem = APP.apparelCatalog.find(x => x.assetName === topName);
+                const botItem = APP.apparelCatalog.find(x => x.assetName === botName);
+                const shoeItem = APP.apparelCatalog.find(x => x.assetName === shoeName);
+
+                const getLabel = (item, fallback) => {
+                    if (!item) return fallback;
+                    return (APP.lang === 'zh') ? (item.displayNameHans || item.displayName) : item.displayName;
+                };
+
+                const getImg = (item, fallback) => {
+                    if (item) return `img/Inventory/Apparels/${item.img}`;
+                    return `img/Inventory/Apparels/${fallback}.png`;
+                };
+
+                const hasPaidItem = (topItem && topItem.isPaid) || (botItem && botItem.isPaid) || (shoeItem && shoeItem.isPaid);
+                const paidNotice = hasPaidItem ? `<div style="font-size:10px; color:#ffd54f; display:flex; align-items:center; gap:4px; margin-top:4px;">${t('inRunSteamWarn')}</div>` : '';
+
+                return `
+                    <div class="inrun-side-card" style="${isActive ? '' : 'opacity:0.5; filter:grayscale(0.7);'}">
+                        <div class="inrun-side-title">
+                            <span>${s.title}</span>
+                            <span style="font-size:11px; color:${isActive ? 'var(--success)' : '#666'};">${isActive ? 'Active' : 'Unloaded'}</span>
+                        </div>
+                        <div class="inrun-items-row">
+                            <div class="inrun-item-badge">
+                                <img src="${getImg(topItem, topName)}" onerror="this.src='img/UI/Apparel/Apparel_Slot_Upper.png'">
+                                <span>${getLabel(topItem, topName)}</span>
+                            </div>
+                            <div class="inrun-item-badge">
+                                <img src="${getImg(botItem, botName)}" onerror="this.src='img/UI/Apparel/Apparel_Slot_Lower.png'">
+                                <span>${getLabel(botItem, botName)}</span>
+                            </div>
+                            <div class="inrun-item-badge">
+                                <img src="${getImg(shoeItem, shoeName)}" onerror="this.src='img/UI/Apparel/Apparel_Slot_Shoes.png'">
+                                <span>${getLabel(shoeItem, shoeName)}</span>
+                            </div>
+                        </div>
+                        ${paidNotice}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function syncPresetToInRun() {
+            const look = getActiveLook();
+            if (!look || !look.ApparelNames) return;
+
+            const topLook = look.ApparelNames[0] || 'Hoodie_01';
+            const botLook = look.ApparelNames[1] || 'Jeans_Blue_01';
+            const shoeLook = look.ApparelNames[2] || 'Sneaker_01';
+
+            const topItem = APP.apparelCatalog.find(x => x.apparelName === topLook || x.assetName === topLook);
+            const botItem = APP.apparelCatalog.find(x => x.apparelName === botLook || x.assetName === botLook);
+            const shoeItem = APP.apparelCatalog.find(x => x.apparelName === shoeLook || x.assetName === shoeLook);
+
+            const topAsset = topItem ? topItem.assetName : 'Apparel_RobertsHoodie';
+            const botAsset = botItem ? botItem.assetName : 'Apparel_RobertsJeans';
+            const shoeAsset = shoeItem ? shoeItem.assetName : 'Apparel_RobertsKicks';
+
+            const newEquip = { ApparelNames: [topAsset, botAsset, shoeAsset] };
+
+            ['left', 'right', 'custom'].forEach(side => {
+                if (APP.editors[side].active) {
+                    APP.editors[side].equippedApparel = JSON.parse(JSON.stringify(newEquip));
+                    APP.editors[side].data["EquippedApparel"] = JSON.stringify(newEquip);
+                }
+            });
+
+            renderInRunEquipped();
+            showToast(t('syncedInRunSuccess'), 'success');
+        }
+
+        function openApparelPickerForSlot(slotId) {
+            APP.currentEditSlot = slotId;
+            const slotDef = APPAREL_SLOTS.find(s => s.id === slotId);
+            const slotTitle = t(slotDef.i18n) || slotDef.key;
+
+            document.getElementById('apparelModalTitle').innerText = `${t('selectApparelTitle')}: ${slotTitle}`;
+            document.getElementById('apparelModalSearch').value = '';
+
+            renderApparelModalItems(slotDef.key, "");
+            document.getElementById('apparelModal').style.display = 'flex';
+        }
+
+        function onApparelModalSearch(term) {
+            const slotDef = APPAREL_SLOTS.find(s => s.id === APP.currentEditSlot);
+            renderApparelModalItems(slotDef.key, term.toLowerCase().trim());
+        }
+
+        function renderApparelModalItems(slotKey, term) {
+            const body = document.getElementById('apparelModalBody');
+            if (!body) return;
+
+            const filtered = APP.apparelCatalog.filter(c => {
+                const matchSlot = (c.slotName === slotKey) || (slotKey === 'Upper' && c.slotName === 'FullBody');
+                if (!matchSlot) return false;
+                if (!term) return true;
+                const nameEn = (c.displayName || '').toLowerCase();
+                const nameZh = (c.displayNameHans || '').toLowerCase();
+                const asset = (c.assetName || '').toLowerCase();
+                const app = (c.apparelName || '').toLowerCase();
+                return nameEn.includes(term) || nameZh.includes(term) || asset.includes(term) || app.includes(term);
+            });
+
+            if (!filtered.length) {
+                body.innerHTML = `<div style="color:#888; text-align:center; padding:30px;">${t('noMatchingCostumes')}</div>`;
+                return;
+            }
+
+            body.innerHTML = `<div class="item-picker-list" style="grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));">
+                ${filtered.map(c => {
+                    const name = (APP.lang === 'zh') ? (c.displayNameHans || c.displayName) : c.displayName;
+                    return `
+                        <div class="picker-item" onclick="equipApparelToSlot(${APP.currentEditSlot}, '${c.apparelName}')" title="${c.isPaid ? t('steamStoreWarn').replace('{0}', getApparelBundleName(c)) : ''}">
+                            <img src="img/Inventory/Apparels/${c.img}" onerror="this.src='img/UI/Apparel/Apparel_Silhouette.png'">
+                            <span style="font-size:12px;">${name}</span>
+                            ${c.isPaid ? `<span class="badge-paid" style="margin-top:2px;">${t('steamStoreBadge')}</span>` : ''}
+                        </div>
+                    `;
+                }).join('')}
+            </div>`;
+        }
+
+        function equipApparelToSlot(slotId, apparelName) {
+            const look = getActiveLook();
+            if (!look || !look.ApparelNames) return;
+
+            look.ApparelNames[slotId] = apparelName;
+            if (APP.selectedPresetId === '__profile__') {
+                APP.profileChanged = true;
+            } else {
+                APP.presetsChanged = true;
+            }
+
+            closeApparelModal();
+            renderSlotCards();
+            showToast(t('modified'), 'success');
+        }
+
+        function clearApparelSlot(slotId) {
+            equipApparelToSlot(slotId, 'None');
+        }
+
+        function renderApparelCatalog() {
+            const grid = document.getElementById('catalogGrid');
+            if (!grid) return;
+
+            if (!APP.apparelCatalog || !APP.apparelCatalog.length) {
+                grid.innerHTML = '<div style="color:#888; padding:20px;">Catalog empty or loading...</div>';
+                return;
+            }
+
+            const slotFilter = APP.wardrobeFilterSlot;
+            const genderFilter = APP.wardrobeFilterGender;
+            const term = APP.wardrobeSearchTerm;
+
+            const items = APP.apparelCatalog.filter(c => {
+                if (slotFilter !== 'All' && c.slotName !== slotFilter) return false;
+                if (genderFilter === 'Female' && !c.assetName.endsWith('_Female')) return false;
+                if (genderFilter === 'Male' && c.assetName.endsWith('_Female')) return false;
+                if (term) {
+                    const nameEn = (c.displayName || '').toLowerCase();
+                    const nameZh = (c.displayNameHans || '').toLowerCase();
+                    const asset = (c.assetName || '').toLowerCase();
+                    const app = (c.apparelName || '').toLowerCase();
+                    if (!nameEn.includes(term) && !nameZh.includes(term) && !asset.includes(term) && !app.includes(term)) {
+                        return false;
+                    }
+                }
+                return true;
+            });
+
+            if (!items.length) {
+                grid.innerHTML = `<div style="color:#888; grid-column: 1/-1; text-align:center; padding:30px;">${t('noMatchingCostumes')}</div>`;
+                return;
+            }
+
+            grid.innerHTML = items.map(c => {
+                const name = (APP.lang === 'zh') ? (c.displayNameHans || c.displayName) : c.displayName;
+                const slotTitle = t('slot' + c.slotName) || c.slotName;
+                return `
+                    <div class="catalog-card">
+                        <img src="img/Inventory/Apparels/${c.img}" class="catalog-card-img" onerror="this.src='img/UI/Apparel/Apparel_Silhouette.png'">
+                        <div class="catalog-card-name" title="${name}">${name}</div>
+                        <div style="display:flex; justify-content:center; gap:4px; margin-bottom:6px; flex-wrap:wrap;">
+                            <span class="catalog-card-badge">${slotTitle}</span>
+                            ${c.isPaid ? `<span class="badge-paid" title="${t('steamStoreWarn').replace('{0}', getApparelBundleName(c))}">${t('steamStoreBadge')}</span>` : ''}
+                        </div>
+                        <div class="catalog-card-btns">
+                            <button class="btn btn-primary" onclick="equipCatalogItem('${c.apparelName}', ${c.slotId})">👗 ${t('equip')}</button>
+                            <button class="btn" onclick="addCatalogItemToBag('${c.assetName}')" ${c.idStr ? '' : 'disabled'}>🎒 ${t('addToBag')}</button>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function equipCatalogItem(apparelName, slotId) {
+            equipApparelToSlot(slotId, apparelName);
+        }
+
+        function addCatalogItemToBag(assetName) {
+            const item = APP.apparelCatalog.find(x => x.assetName === assetName);
+            if (!item || !item.idStr) {
+                showToast(t('cannotAddToBag'), "error");
+                return;
+            }
+
+            const targets = [];
+            if (APP.editors.left.active) targets.push('left');
+            if (APP.editors.right.active) targets.push('right');
+            if (APP.editors.custom.active) targets.push('custom');
+
+            if (targets.length === 0) {
+                showToast(t('loadSaveFirst'), "error");
+                return;
+            }
+
+            let addedAny = false;
+            let alreadyInBag = false;
+
+            targets.forEach(side => {
+                const n = APP.editors[side].nested;
+                if (!n.Apparel) n.Apparel = { i: [], s: [] };
+
+                const exists = n.Apparel.s.some(x => x.i === item.idStr) || n.Apparel.i.some(x => x.i === item.idStr);
+                if (exists) {
+                    alreadyInBag = true;
+                    return; // Avoid duplicate!
+                }
+
+                // Find lowest unoccupied slot
+                let targetSlot = 0;
+                while (n.Apparel.s.some(x => x.s === targetSlot)) {
+                    targetSlot++;
+                }
+
+                n.Apparel.s.push({ i: item.idStr, q: 1, s: targetSlot });
+                n.Apparel.i.push({ i: item.idStr, q: 1 });
+                addedAny = true;
+            });
+
+            const itemName = (APP.lang === 'zh') ? (item.displayNameHans || item.displayName) : item.displayName;
+            if (addedAny) {
+                showToast(t('itemAddedToBag').replace('{0}', itemName), "success");
+                refreshUI();
+            } else if (alreadyInBag) {
+                showToast(t('itemAlreadyInBag').replace('{0}', itemName), "error");
+            }
+        }
+
+        // ================= EXPORT DATA LOGIC =================
         function exportData() {
-            ['left', 'right'].forEach(side => {
+            ['left', 'right', 'custom'].forEach(side => {
                 if (!APP.editors[side].active) return;
                 Object.keys(APP.editors[side].nested).forEach(k => {
                     APP.editors[side].data[k] = JSON.stringify(APP.editors[side].nested[k]);
                 });
+                if (APP.editors[side].equippedApparel) {
+                    APP.editors[side].data["EquippedApparel"] = JSON.stringify(APP.editors[side].equippedApparel);
+                }
             });
 
             if (APP.ui.globalFormat === 'reg') {
@@ -2139,12 +3736,65 @@
                     const keyName = APP.editors.right.regKey || "Non Linear_h2645076279";
                     c += `"${keyName}"=hex:${jsonToHex(APP.editors.right.data)}\r\n`;
                 }
+                if (APP.editors.custom.active) {
+                    const keyName = APP.editors.custom.regKey || "Non Linear Custom";
+                    c += `"${keyName}"=hex:${jsonToHex(APP.editors.custom.data)}\r\n`;
+                }
                 download("Save.reg", c, "text/plain");
             } else {
-                if (APP.editors.left.active) download(APP.editors.left.name, JSON.stringify(APP.editors.left.data), "application/octet-stream");
-                if (APP.editors.right.active) setTimeout(() => download(APP.editors.right.name, JSON.stringify(APP.editors.right.data), "application/octet-stream"), 500);
+                let delay = 0;
+                if (APP.editors.left.active) {
+                    download(APP.editors.left.name, JSON.stringify(APP.editors.left.data), "application/octet-stream");
+                    delay += 400;
+                }
+                if (APP.editors.right.active) {
+                    setTimeout(() => download(APP.editors.right.name, JSON.stringify(APP.editors.right.data), "application/octet-stream"), delay);
+                    delay += 400;
+                }
+                if (APP.editors.custom.active) {
+                    setTimeout(() => download(APP.editors.custom.name, JSON.stringify(APP.editors.custom.data), "application/octet-stream"), delay);
+                    delay += 400;
+                }
+                if (APP.hasPresets || APP.presetsChanged) {
+                    const presetsOut = buildPresetsSaveData();
+                    setTimeout(() => download("Character Presets", JSON.stringify(presetsOut), "application/octet-stream"), delay);
+                    delay += 400;
+                }
+                if (APP.hasProfile || APP.profileChanged) {
+                    const profileOut = buildProfileSaveData();
+                    setTimeout(() => download("Player Profile", JSON.stringify(profileOut), "application/octet-stream"), delay);
+                    delay += 400;
+                }
             }
             showToast(t('saved'), 'success');
+        }
+
+        function buildPresetsSaveData() {
+            const base = (APP.presetsSave && APP.presetsSave.data) ? JSON.parse(JSON.stringify(APP.presetsSave.data)) : { "Version": 1 };
+            base["Version"] = 1;
+            base["Index"] = JSON.stringify(APP.presetsIndex);
+            if (APP.presetsIndex && APP.presetsIndex.Presets) {
+                APP.presetsIndex.Presets.forEach(p => {
+                    if (APP.looks[p.Id]) {
+                        base["Look/" + p.Id] = JSON.stringify(APP.looks[p.Id]);
+                    }
+                });
+            }
+            return base;
+        }
+
+        function buildProfileSaveData() {
+            const base = (APP.profileSave && APP.profileSave.data) ? JSON.parse(JSON.stringify(APP.profileSave.data)) : {
+                "Custom Mode Rule Started": 639294101267844537,
+                "Custom Mode Unlock": 1
+            };
+            if (APP.customModeUnlocked) {
+                base["Custom Mode Unlock"] = 1;
+            }
+            if (APP.profileLook) {
+                base["CustomCharacter"] = JSON.stringify(APP.profileLook);
+            }
+            return base;
         }
 
         function jsonToHex(obj) {
@@ -2183,7 +3833,7 @@
             a.click();
             document.body.removeChild(a);
         }
-    </script>
+</script>
 </body>
 
 </html>

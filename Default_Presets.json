@@ -1,0 +1,6640 @@
+[
+  {
+    "CharacterName": "Robert Chen",
+    "CharacterPrefab": "Male_Combined_HP Variant",
+    "Blendshapes": [
+      {
+        "propertyName": "mod_jaw_height",
+        "stringValue": "",
+        "floatValue": -2,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_jaw_width",
+        "stringValue": "",
+        "floatValue": 0.59008217,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_underbite",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_size",
+        "stringValue": "",
+        "floatValue": -1.2646785,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_width",
+        "stringValue": "",
+        "floatValue": -0.17253423,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_height",
+        "stringValue": "",
+        "floatValue": -0.74707115,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_05",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_size",
+        "stringValue": "",
+        "floatValue": -0.59998906,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_height",
+        "stringValue": "",
+        "floatValue": -0.50293744,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_depth",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_narrow",
+        "stringValue": "",
+        "floatValue": 0.60387576,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_05",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_size",
+        "stringValue": "",
+        "floatValue": -0.3882056,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_height",
+        "stringValue": "",
+        "floatValue": 0.021566153,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_depth",
+        "stringValue": "",
+        "floatValue": 0.64700925,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_05",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_size",
+        "stringValue": "",
+        "floatValue": -0.7078235,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_curve",
+        "stringValue": "",
+        "floatValue": -1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip",
+        "stringValue": "",
+        "floatValue": -0.6940304,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip_angle",
+        "stringValue": "",
+        "floatValue": -0.11473185,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_01",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_height",
+        "stringValue": "",
+        "floatValue": -0.08626711,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_depth",
+        "stringValue": "",
+        "floatValue": -0.50293744,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_05",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_09",
+        "stringValue": "",
+        "floatValue": 6.938894e-18,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "body_fat",
+        "stringValue": "",
+        "floatValue": 0.022078043,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairNames": [
+      "Short_Middle_Part_01",
+      "Eyebrows_01",
+      "None"
+    ],
+    "ApparelNames": [
+      "Hoodie_01",
+      "Jeans_Blue_01",
+      "Sneaker_01"
+    ],
+    "ApparelMaterials": [
+      0,
+      0,
+      0
+    ],
+    "ApparelTints": [],
+    "HairColor": [
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "FloatProperties": [
+      {
+        "propertyName": "_Lipstick_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Smoothness_Offset",
+        "stringValue": "",
+        "floatValue": 0.36842304,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Freckles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Wrinkles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Tint_Alpha",
+        "stringValue": "",
+        "floatValue": 0.5181187,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Height",
+        "stringValue": "",
+        "floatValue": 0.9493176,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Width",
+        "stringValue": "",
+        "floatValue": 0.95617634,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "TextureProperties": [
+      {
+        "propertyName": "_Skin_Texture",
+        "stringValue": "T_Skin_01",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up",
+        "stringValue": "T_Flat_White_sRGB",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "ColorProperties": [
+      {
+        "propertyName": "_Skin_Tint",
+        "stringValue": "AFB818FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Eye_Color",
+        "stringValue": "7E5A00FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Lips_Tint",
+        "stringValue": "BE0000FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ]
+  },
+  {
+    "CharacterName": "Narkipleif",
+    "CharacterPrefab": "Male_Combined_HP Variant",
+    "Blendshapes": [
+      {
+        "propertyName": "mod_jaw_height",
+        "stringValue": "",
+        "floatValue": 1.1612903,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_jaw_width",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_underbite",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_size",
+        "stringValue": "",
+        "floatValue": 0.4,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_width",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_height",
+        "stringValue": "",
+        "floatValue": -0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_01",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_06",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_07",
+        "stringValue": "",
+        "floatValue": 0.2,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_size",
+        "stringValue": "",
+        "floatValue": -1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_height",
+        "stringValue": "",
+        "floatValue": 0.5806451,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_depth",
+        "stringValue": "",
+        "floatValue": -0.6451613,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_narrow",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_05",
+        "stringValue": "",
+        "floatValue": 0.6666667,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_09",
+        "stringValue": "",
+        "floatValue": 0.3333333,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_size",
+        "stringValue": "",
+        "floatValue": 0.3870968,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_height",
+        "stringValue": "",
+        "floatValue": -0.0322581,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_depth",
+        "stringValue": "",
+        "floatValue": 0.3870968,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_02",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_size",
+        "stringValue": "",
+        "floatValue": -0.4516129,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_curve",
+        "stringValue": "",
+        "floatValue": -0.3870968,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip",
+        "stringValue": "",
+        "floatValue": -1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip_angle",
+        "stringValue": "",
+        "floatValue": -0.6129032,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_01",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_06",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_height",
+        "stringValue": "",
+        "floatValue": -0.6,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_depth",
+        "stringValue": "",
+        "floatValue": 0.0322581,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_01",
+        "stringValue": "",
+        "floatValue": 0.3333333,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_05",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "body_fat",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairNames": [
+      "Long_01",
+      "Eyebrows_05",
+      "Beard_04"
+    ],
+    "ApparelNames": [
+      "TShirt_Oversized_01",
+      "Jeans_Black_01",
+      "Sneaker_02"
+    ],
+    "ApparelMaterials": [
+      1,
+      1,
+      3
+    ],
+    "ApparelTints": [
+      {
+        "propertyName": "",
+        "stringValue": "212431FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairColor": [
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "312418FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "312418FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "312418FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "FloatProperties": [
+      {
+        "propertyName": "_Lipstick_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Smoothness_Offset",
+        "stringValue": "",
+        "floatValue": 0.4,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Freckles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Wrinkles",
+        "stringValue": "",
+        "floatValue": 0.1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Tint_Alpha",
+        "stringValue": "",
+        "floatValue": 0.1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Height",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Width",
+        "stringValue": "",
+        "floatValue": 0.95,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "TextureProperties": [
+      {
+        "propertyName": "_Skin_Texture",
+        "stringValue": "T_Skin_01",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up",
+        "stringValue": "T_Flat_White_sRGB",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "ColorProperties": [
+      {
+        "propertyName": "_Skin_Tint",
+        "stringValue": "C8A070FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Eye_Color",
+        "stringValue": "3B2314FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Lips_Tint",
+        "stringValue": "B05A50FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ]
+  },
+  {
+    "CharacterName": "VVolf",
+    "CharacterPrefab": "Male_Combined_HP Variant",
+    "Blendshapes": [
+      {
+        "propertyName": "mod_jaw_height",
+        "stringValue": "",
+        "floatValue": -0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_jaw_width",
+        "stringValue": "",
+        "floatValue": 0.4,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_underbite",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_size",
+        "stringValue": "",
+        "floatValue": 0.2,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_width",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_height",
+        "stringValue": "",
+        "floatValue": -0.2,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_02",
+        "stringValue": "",
+        "floatValue": 0.4,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_06",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_08",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_size",
+        "stringValue": "",
+        "floatValue": -0.1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_depth",
+        "stringValue": "",
+        "floatValue": 0.1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_narrow",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_03",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_07",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_size",
+        "stringValue": "",
+        "floatValue": 0.4,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_depth",
+        "stringValue": "",
+        "floatValue": 0.4,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_01",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_06",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_size",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_curve",
+        "stringValue": "",
+        "floatValue": 0.1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip",
+        "stringValue": "",
+        "floatValue": 0.6,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip_angle",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_04",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_08",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_height",
+        "stringValue": "",
+        "floatValue": -0.2,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_depth",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_02",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_06",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "body_fat",
+        "stringValue": "",
+        "floatValue": 0.45,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairNames": [
+      "Afro_Short_01",
+      "Eyebrows_03",
+      "Beard_03"
+    ],
+    "ApparelNames": [
+      "Shirt_01",
+      "Chinos_01",
+      "Dress_Shoes_01",
+      "None",
+      "None",
+      "Glasses_01",
+      "None",
+      "None"
+    ],
+    "ApparelMaterials": [
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ApparelTints": [
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairColor": [
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "120C08FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "120C08FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "120C08FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "FloatProperties": [
+      {
+        "propertyName": "_Lipstick_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Smoothness_Offset",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Freckles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Wrinkles",
+        "stringValue": "",
+        "floatValue": 0.1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Tint_Alpha",
+        "stringValue": "",
+        "floatValue": 0.85,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Height",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Width",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "TextureProperties": [
+      {
+        "propertyName": "_Skin_Texture",
+        "stringValue": "T_Skin_01",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up",
+        "stringValue": "T_Flat_White_sRGB",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "ColorProperties": [
+      {
+        "propertyName": "_Skin_Tint",
+        "stringValue": "5A3A24FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Eye_Color",
+        "stringValue": "231209FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Lips_Tint",
+        "stringValue": "6B3F38FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ]
+  },
+  {
+    "CharacterName": "Dashie",
+    "CharacterPrefab": "Male_Combined_HP Variant",
+    "Blendshapes": [
+      {
+        "propertyName": "mod_jaw_height",
+        "stringValue": "",
+        "floatValue": -0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_jaw_width",
+        "stringValue": "",
+        "floatValue": 0.4,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_underbite",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_size",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_width",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_03",
+        "stringValue": "",
+        "floatValue": 0.4,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_05",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_08",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_size",
+        "stringValue": "",
+        "floatValue": -0.1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_height",
+        "stringValue": "",
+        "floatValue": -0.1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_depth",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_narrow",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_02",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_08",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_size",
+        "stringValue": "",
+        "floatValue": 0.2,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_depth",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_03",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_05",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_size",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_curve",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip_angle",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_02",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_07",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_height",
+        "stringValue": "",
+        "floatValue": -0.4,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_depth",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_03",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_08",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "body_fat",
+        "stringValue": "",
+        "floatValue": 0.45,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairNames": [
+      "Short_Fringe_01",
+      "Eyebrows_02",
+      "None"
+    ],
+    "ApparelNames": [
+      "TShirt_Oversized_01",
+      "Jeans_Blue_01",
+      "Sneaker_01",
+      "Beanie_Headset_02",
+      "None",
+      "None",
+      "None",
+      "None"
+    ],
+    "ApparelMaterials": [
+      1,
+      1,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ApparelTints": [
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairColor": [
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "1A110AFF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "1A110AFF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "1A110AFF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "FloatProperties": [
+      {
+        "propertyName": "_Lipstick_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Smoothness_Offset",
+        "stringValue": "",
+        "floatValue": 0.3,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Freckles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Wrinkles",
+        "stringValue": "",
+        "floatValue": 0.05,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Tint_Alpha",
+        "stringValue": "",
+        "floatValue": 0.45,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Height",
+        "stringValue": "",
+        "floatValue": 0.98,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Width",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "TextureProperties": [
+      {
+        "propertyName": "_Skin_Texture",
+        "stringValue": "T_Skin_01",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up",
+        "stringValue": "T_Flat_White_sRGB",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "ColorProperties": [
+      {
+        "propertyName": "_Skin_Tint",
+        "stringValue": "B4835AFF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Eye_Color",
+        "stringValue": "2A170CFF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Lips_Tint",
+        "stringValue": "9C5A50FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ]
+  },
+  {
+    "CharacterName": "Robert Chen",
+    "CharacterPrefab": "Male_Combined_HP Variant",
+    "Blendshapes": [
+      {
+        "propertyName": "mod_jaw_height",
+        "stringValue": "",
+        "floatValue": -2,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_jaw_width",
+        "stringValue": "",
+        "floatValue": 0.59008217,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_underbite",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_size",
+        "stringValue": "",
+        "floatValue": -1.2646785,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_width",
+        "stringValue": "",
+        "floatValue": -0.17253423,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_height",
+        "stringValue": "",
+        "floatValue": -0.74707115,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_05",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_size",
+        "stringValue": "",
+        "floatValue": -0.59998906,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_height",
+        "stringValue": "",
+        "floatValue": -0.50293744,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_depth",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_narrow",
+        "stringValue": "",
+        "floatValue": 0.60387576,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_05",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_size",
+        "stringValue": "",
+        "floatValue": -0.3882056,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_height",
+        "stringValue": "",
+        "floatValue": 0.021566153,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_depth",
+        "stringValue": "",
+        "floatValue": 0.64700925,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_05",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_size",
+        "stringValue": "",
+        "floatValue": -0.7078235,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_curve",
+        "stringValue": "",
+        "floatValue": -1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip",
+        "stringValue": "",
+        "floatValue": -0.6940304,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip_angle",
+        "stringValue": "",
+        "floatValue": -0.11473185,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_01",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_height",
+        "stringValue": "",
+        "floatValue": -0.08626711,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_depth",
+        "stringValue": "",
+        "floatValue": -0.50293744,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_05",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_09",
+        "stringValue": "",
+        "floatValue": 6.938894e-18,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "body_fat",
+        "stringValue": "",
+        "floatValue": 0.022078043,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairNames": [
+      "Short_Middle_Part_01",
+      "Eyebrows_01",
+      "None"
+    ],
+    "ApparelNames": [
+      "Hoodie_01",
+      "Jeans_Blue_01",
+      "Sneaker_01",
+      "None"
+    ],
+    "ApparelMaterials": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ApparelTints": [],
+    "HairColor": [
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "FloatProperties": [
+      {
+        "propertyName": "_Lipstick_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Smoothness_Offset",
+        "stringValue": "",
+        "floatValue": 0.36842304,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Freckles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Wrinkles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Tint_Alpha",
+        "stringValue": "",
+        "floatValue": 0.5181187,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Height",
+        "stringValue": "",
+        "floatValue": 0.9493176,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Width",
+        "stringValue": "",
+        "floatValue": 0.95617634,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "TextureProperties": [
+      {
+        "propertyName": "_Skin_Texture",
+        "stringValue": "T_Skin_01",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up",
+        "stringValue": "T_Flat_White_sRGB",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "ColorProperties": [
+      {
+        "propertyName": "_Skin_Tint",
+        "stringValue": "AFB818FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Eye_Color",
+        "stringValue": "7E5A00FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Lips_Tint",
+        "stringValue": "BE0000FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ]
+  },
+  {
+    "CharacterName": "Thomas",
+    "CharacterPrefab": "Male_Combined_HP Variant",
+    "Blendshapes": [
+      {
+        "propertyName": "mod_jaw_height",
+        "stringValue": "",
+        "floatValue": -2,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_jaw_width",
+        "stringValue": "",
+        "floatValue": -0.74150467,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_underbite",
+        "stringValue": "",
+        "floatValue": -0.10357952,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_size",
+        "stringValue": "",
+        "floatValue": -0.71414065,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_width",
+        "stringValue": "",
+        "floatValue": -0.17253423,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_height",
+        "stringValue": "",
+        "floatValue": -0.74707115,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_09",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_size",
+        "stringValue": "",
+        "floatValue": -0.59998906,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_height",
+        "stringValue": "",
+        "floatValue": -0.50293744,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_depth",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_narrow",
+        "stringValue": "",
+        "floatValue": 0.60387576,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_05",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_size",
+        "stringValue": "",
+        "floatValue": -0.3882056,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_height",
+        "stringValue": "",
+        "floatValue": 0.021566153,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_depth",
+        "stringValue": "",
+        "floatValue": 0.64700925,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_01",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_size",
+        "stringValue": "",
+        "floatValue": 0.9356929,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_curve",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip",
+        "stringValue": "",
+        "floatValue": 0.5245788,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip_angle",
+        "stringValue": "",
+        "floatValue": -0.11473185,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_height",
+        "stringValue": "",
+        "floatValue": -0.08626711,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_depth",
+        "stringValue": "",
+        "floatValue": -0.50293744,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_05",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_09",
+        "stringValue": "",
+        "floatValue": 6.938894e-18,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "body_fat",
+        "stringValue": "",
+        "floatValue": 0.022078043,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairNames": [
+      "None",
+      "Eyebrows_01",
+      "None"
+    ],
+    "ApparelNames": [
+      "Jacket_01",
+      "Jeans_01",
+      "Dress_Shoes_01",
+      "None"
+    ],
+    "ApparelMaterials": [
+      2,
+      1,
+      1,
+      0
+    ],
+    "ApparelTints": [],
+    "HairColor": [
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "FFFFFFFF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "FFFFFFFF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "FFFFFFFF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "FloatProperties": [
+      {
+        "propertyName": "_Lipstick_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Smoothness_Offset",
+        "stringValue": "",
+        "floatValue": 0.36842304,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Freckles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Wrinkles",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Tint_Alpha",
+        "stringValue": "",
+        "floatValue": 0.5181187,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Height",
+        "stringValue": "",
+        "floatValue": 0.9493176,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Width",
+        "stringValue": "",
+        "floatValue": 0.95617634,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "TextureProperties": [
+      {
+        "propertyName": "_Skin_Texture",
+        "stringValue": "T_Skin_01",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up",
+        "stringValue": "T_Flat_White_sRGB",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "ColorProperties": [
+      {
+        "propertyName": "_Skin_Tint",
+        "stringValue": "8A1515FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Eye_Color",
+        "stringValue": "7E5A00FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Lips_Tint",
+        "stringValue": "BE0000FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ]
+  },
+  {
+    "CharacterName": "Caleb",
+    "CharacterPrefab": "Male_Combined_HP Variant",
+    "Blendshapes": [
+      {
+        "propertyName": "mod_jaw_height",
+        "stringValue": "",
+        "floatValue": 0.69712806,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_jaw_width",
+        "stringValue": "",
+        "floatValue": -2,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_underbite",
+        "stringValue": "",
+        "floatValue": 0.917734,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_size",
+        "stringValue": "",
+        "floatValue": -1.2646785,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_width",
+        "stringValue": "",
+        "floatValue": -0.17253423,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_height",
+        "stringValue": "",
+        "floatValue": -0.74707115,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_08",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_size",
+        "stringValue": "",
+        "floatValue": -0.8024239,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_height",
+        "stringValue": "",
+        "floatValue": -0.005586326,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_depth",
+        "stringValue": "",
+        "floatValue": 0.013438702,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_narrow",
+        "stringValue": "",
+        "floatValue": 0.60387576,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_03",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_size",
+        "stringValue": "",
+        "floatValue": -0.3882056,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_height",
+        "stringValue": "",
+        "floatValue": 0.021566153,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_depth",
+        "stringValue": "",
+        "floatValue": 0.64700925,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_03",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_size",
+        "stringValue": "",
+        "floatValue": -0.7078235,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_curve",
+        "stringValue": "",
+        "floatValue": -1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip",
+        "stringValue": "",
+        "floatValue": -0.6940304,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip_angle",
+        "stringValue": "",
+        "floatValue": -0.11473185,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_03",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_height",
+        "stringValue": "",
+        "floatValue": 0.0022704601,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_depth",
+        "stringValue": "",
+        "floatValue": -0.50293744,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_07",
+        "stringValue": "",
+        "floatValue": 0.6363377,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "body_fat",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairNames": [
+      "Side_Part_02",
+      "Eyebrows_04",
+      "None"
+    ],
+    "ApparelNames": [
+      "Suit_Jacket_01",
+      "Suit_Pants_01",
+      "Dress_Shoes_01",
+      "",
+      "",
+      "Glasses_01"
+    ],
+    "ApparelMaterials": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ApparelTints": [
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairColor": [
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "413C2EFF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "413C2EFF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "413C2EFF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "FloatProperties": [
+      {
+        "propertyName": "_Lipstick_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Smoothness_Offset",
+        "stringValue": "",
+        "floatValue": 0.5265255,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Freckles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Wrinkles",
+        "stringValue": "",
+        "floatValue": 0.27155986,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Tint_Alpha",
+        "stringValue": "",
+        "floatValue": 0.39605895,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Height",
+        "stringValue": "",
+        "floatValue": 0.99805576,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Width",
+        "stringValue": "",
+        "floatValue": 0.9436684,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "TextureProperties": [
+      {
+        "propertyName": "_Skin_Texture",
+        "stringValue": "T_Skin_01",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up",
+        "stringValue": "T_Flat_White_sRGB",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "ColorProperties": [
+      {
+        "propertyName": "_Skin_Tint",
+        "stringValue": "FF8800FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Eye_Color",
+        "stringValue": "707E73FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Lips_Tint",
+        "stringValue": "BE0000FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ]
+  },
+  {
+    "CharacterName": "Female",
+    "CharacterPrefab": "Female_Combined_HP Variant",
+    "Blendshapes": [
+      {
+        "propertyName": "mod_jaw_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_jaw_width",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_underbite",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_size",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_width",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_size",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_depth",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_narrow",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_size",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_depth",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_size",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_curve",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip_angle",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_depth",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairNames": [
+      "Bob_01",
+      "Eyebrows_01"
+    ],
+    "ApparelNames": [
+      "Crop_Top_02",
+      "Jeans_Blue_01",
+      "Sneaker_02",
+      "None"
+    ],
+    "ApparelMaterials": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ApparelTints": [],
+    "HairColor": [
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "FloatProperties": [
+      {
+        "propertyName": "_Lipstick_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Smoothness_Offset",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Freckles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up_Alpha",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Wrinkles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Tint_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "TextureProperties": [
+      {
+        "propertyName": "_Skin_Texture",
+        "stringValue": "T_Skin_01",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up",
+        "stringValue": "T_Flat_White_sRGB",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "ColorProperties": [
+      {
+        "propertyName": "_Skin_Tint",
+        "stringValue": "834141FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Eye_Color",
+        "stringValue": "6A97A4FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Lips_Tint",
+        "stringValue": "BE0000FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ]
+  },
+  {
+    "CharacterName": "Sibwom",
+    "CharacterPrefab": "Female_Combined_HP Variant",
+    "Blendshapes": [
+      {
+        "propertyName": "mod_jaw_height",
+        "stringValue": "",
+        "floatValue": -0.22299802,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_jaw_width",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_underbite",
+        "stringValue": "",
+        "floatValue": 0.57541096,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_size",
+        "stringValue": "",
+        "floatValue": -0.09958339,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_width",
+        "stringValue": "",
+        "floatValue": -0.18632889,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_height",
+        "stringValue": "",
+        "floatValue": -1.0921419,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_size",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_depth",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_narrow",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_09",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_size",
+        "stringValue": "",
+        "floatValue": -0.59998906,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_height",
+        "stringValue": "",
+        "floatValue": 0.003886342,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_depth",
+        "stringValue": "",
+        "floatValue": 0.920483,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_02",
+        "stringValue": "",
+        "floatValue": 0.53579855,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_05",
+        "stringValue": "",
+        "floatValue": 0.46420145,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_size",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_curve",
+        "stringValue": "",
+        "floatValue": -0.15215617,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip",
+        "stringValue": "",
+        "floatValue": -1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip_angle",
+        "stringValue": "",
+        "floatValue": -0.86733115,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_01",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_height",
+        "stringValue": "",
+        "floatValue": 0.754845,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_depth",
+        "stringValue": "",
+        "floatValue": -0.7224927,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_01",
+        "stringValue": "",
+        "floatValue": 0.49116006,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "body_fat",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairNames": [
+      "Afro_Curl_01",
+      "Eyebrows_05"
+    ],
+    "ApparelNames": [
+      "Leather_Jacket",
+      "Jeans_Black_01",
+      "Ankle_Boots_01",
+      "None"
+    ],
+    "ApparelMaterials": [
+      0,
+      0,
+      2,
+      0
+    ],
+    "ApparelTints": [],
+    "HairColor": [
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "FloatProperties": [
+      {
+        "propertyName": "_Lipstick_Alpha",
+        "stringValue": "",
+        "floatValue": 0.2862736,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Smoothness_Offset",
+        "stringValue": "",
+        "floatValue": 0.516192,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Freckles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Wrinkles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Tint_Alpha",
+        "stringValue": "",
+        "floatValue": 0.57270813,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Width",
+        "stringValue": "",
+        "floatValue": 0.94862795,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Height",
+        "stringValue": "",
+        "floatValue": 0.9,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "TextureProperties": [
+      {
+        "propertyName": "_Skin_Texture",
+        "stringValue": "T_Skin_02",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up",
+        "stringValue": "T_Flat_White_sRGB",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "ColorProperties": [
+      {
+        "propertyName": "_Skin_Tint",
+        "stringValue": "9B9A7FFF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Eye_Color",
+        "stringValue": "6A97A4FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Lips_Tint",
+        "stringValue": "9A7583FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ]
+  },
+  {
+    "CharacterName": "Grace Chen",
+    "CharacterPrefab": "Female_Combined_HP Variant",
+    "Blendshapes": [
+      {
+        "propertyName": "mod_jaw_height",
+        "stringValue": "",
+        "floatValue": -1.2431111,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_jaw_width",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_underbite",
+        "stringValue": "",
+        "floatValue": 0.57541096,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_size",
+        "stringValue": "",
+        "floatValue": -0.5529671,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_width",
+        "stringValue": "",
+        "floatValue": -0.18632889,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_height",
+        "stringValue": "",
+        "floatValue": -1.0921419,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_05",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_size",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_depth",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_narrow",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_09",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_size",
+        "stringValue": "",
+        "floatValue": -0.59998906,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_height",
+        "stringValue": "",
+        "floatValue": 0.003886342,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_depth",
+        "stringValue": "",
+        "floatValue": 0.920483,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_02",
+        "stringValue": "",
+        "floatValue": 0.53579855,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_05",
+        "stringValue": "",
+        "floatValue": 0.46420145,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_size",
+        "stringValue": "",
+        "floatValue": -0.20099896,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_curve",
+        "stringValue": "",
+        "floatValue": -0.9450602,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip",
+        "stringValue": "",
+        "floatValue": -0.8950293,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip_angle",
+        "stringValue": "",
+        "floatValue": -0.43823647,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_01",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_height",
+        "stringValue": "",
+        "floatValue": 0.754845,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_depth",
+        "stringValue": "",
+        "floatValue": -0.7224927,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_01",
+        "stringValue": "",
+        "floatValue": 0.49116006,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "body_fat",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairNames": [
+      "Ponytail_02",
+      "Eyebrows_05"
+    ],
+    "ApparelNames": [
+      "Sweater_01",
+      "Jeans_Black_01",
+      "Sneaker_02",
+      "None"
+    ],
+    "ApparelMaterials": [
+      3,
+      0,
+      3,
+      0
+    ],
+    "ApparelTints": [],
+    "HairColor": [
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "FloatProperties": [
+      {
+        "propertyName": "_Lipstick_Alpha",
+        "stringValue": "",
+        "floatValue": 0.2862736,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Smoothness_Offset",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Freckles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Wrinkles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Tint_Alpha",
+        "stringValue": "",
+        "floatValue": 0.56866026,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Width",
+        "stringValue": "",
+        "floatValue": 0.94862795,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "Height",
+        "stringValue": "",
+        "floatValue": 0.9,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "TextureProperties": [
+      {
+        "propertyName": "_Skin_Texture",
+        "stringValue": "T_Skin_01",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up",
+        "stringValue": "T_Flat_White_sRGB",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "ColorProperties": [
+      {
+        "propertyName": "_Skin_Tint",
+        "stringValue": "AFAD60FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Eye_Color",
+        "stringValue": "6A97A4FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Lips_Tint",
+        "stringValue": "9A7583FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ]
+  },
+  {
+    "CharacterName": "Female",
+    "CharacterPrefab": "Female_Combined_HP Variant",
+    "Blendshapes": [
+      {
+        "propertyName": "mod_jaw_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_jaw_width",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_underbite",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_size",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_width",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_chin_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_face_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_size",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_depth",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_eyes_narrow",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_eyes_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_size",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_mouth_depth",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_mouth_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_size",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_curve",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_nose_tip_angle",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_nose_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_height",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "mod_brow_depth",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_01",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_02",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_03",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_04",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_05",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_06",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_07",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_08",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "shp_brow_09",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "HairNames": [
+      "Bob_01",
+      "Eyebrows_01"
+    ],
+    "ApparelNames": [
+      "Hoodie_01",
+      "Jeans_Blue_01",
+      "Sneaker_01"
+    ],
+    "ApparelMaterials": [
+      0,
+      0,
+      0
+    ],
+    "ApparelTints": [],
+    "HairColor": [
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Hair_Color",
+        "stringValue": "574739FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "FloatProperties": [
+      {
+        "propertyName": "_Lipstick_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Smoothness_Offset",
+        "stringValue": "",
+        "floatValue": 0.5,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Freckles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up_Alpha",
+        "stringValue": "",
+        "floatValue": 1,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Wrinkles",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Skin_Tint_Alpha",
+        "stringValue": "",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "TextureProperties": [
+      {
+        "propertyName": "_Skin_Texture",
+        "stringValue": "T_Skin_01",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Make_Up",
+        "stringValue": "T_Flat_White_sRGB",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ],
+    "ColorProperties": [
+      {
+        "propertyName": "_Skin_Tint",
+        "stringValue": "834141FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Eye_Color",
+        "stringValue": "6A97A4FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      },
+      {
+        "propertyName": "_Lips_Tint",
+        "stringValue": "BE0000FF",
+        "floatValue": 0,
+        "materialIndex": -1,
+        "meshTag": ""
+      }
+    ]
+  }
+]
