@@ -137,10 +137,3 @@ C:\Program Files (x86)\Steam\userdata\<你的SteamID32>\2099110\remote
    - **物品栏**：自由调整各分类背包槽位物品，或一键补全档案/磁带。
    - **换装系统**：管理 8 个槽位的服饰预设、切换性别、一键解锁自定义模式或一键全服饰入包。
 5. 点击顶部的 **“💾 导出数据”**，浏览器将自动导出修改后的全部存档文件，覆盖回原存档路径即可进入游戏体验。
-
----
-
-## 🛠️ 开源协议与鸣谢
-
-- 开发者：**ZGQ Inc.**
-- 项目地址：[https://github.com/ZGQ-inc/the-classrooms-save-editor](https://github.com/ZGQ-inc/the-classrooms-save-editor)
