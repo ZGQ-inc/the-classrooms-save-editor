@@ -1503,7 +1503,7 @@
                 <h1>
                     <span data-i18n="headerTitle">The Classrooms Save Editor</span>
                     <span
-                        style="font-size:14px; color:var(--accent); vertical-align:middle; margin-left:8px; opacity:0.8; font-weight:normal;">for v0.10.1</span>
+                        style="font-size:14px; color:var(--accent); vertical-align:middle; margin-left:8px; opacity:0.8; font-weight:normal;">for v0.10.2</span>
                 </h1>
                 <div class="header-meta">
                     <span style="font-size:14px; border:1px solid #444; padding:2px 4px; border-radius:3px;"
@@ -2458,9 +2458,33 @@
             const bCustom = document.getElementById('badgeCustom');
             const bPresets = document.getElementById('badgePresets');
             const bProfile = document.getElementById('badgeProfile');
-            if (bAuto) bAuto.style.display = APP.editors.left.active ? 'inline-block' : 'none';
-            if (bEndless) bEndless.style.display = APP.editors.right.active ? 'inline-block' : 'none';
-            if (bCustom) bCustom.style.display = APP.editors.custom.active ? 'inline-block' : 'none';
+            if (bAuto) {
+                bAuto.style.display = APP.editors.left.active ? 'inline-block' : 'none';
+                if (APP.editors.left.name && APP.editors.left.name.includes('(Slot')) {
+                    const m = APP.editors.left.name.match(/\(Slot\s+\d+\)/i);
+                    bAuto.innerText = `Story ${m ? m[0] : ''}`;
+                } else {
+                    bAuto.innerText = 'Story';
+                }
+            }
+            if (bEndless) {
+                bEndless.style.display = APP.editors.right.active ? 'inline-block' : 'none';
+                if (APP.editors.right.name && APP.editors.right.name.includes('(Slot')) {
+                    const m = APP.editors.right.name.match(/\(Slot\s+\d+\)/i);
+                    bEndless.innerText = `Endless ${m ? m[0] : ''}`;
+                } else {
+                    bEndless.innerText = 'Endless';
+                }
+            }
+            if (bCustom) {
+                bCustom.style.display = APP.editors.custom.active ? 'inline-block' : 'none';
+                if (APP.editors.custom.name && APP.editors.custom.name.includes('(Slot')) {
+                    const m = APP.editors.custom.name.match(/\(Slot\s+\d+\)/i);
+                    bCustom.innerText = `Custom ${m ? m[0] : ''}`;
+                } else {
+                    bCustom.innerText = 'Custom';
+                }
+            }
             if (bPresets) bPresets.style.display = APP.hasPresets ? 'inline-block' : 'none';
             if (bProfile) bProfile.style.display = APP.hasProfile ? 'inline-block' : 'none';
         }
@@ -2738,9 +2762,9 @@
                     gridCols = 4;
                     maxWidth = '380px';
                 } else {
-                    const maxS = list.reduce((m, item) => Math.max(m, item.s !== undefined ? item.s : -1), -1);
-                    const neededRows = Math.max(5, Math.ceil((maxS + 2) / 3));
-                    slotCount = neededRows * 3;
+                    slotCount = 15;
+                    gridCols = 3;
+                    maxWidth = '275px';
                 }
 
                 let html = `<div class="inv-grid" style="grid-template-columns: repeat(${gridCols}, 1fr); max-width: ${maxWidth};">`;

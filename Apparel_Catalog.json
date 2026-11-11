@@ -308,50 +308,6 @@
     "isPaid": false
   },
   {
-    "id": 108,
-    "assetName": "Apparel_BeanieHeadset",
-    "apparelName": "Beanie_Headset_01",
-    "displayName": "Beanie and Headset",
-    "slotId": 3,
-    "slotName": "Hat",
-    "slotZh": "头部/帽子",
-    "allSlots": [
-      "Hat"
-    ],
-    "suppresses": [],
-    "disableHair": true,
-    "disableFacialHair": false,
-    "img": "Apparel_BeanieHeadset.png",
-    "notInCreator": false,
-    "hiddenBodyMask": 0,
-    "displayNameHans": "毛线帽和耳机",
-    "displayNameHant": "毛線帽和耳機",
-    "idStr": "555ac5e3-3979-4b21-8b30-a4ec1502e004",
-    "isPaid": false
-  },
-  {
-    "id": 120,
-    "assetName": "Apparel_BeanieHeadset_02",
-    "apparelName": "Beanie_Headset_02",
-    "displayName": "Beanie and Headset 2",
-    "slotId": 3,
-    "slotName": "Hat",
-    "slotZh": "头部/帽子",
-    "allSlots": [
-      "Hat"
-    ],
-    "suppresses": [],
-    "disableHair": true,
-    "disableFacialHair": false,
-    "img": "Apparel_BeanieHeadset_02.png",
-    "notInCreator": false,
-    "hiddenBodyMask": 0,
-    "displayNameHans": "毛线帽和耳机 2",
-    "displayNameHant": "毛線帽和耳機 2",
-    "idStr": "e050f0a7-ea6a-4f64-bca8-28d437080fe5",
-    "isPaid": false
-  },
-  {
     "id": 3,
     "assetName": "Apparel_Belt_Flamingo",
     "apparelName": "Apparel_Belt_Flamingo",
@@ -596,50 +552,6 @@
     "displayNameHans": "棒球帽",
     "displayNameHant": "棒球帽",
     "idStr": "e0264897-81d7-4839-972f-7ce34330898c",
-    "isPaid": false
-  },
-  {
-    "id": 134,
-    "assetName": "Apparel_CapHeadset",
-    "apparelName": "Cap_Headset_01",
-    "displayName": "Baseball Cap and Headset",
-    "slotId": 3,
-    "slotName": "Hat",
-    "slotZh": "头部/帽子",
-    "allSlots": [
-      "Hat"
-    ],
-    "suppresses": [],
-    "disableHair": true,
-    "disableFacialHair": false,
-    "img": "Apparel_CapHeadset.png",
-    "notInCreator": false,
-    "hiddenBodyMask": 0,
-    "displayNameHans": "棒球帽和耳机",
-    "displayNameHant": "棒球帽和耳機",
-    "idStr": "03d1d4e4-8e46-40db-96ab-6463620356e0",
-    "isPaid": false
-  },
-  {
-    "id": 140,
-    "assetName": "Apparel_CapHeadset_02",
-    "apparelName": "Cap_Headset_02",
-    "displayName": "Baseball Cap and Headset 2",
-    "slotId": 3,
-    "slotName": "Hat",
-    "slotZh": "头部/帽子",
-    "allSlots": [
-      "Hat"
-    ],
-    "suppresses": [],
-    "disableHair": true,
-    "disableFacialHair": false,
-    "img": "Apparel_CapHeadset_02.png",
-    "notInCreator": false,
-    "hiddenBodyMask": 0,
-    "displayNameHans": "棒球帽和耳机 2",
-    "displayNameHant": "棒球帽和耳機 2",
-    "idStr": "e1e9458f-0a01-43df-9483-fc986a0f32a3",
     "isPaid": false
   },
   {
@@ -1377,11 +1289,11 @@
     "assetName": "Apparel_Headset",
     "apparelName": "Headset_01",
     "displayName": "Headset",
-    "slotId": 3,
-    "slotName": "Hat",
-    "slotZh": "头部/帽子",
+    "slotId": 5,
+    "slotName": "Face",
+    "slotZh": "面部/眼镜",
     "allSlots": [
-      "Hat"
+      "Face"
     ],
     "suppresses": [],
     "disableHair": false,
@@ -1399,11 +1311,11 @@
     "assetName": "Apparel_Headset_02",
     "apparelName": "Headset_02",
     "displayName": "Headset 2",
-    "slotId": 3,
-    "slotName": "Hat",
-    "slotZh": "头部/帽子",
+    "slotId": 5,
+    "slotName": "Face",
+    "slotZh": "面部/眼镜",
     "allSlots": [
-      "Hat"
+      "Face"
     ],
     "suppresses": [],
     "disableHair": false,
@@ -1657,6 +1569,64 @@
     "displayNameHant": "長袖T恤",
     "idStr": "b788a73f-8f54-44da-b29a-31daf9d25ae5",
     "isPaid": false
+  },
+  {
+    "id": 108,
+    "assetName": "Apparel_MaidDress",
+    "apparelName": "Maid_Dress_01",
+    "displayName": "Maid Dress",
+    "slotId": 4,
+    "slotName": "FullBody",
+    "slotZh": "全身套装",
+    "allSlots": [
+      "FullBody"
+    ],
+    "suppresses": [
+      "Upper",
+      "Lower"
+    ],
+    "disableHair": false,
+    "disableFacialHair": false,
+    "img": "Apparel_MaidDress.png",
+    "notInCreator": false,
+    "hiddenBodyMask": 2,
+    "displayNameHans": "女仆装",
+    "displayNameHant": "女僕裝",
+    "idStr": "36532efe-735c-42e0-aa94-509138682bdf",
+    "isPaid": true,
+    "bundleId": "apparel.maid_dress",
+    "bundleNameHans": "女仆装",
+    "bundleNameHant": "女僕裝",
+    "bundleNameEn": "Maid Dress"
+  },
+  {
+    "id": 120,
+    "assetName": "Apparel_MaidDress_Female",
+    "apparelName": "Maid_Dress_01_Female",
+    "displayName": "Maid Dress",
+    "slotId": 4,
+    "slotName": "FullBody",
+    "slotZh": "全身套装",
+    "allSlots": [
+      "FullBody"
+    ],
+    "suppresses": [
+      "Upper",
+      "Lower"
+    ],
+    "disableHair": false,
+    "disableFacialHair": false,
+    "img": "Apparel_MaidDress_Female.png",
+    "notInCreator": false,
+    "hiddenBodyMask": 1,
+    "displayNameHans": "女仆装",
+    "displayNameHant": "女僕裝",
+    "idStr": "b550b90a-399e-46e0-8a92-38885c78caa4",
+    "isPaid": true,
+    "bundleId": "apparel.maid_dress",
+    "bundleNameHans": "女仆装",
+    "bundleNameHant": "女僕裝",
+    "bundleNameEn": "Maid Dress"
   },
   {
     "id": 96,
@@ -3108,6 +3078,28 @@
     "displayNameHans": "背心",
     "displayNameHant": "背心",
     "idStr": "43e9fd6d-f8c6-4311-a661-dcd136af6bb2",
+    "isPaid": false
+  },
+  {
+    "id": 142,
+    "assetName": "Apparel_ThinEyeglasses",
+    "apparelName": "Thin_Eyeglasses_01",
+    "displayName": "Thin Eyeglasses",
+    "slotId": 5,
+    "slotName": "Face",
+    "slotZh": "面部/眼镜",
+    "allSlots": [
+      "Face"
+    ],
+    "suppresses": [],
+    "disableHair": false,
+    "disableFacialHair": false,
+    "img": "Apparel_ThinEyeglasses.png",
+    "notInCreator": false,
+    "hiddenBodyMask": 0,
+    "displayNameHans": "薄眼镜",
+    "displayNameHant": "薄眼鏡",
+    "idStr": "be9f05e1-cb39-4752-8e35-5adbd8dd600c",
     "isPaid": false
   },
   {
